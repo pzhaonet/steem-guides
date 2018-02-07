@@ -74,7 +74,7 @@
 ## 基于 steem 搭建个人博客 {#jw_steem_djgrbk}
 ## 延伸阅读：打开脑洞，我们还能做什么 {#ysyd_dknd_wmfnzsm}
 
-# 专题：steem 十讲 {#zt_steem_sj}
+# 专题{#zt_steem_sj}
 
 # 附录 {#bl}
 ## steem 中文区发展简史 {#steem_zwofzjs}
