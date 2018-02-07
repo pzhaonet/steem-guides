@@ -1,0 +1,21 @@
+--- 
+title: "Steem 指南"
+author: "Steem 华语社区集体创作，dapeng 主编"
+site: bookdown::bookdown_site
+date: "`r Sys.Date()`"
+documentclass: ctexbook
+bibliography: "bib/packages.bib"
+biblio-style: apalike
+link-citations: yes
+colorlinks: no
+lot: no
+lof: no
+geometry: [b5paper, paperwidth=17cm, paperheight=24cm, tmargin=3cm,bmargin=2.4cm,lmargin=3cm,rmargin=2cm]
+github-repo: "pzhaonet/steem-guides"
+cover-image: "images/cover.jpg"
+url: 'https\://bookdown.org/pzhaonet/steem-guides/'
+---
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 55)
+```
