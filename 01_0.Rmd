@@ -1,0 +1,10 @@
+# (PART) 初级篇 {#cjp .unnumbered} 
+
+# 新手第一步 {#xsdyb}
+## 浏览 steemit 网站 {#ll_steemit_wz}
+## 注册 steem 账号 {#zc_steem_zh}
+## 登录和保存密码 {#dlhbcmm}
+## 设置个人基本信息 {#szgrjbxx}
+## 第一帖 {#dyt}
+## 延伸阅读：steem 的魅力 {#steemdml}
+
