@@ -1,6 +1,6 @@
 --- 
-title: "Steem 指南"
-author: "Steem 华语社区集体创作，dapeng 主编"
+title: "Steem Guides"
+author: "Steem 中文社区集体创作"
 site: bookdown::bookdown_site
 date: "`r Sys.Date()`"
 documentclass: ctexbook
