@@ -1,8 +1,10 @@
-##《Steem 指南》实施纲要 | Outline of the Steem Guides Project
+## 《Steem 指南》实施纲要 | Outline of the *Steem Handbook* Project
+
+![](images/banner.jpg)
 
 ### 总纲
 
-1. 本书书名；《Steem 基础及开发指南》，简称“Steem 指南”。
+1. 本书书名；《Steem 基础及开发指南》，简称“Steem 指南”，英文名 *Steem Handbook*。
 2. 本书的核心价值：协作。
   - 本书的目的不在于推出更多的教程——这样的教程历史上已经有很多，重写没有意义。我们的目的，是推出一套相对完整的系统化指南。所有参与者，切忌单打独斗。此事只有从大局出发，通力协作，才可能完成，否则没有意义。
   - 编辑部的建立和分组，是第一层协作。
@@ -16,7 +18,7 @@
   - 在原帖基础上修改得到的新帖，务必跟原作者协商署名；
   - 欢迎所有人监督。
 4. 本书以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
-5. 发布方式：初稿首发在 Steem 上（标签：cn steem-guides）；最终版发布在网站[steemg.org](http://steemg.org)，提供网页、pdf、epub 三种格式。
+5. 发布方式：初稿首发在 Steem 上（标签：cn steem-guides）；最终版发布在网站 steemh.org，提供[网页](http://steemh.org)、[pdf](http://steemh.org/steemh.pdf)、[epub](http://steemh.org/steemh.epub) 三种格式。
 6. 相关文章统计：[steemr.org](http://steemr.org)。
 7. 参与人员清单：见[共享表单](https://drive.google.com/open?id=1WexEjJhNe_UgjaGlp07I4gmECBYRRGlisrGFe6YjD0s) 。
 8. 协作平台： GitHub 的 [pzhaonet/steem-guides](https://github.com/pzhaonet/steem-guides) 项目。详见本文的“协作平台”一节。项目首页可以看到以章节数字编号的 .Rmd 文件，供各章作者更新内容。
@@ -266,5 +268,4 @@ SBD 就是那啥啥（见 steemit [官方网站](http://steemit.com)）。
   - [Facebook会在未来取代Steemit吗？](https://steemit.com/cn/@wang-peilin/facebook-steemit)
   - [Steemit可能成为未来人类的主流炫富手段](https://steemit.com/cn/@wang-peilin/3hvez8-steemit)
   - [Steem未来的价格能打败比特币（B T C）突破天际吗？](https://steemit.com/cn/@wang-peilin/steem-b-t-c)
-
 

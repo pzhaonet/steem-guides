@@ -1,4 +1,6 @@
-This is a guideline book of steem written in Chinese by a team from the Steem CN community. Thus, readme.md was written in Chinese. If you are interested and you don't understand Chinese, please leave a comment and I will explain.
+This is a guideline book of Steem written in Chinese by a team from the Steem CN community. 
+
+![](https://steemitimages.com/DQmc9ka9n5aVok9ShgzmuswUVjMKnJXWkSYfhTyXtKLr41c/banner.jpg)
 
 这是一个有可能失败的活动，也是一个有可能流产的写作计划，然而不妨一试。
 
@@ -6,13 +8,7 @@ This is a guideline book of steem written in Chinese by a team from the Steem CN
 
 相关链接：
 
-- [发起：《Steem 指南》团队写作构想](https://steemit.com/cn/@dapeng/steem-guide-start)
-- [《Steem 指南》进展：协作平台](https://steemit.com/cn/@dapeng/steeme-guides-project-ready)
-- [《Steem 指南》进展：篇章结构](https://steemit.com/cn/@dapeng/steem-guides-book-structures)
-- [《Steem 指南》进展：素材汇总](https://steemit.com/cn/@dapeng/steem-guides-giants-shoulders)
-- [《Steem 指南》进展：写作规范](https://steemit.com/cn/@dapeng/steem-guides-writing-rules)
-- [《Steem 指南》进展：认领任务](https://steemit.com/cn/@dapeng/steem-guides-claim-tasks)
-- [书稿的网页版](https://bookdown.org/baydap/steem-guides)
-
-
-- [如何在本项目更新书稿](https://steemit.com/cn/@rileyge/github)
+- [《Steem 指南》在线阅读 | *Steem Handbook* Online](http://steemh.org)
+- [《Steem 指南》实施纲要 | Outline of the *Steem Handbook* Project](https://github.com/pzhaonet/steem-guides/blob/master/shared/outline.md)
+- [《Steem 指南》贡献者名录 | Contributors of *Steem Handbook*](https://drive.google.com/open?id=1WexEjJhNe_UgjaGlp07I4gmECBYRRGlisrGFe6YjD0s)
+- [《Steem 指南》相关文章统计数据 | Statistics of *Steem Handbook*](http://steemr.org)
