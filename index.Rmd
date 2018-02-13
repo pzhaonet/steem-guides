@@ -1,10 +1,10 @@
 --- 
-title: "Steem Guides"
+title: "Steem Handbook"
 author: "Steem 中文社区集体创作"
 site: bookdown::bookdown_site
 date: "`r Sys.Date()`"
 documentclass: ctexbook
-bibliography: "bib/packages.bib"
+# bibliography: "bib/packages.bib"
 biblio-style: apalike
 link-citations: yes
 colorlinks: no
@@ -18,4 +18,6 @@ url: 'https\://bookdown.org/baydap/steem-guides/'
 
 ```{r set-options, echo=FALSE, cache=FALSE}
 options(width = 55)
+# title: "Steem Handbook"
+# title: "Steem 基础与开发指南"
 ```

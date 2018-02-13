@@ -1,0 +1,216 @@
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmQgG2robVguJn8nSLciht44RSJj6qQCZm12ifgaYiwEjw/b2.jpg)
+
+## Motivation
+
+### Background
+
+Steem has been growing rapidly in the recent months. The number of Steem users (so called Steemians) reached 540,000+ by the end of 2017. The CN category, where mainly Chinese-speaking Steemians gather, showed a dramatic growth from &lt; 10 new users on a daily basis in September to &gt; 70 new users in December in the year 2017.
+
+[![unnamed-chunk-7-1.png](https://steemitimages.com/DQmfLNBdRUm5CymZhfTxgchFQrFLvqZeiDuFhFawuwo3Scw/unnamed-chunk-7-1.png)](https://steemitimages.com/DQmfLNBdRUm5CymZhfTxgchFQrFLvqZeiDuFhFawuwo3Scw/unnamed-chunk-7-1.png)
+
+Figure 1. Daily valid user number in CN category. Blue: total number. Orange: new id number[1]
+
+However, this is only one side of the coin. A data analysis[2] published on utopian.io showed that only 37% Steemians had posted (so called *valid users*), 66% of whom had been inactive the the recent months (so called *lost users*). Based on the data analysis of the Steem CN category by the end of 2017, it was even more shocking in the Chinese-speaking community that 87% users were lost. This percentage was greater than the one reported in September 2017 (79%)[3].
+
+There is a huge potential market of Steem in Chinese-speaking users. Nearly 1.2 billion people (around 16% of the world’s population [4] speak Chinese as their first language in Mainland China, Taiwan, Hongkong, Singapore, etc.. Chinese is one of the six official languages of the United Nations, while China is the second largest economy in the world. It could be expected that more and more Chinese-speaking users will come to Steem in the near future, while most of them will unfortunately be lost as before.
+
+Why do/are most of the Chinese Steemians leave/leaving Steem?
+
+![unnamed-chunk-7-1.png](https://steemitimages.com/0x0/https://res.cloudinary.com/hpiynhbhq/image/upload/v1514938326/pu5rjdpagrerzbzwzagp.png)
+
+Figure 2. Ratio of dead user number to new-born user number in CN category. The ratio &gt; 1 means a net downturn in the CN community.[5]
+
+### Problems
+
+Last week a Chinese-speaking user’s Steem wallet was stolen[6]. 230 SBD was gone. He was not alone. Another two Chinese-speaking Steemians [7][8] suffered the same pain in the recent four months, who lost 540 SBD and 633 SBD + 3000 SP, respectively. The latter one was lucky that she recovered her account by the assistance from the CN community, but the SBDs was gone forever. Although there are many posts talking about the account security and password protection on the blockchain, these posts are berried and nobody reads them any more.
+
+Burglary is not the only pain. Everyday the CN community receives hundreds of questions from both the new and old Steemians on how to use steemit.com UI, how to get involved in the Steem community, how to raise the reputation, and how to develop a website like busy.org. They can hardly get the right ideas from the existing posts because:
+
+1.  the information is too old in some posts, especially those written before H19, or
+2.  some posts did not explain a point thoroughly and the users have to search other posts, which costs a lot of time, or
+3.  some posts repeated the ideas of other posts again and again that the users spend their time reading the same contents in different posts, or
+4.  some posts conflict with other posts and the users are confused, or
+5.  some points have never been introduced in any posts yet.
+
+In one word, the guides from the Steem posts are neither comprehensive nor well-maintained.
+
+Thanks to the Welcome page of Steemit[9], as well as other similar websites, which provides a lot of useful information. But, still, the welcome page is so “official” that it does not provide the helpful information which the users could find only in the posts, such as personal experiences on Steem, or development skills for the third party apps. The English language is another obstacle for Chinese-speaking users, many of whom even did not know how to use steemit.com until the Chinese UI was available.
+
+### Objectives
+
+Hereby we are proposing the *Steem Handbook* (former Steem Guide) project. We are going to write such a book which can solve these problems and help Steemians (firstly Chinese-speaking ones, then other-language-speaking ones) to survive on Steem and develop their social communications. All important knowledge and skills about Steem will be included. Furthermore, it will help the developers to develop new products out of the Steem blockchain or database. It will be updated continuously by the volunteers and provide the latest information of Steem.
+
+*Steem Handbook* is open-source and use CC BY 4.0[10]. It will be the first and most-ever comprehensive guide book for Steemians.
+
+## Work Plan
+
+### Phase I. Preparation (one month)
+
+In Phase I we prepare everything before beginning the book.
+
+-   Technical support is prepared for the cooperation platform and the book display platform.
+-   The editor board and the advisory committee are organized.
+-   A *Steem Handbook* Library, including the existing useful posts, help sites, the Steem Whitepaper and Bluepaper, etc., is built.
+-   The outline of *Steem Handbook* is discussed.
+-   Volunteers are called together and the tasks are claimed.
+
+### Phase II. Teamwork in Writing in Chinese (two or three months)
+
+In Phase II we write the contents of the book, design the book cover and logo, typeset, and display the book online.
+
+-   The volunteers are grouped into writing teams. Every team is responsible for one chapter of the book.
+-   The volunteers search the *Steem Handbook* Library, contact the original authors and reuse the existing materials.
+-   The volunteers write new articles and post them on Steem as a preview.
+-   The revised posts are uploaded to the cooperation platform.
+-   The book is complied and displayed online.
+-   The readers read the book and revise the book.
+
+### Phase III. Hardcopy publishing in Chinese (five to six months)
+
+In Phase III we look for a publish house to publish the *Steem Handbook*. Whether we succeed depends on how well Steem develops in the near future and the market evaluation by the publish house. In mainland China it takes five to six months to publish such a book.
+
+### Phase IV. Post maintenance (Continuously)
+
+Considering the rapid development of Steem, the Handbook will be outdated soon without the post maintenance, just like most of the posts on Steem. Thus, the continuous post maintenance and updates are important.
+
+The volunteers claim the maintenance tasks just like the writing tasks. At least two volunteers keep eyes on one chapter. If one leaves Steem, a new volunteer is recruited.
+
+Phase IV goes in parallel with Phase III.
+
+### Phase V. Translation and publishing in English or other languages (unknown)
+
+If the *Steem Handbook* gains a good reputation or a good market, it could be translated to English (or other languages) and published in the English-speaking world. The time is not unknown because it depends on the policy in different regions.
+
+## Current status
+
+Currently we are at Phase I and II.
+
+### Human Resources
+
+The book is evoked by the Steem CN community. Although the tags can be used freely on Steem, CN was suggested to be a category with posts written in Chinese, or posts about China or Chinese, since July, 2016[11]. After 1.5 years’ development, the CN community has gathered the Steemians from mainland China, Tainwan, Hongkong, Singapre, Malaysia, US, Canada, Australia and Europe. The CN community has Wechat social groups and QQ Welcome Center for New Steemians as auxiliary communication tools.
+
+Currently 43 Steemians from the CN community volunteer to be involved in the *Steem Handbook* project[12]. They are grouped into the editor board, the advisory committee, and the writing teams.
+
+The editor board and the advisory committee are already on the track. The writing tasks have been claimed [13]. Four of the writing teams are ready. 35 pages of the book is done. Other teams will get ready after the Lunar New Year Festival (coming soon).
+
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmZotvu2of7rjoAmGnHaTSbQyssJuncFsmV945SULX6ktr/201802102.jpg)
+
+Figure 3. Sample pages of the *Steem Handbook*.
+
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmbMkFh5sdkRudZT9PpuHFHZJTdQxDN64gwvbqPSMWVsHr/201802091.jpg)
+
+Figure 4. Contributors and task list of the *Steem Handbook*.
+
+### Technical support
+
+-   We have set up a GitHub repo as our cooperation platform[14]. Tutorials on how to use GitHub have been written for the *Steem Handbook* project to make sure that all contributors, even non-programmers, are able to cooperate in the git way.
+-   We have a Steem ID @steemh for the project.
+-   We have developed a software package bookdownplus [15] based on the R bookdown package to convert markdown files into a gitbook style website and an elegant pdf book, as well as a epub book, if needed.
+-   We have a domain steemh.org [16], which directs to the online book.Now the book is updated every day. Some chapters are already available.
+-   We have an R-based website [17], which provides the statistics of the *Steem Handbook* project online.
+
+### Outline of the book
+
+After a thorough discussion on the structure of the book[18], we have an outline of the book which we agree on. The book contains five parts and 18 chapters:
+
+-   Part I: for beginners.
+-   Part II: for mid-level users.
+-   Part III: for high-level users.
+-   Special: Ten Lectures on Steem.
+-   Appendix.
+
+![](https://raw.githubusercontent.com/pzhaonet/steem-guides/master/shared/outline.jpg)
+
+### Writing rules
+
+We have established the writing rules for all writers on the basis of markdown and steemit editor[19]. The writing style and format have been determined.
+
+### The *Steem Handbook* Library
+
+Thanks to multiple contributors, we have built the *Steem Handbook* Library [20] called *the Giants’ Shoulders*.
+
+### Book cover and logo
+
+A preliminary version of the book cover and logo are already available [21] [22].
+
+![](https://steemitimages.com/DQmYQfPeEQeVyWGFWXGQt2irnm22JK8WwvsA127idt2mm6y/b03.jpg)
+
+![](https://steemitimages.com/DQmd4JC5daZ3WZZuMxAVk64Yx2XdjouRCakC1aQsq6euSvA/l02.jpg)
+
+## Requested support
+
+All the contributors of the *Steem Handbook* are volunteers. They are experts in writing, software development, graphic design, etc.. However, many of them are minnows with low reputation and high enthusiasm. They need support to continue the excellent work in *Steem Handbook*.
+
+If you would like to support the *Steem Handbook*, you could:
+
+-   delegate SP to @steemh, who will upvote (only) the contribution to the *Steem Handbook*,
+-   follow @steemh and upvote the articles posted or resteemed by @steemh,
+-   join us as a volunteer to write the book (in Chinese at the current phase),
+-   be a reader of the articles posted or resteemed by @steemh and leave your comments,
+-   commit on our GitHub repo[23],
+-   donate SBD to @steemh to support the cost of the domains or for a cup of coffee,
+-   resteem this post to let more people know the *Steem Handbook* project, or
+-   anything that is a support in your mind.
+
+Your kind help and suggestions would be much appreciated!
+
+Acknowledgements
+----------------
+
+-   First of all, we thank all the volunteers involved in the *Steem Handbook* project.
+-   Thanks to utopian.io for the support of the bookdownplus, mindr, pinyin packages which we developed and are using in the *Steem Handbook* project.
+-   Thanks to the R community, the LaTeX community, the GitHub platform, RStudio Inc. for providing free software which we are using.
+-   Thanks to @arcange for developing SteemSQL database and @furion for developing Steemdata database which we are using.
+-   Thanks to @deanliu, @skenan, @dapeng for authorizing us to use their SP to upvote the contributions to the *Steem Handbook* project.
+
+## References
+
+[1] <https://steemit.com/cn/@dapeng/recent-three-months-on-steem-or>
+
+[2] <https://steemit.com/utopian-io/@dapeng/analysis-on-the-lost-users-on-steem-or>
+
+[3] <https://steemit.com/cn/@dapeng/how-many-users-has-left-steem>
+
+[4] <https://en.wikipedia.org/wiki/Chinese_language>
+
+[5] <https://steemit.com/utopian-io/@dapeng/analysis-on-the-lost-users-on-steem-or>
+
+[6] <https://steemit.com/cn/@xiaoshancun/5xlhz2>
+
+[7] <https://steemit.com/steemit/@catwomanteresa/my-sbd-and-steem-is-stolen-steemit>
+
+[8] <https://steemit.com/cn/@twinklesong/twinkledrop>
+
+[9] <https://steemit.com/welcome>
+
+[10] <https://creativecommons.org/licenses/by/4.0/>
+
+[11] <https://steemit.com/cn/@dapeng/steem-2016-07-2017-08-steem-s-watch-tcn0>
+
+[12] <https://drive.google.com/open?id=1WexEjJhNe_UgjaGlp07I4gmECBYRRGlisrGFe6YjD0s>
+
+[13] <https://steemit.com/cn/@dapeng/steem-guides-claim-tasks>
+
+[14] <https://github.com/pzhaonet>
+
+[15] <https://steemit.com/utopian-io/@dapeng/introduction-to-bookdownplus-an-r-package-for-writing-assorted-books-and-documents>
+
+[16] <http://steemh.org>
+
+[17] <http://steemr.org>
+
+[18] <https://steemit.com/cn/@dapeng/steem-guides-book-structures>
+
+[19] <https://steemit.com/cn/@dapeng/steem-guides-writing-rules>
+
+[20] <https://steemit.com/cn/@dapeng/steem-guides-giants-shoulders>
+
+[21] <https://steemit.com/steem-guides/@maiyude/23irxp-steem>
+
+[22] <https://steemit.com/cn/@maiyude/steem-logo-banner>
+
+[23] <https://github.com/pzhaonet/steem-guides>
+
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmc9ka9n5aVok9ShgzmuswUVjMKnJXWkSYfhTyXtKLr41c/banner.jpg)
+
+This proposal can be revised on the [Steem Handbook GitHub repo](https://github.com/pzhaonet/steem-guides/blob/master/shared/proposal.md).
