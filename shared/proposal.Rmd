@@ -1,7 +1,9 @@
 ---
 title: "Steem Handbook calls for support"
 author: "steemh"
-output: md_document
+output: 
+  md_document:
+    pandoc_args: ["--wrap=none"]
 ---
 
 
