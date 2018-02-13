@@ -1,9 +1,7 @@
 ---
 title: "Steem Handbook calls for support"
-author: "author"
-# output: #md_document
-#   md_document: #default
-#     variant: markdown_github
+author: "steemh"
+output: md_document
 ---
 
 
