@@ -1,0 +1,4 @@
+\addcontentsline{toc}{chapter}{索引}
+\printindex
+
+\newpage \thispagestyle{empty}
