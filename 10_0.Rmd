@@ -3,8 +3,6 @@
 # 区块链 {#qkl}
 ## 见证人 {#jzr}
 
-# 区块链 {#qkl}
-## 见证人 {#jzr}
 ### steem见证人{#steem_jzr}
 
 steem见证人是steem区块链委托权益证明股权（DPOS）共识机制的产物。区块链就是一个公开的数据库账本，共识机制就是用来解决到底谁来给各种信息（交易、转账，steemit里的点赞，点踩，留言等等）安全记账的问题。
@@ -41,8 +39,5 @@ https://steemit.com/~witnesses 可以看到所有的见证人名单，网页只�
 
 ### steem见证人节点
  
-## DPOS 共识算法 {dposgssf}
-
-
 ## DPOS 共识算法 {dposgssf}
 
