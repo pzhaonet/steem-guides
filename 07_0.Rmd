@@ -56,7 +56,7 @@ Image credit to [\@thecryptofiend](https://steemit.com/@thecryptofiend)
 
 Steem钱包可以在转账时用来发送信息。但不幸的是，有人利用这个特性，通过发送很少的钱来为自己推销打广告。请不要这样做，这样不过是浪费时间，并且会招人烦。
 
-### 12 在聊天频道使用[\@all](https://steemit.com/@all)
+### 12 在聊天频道使用 \@all
 
 这样会通知所有人，很烦人。有人正在解决这个问题，打算去除这个功能，相信未来不会有这个问题。
 

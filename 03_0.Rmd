@@ -36,17 +36,17 @@ Steemit里面有四种密码，分别是Owner Key（主密码）；post key（�
 
 但是很多新人会有一个疑问，我注册的时候明明才有一个密码啊？这另外的几个密码从哪里可以找到呢？下面我们来一步步教你如何找到这些密码。
 
-![as01.jpg](https://steemitimages.com/DQmQ5c28ofDEByq7tuFq6y1MKPj9Kx4N8V7cu4sJMzwmm4u/as01.jpg)
+![](images/03-1.jpg)
 
 首先进入你的钱包，点击“权限”按钮。
 
 你可以发现这里有4种密码的公钥，我们登陆需要的是私钥，所以点击右边的“登陆显示”按钮。
 
-![as02.jpg](https://steemitimages.com/DQmT6PMeeMtPXeLPedbQdWPfUwBesywWrtxsc3bA51Y85kF/as02.jpg)
+![](images/03-2.jpg)
 
 使用你的主密码登陆
 
-![as03.jpg](https://steemitimages.com/DQmSmGYpxHjkTPvSSmiSFtCEsTz7k1Jrb5hjrh8ScmjZkJA/as03.jpg)
+![](images/03-3.jpg)
 
 登陆后点击右边的“显示私匙”即可显示出你的私匙，把所有种类的密码保存好。
 

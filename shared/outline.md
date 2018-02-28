@@ -142,7 +142,7 @@ GitHub 虽然很好，但并不容易学。其实我本人也不熟。如果大�
 ```
 # 基本常识 
 
-## 什么是 SBD ^[作者：\@steemh：编辑：\@dapeng；校对： \@meixia。]
+## 什么是 SBD ^[作者：\@steemh：编辑：\@dapeng；校对： \@meixia。] {#what-is-sbd}
 
 SBD 就是那啥啥（见 steemit [官方网站](http://steemit.com)）。
 

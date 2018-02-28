@@ -33,7 +33,7 @@ steem采用的共识算法跟全世界大多数的股份制公司很类似，任
 
 https://steemit.com/~witnesses 可以看到所有的见证人名单，网页只显示了前50位见证人。每个人可以投票给30位见证人（witnesses）。50名以内见证人的投票可以直接点图上点赞标识。
 
-![见证人投票.png](https://steemitimages.com/DQmdd4nrxV2yhJeyZ2riSQShTupGXDxq1pjTVW92tksKtad/%E8%A7%81%E8%AF%81%E4%BA%BA%E6%8A%95%E7%A5%A8.png)
+![](images/10-1.png)
 
 如果你想投的见证人在50名外，可以通过输入账户名来进行投票，最下面一栏你可以把票数代理给别人帮你行使投票权利，比如代理给@oflyhigh。也鼓励大家给中文区的@abit @skenan见证人投票。
 
