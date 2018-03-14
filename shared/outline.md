@@ -1,8 +1,10 @@
-##《Steem 指南》实施纲要 | Outline of the Steem Guides Project
+## 《Steem 指南》实施纲要 | Outline of the *Steem Handbook* Project
+
+![](images/banner.jpg)
 
 ### 总纲
 
-1. 本书书名；《Steem 基础及开发指南》，简称“Steem 指南”。
+1. 本书书名；《Steem 基础及开发指南》，简称“Steem 指南”，英文名 *Steem Handbook*。
 2. 本书的核心价值：协作。
   - 本书的目的不在于推出更多的教程——这样的教程历史上已经有很多，重写没有意义。我们的目的，是推出一套相对完整的系统化指南。所有参与者，切忌单打独斗。此事只有从大局出发，通力协作，才可能完成，否则没有意义。
   - 编辑部的建立和分组，是第一层协作。
@@ -16,7 +18,7 @@
   - 在原帖基础上修改得到的新帖，务必跟原作者协商署名；
   - 欢迎所有人监督。
 4. 本书以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 授权。
-5. 发布方式：初稿首发在 Steem 上（标签：cn steem-guides）；最终版发布在网站[steemg.org](http://steemg.org)，提供网页、pdf、epub 三种格式。
+5. 发布方式：初稿首发在 Steem 上（标签：cn steem-guides）；最终版发布在网站 steemh.org，提供[网页](http://steemh.org)、[pdf](http://steemh.org/steemh.pdf)、[epub](http://steemh.org/steemh.epub) 三种格式。
 6. 相关文章统计：[steemr.org](http://steemr.org)。
 7. 参与人员清单：见[共享表单](https://drive.google.com/open?id=1WexEjJhNe_UgjaGlp07I4gmECBYRRGlisrGFe6YjD0s) 。
 8. 协作平台： GitHub 的 [pzhaonet/steem-guides](https://github.com/pzhaonet/steem-guides) 项目。详见本文的“协作平台”一节。项目首页可以看到以章节数字编号的 .Rmd 文件，供各章作者更新内容。
@@ -117,12 +119,14 @@ GitHub 虽然很好，但并不容易学。其实我本人也不熟。如果大�
 - 书稿格式
   - 书稿统一用标准的 markdown 语法来书写（见上文的首选参考资料），保存为纯文本文件。除非特殊需求，不使用扩展语法。这是为了方便移植。本帖末尾给了例子。
   - 连续两个回车来分段。也就是说，在文本文件里，两段之间要有个空行。本帖末尾给了例子。
+  - 在使用 `@` 符号时，请使用转义符`\`。例如，如果想呈现`@steemh`，那么请在书稿里输入`\@steemh`。
   - 建议使用 typora 编辑器，这里有个简易[教程](https://steemit.com/cn/@dapeng/markdown-steemit-tips-the-best-markdown-editors)。
-- 章节层次
+- 章节
+  - 我们的书稿生成程序会自动给章节编号，所以请勿手动编号。
   - 章标题和节标题之间不要有正文。也就是说，所有的正文文字都从属于某个节。
   - 本书最多分到三级标题（即“小节”），也就是 markdown 里的三个 `#` 号。不要出现四级标题。如果需要的话，用粗体表示更低一级的标题即可。
   - 务必不要用 `#` 的方式把某段文字加粗或扩大字号。`#` 开头仅用作章节标题。
-  - 请每个章节标题后面添加个花括号，里面是用来生成该节网页的文件名称，由于网址不支持中文，所以建议统一用标题拼音的首字母，当然也可以用英文。本帖末尾给了例子。
+  - 请在章节标题处以脚注形式注明自己的贡献（作者，编辑，校对等）。本帖末尾给了例子。
 - 插图
   - 请插入本地图片，不要插入网络图片。如果需要插入网络图片，请先把图片下载到本地。同时注意不要侵犯别人图片的版权。
   - 使用 markdown 标准语法来插入图片，即 `![]()`。本帖末尾给了例子。
@@ -136,9 +140,9 @@ GitHub 虽然很好，但并不容易学。其实我本人也不熟。如果大�
 下面是个简单的模板，演示了标题、正文分段、超级链接、插图。
 
 ```
-# 基本常识 {#jbcs}
+# 基本常识 
 
-## 什么是 SBD {#smssbd}
+## 什么是 SBD ^[作者：\@steemh：编辑：\@dapeng；校对： \@meixia。] {#what-is-sbd}
 
 SBD 就是那啥啥（见 steemit [官方网站](http://steemit.com)）。
 
@@ -266,5 +270,4 @@ SBD 就是那啥啥（见 steemit [官方网站](http://steemit.com)）。
   - [Facebook会在未来取代Steemit吗？](https://steemit.com/cn/@wang-peilin/facebook-steemit)
   - [Steemit可能成为未来人类的主流炫富手段](https://steemit.com/cn/@wang-peilin/3hvez8-steemit)
   - [Steem未来的价格能打败比特币（B T C）突破天际吗？](https://steemit.com/cn/@wang-peilin/steem-b-t-c)
-
 
