@@ -2,6 +2,7 @@
 ## 什么是 steem^[校对：\@meixia] {#sms_steem}
 小雅的第一篇文章发出去之后，只有寥寥几个人给她点了赞，收益也只有可怜的0.03美元，这让她有点失望。
 
+
 不过她很快就从失落中走了出来，自己还只是个新人嘛，没人关注是很正常的事情，加油写文章就是。
 
 她转而研究steemit里面的各种钱。她发现这里居然同时存在三种钱，分别是steem,steem power（sp）,Steem Dollars（SBD）。为什么一个社区内会同时存在三种钱啊？这让小雅很是困惑，这就感觉像是市场上同时流通三种人民币的感觉，初次接触区块链的小雅完全搞不懂。
@@ -355,6 +356,7 @@ SP非常的重要，日常的发帖或者直接购买都可以增加你的SP。�
 
 Steemit里面的门道真多，小雅觉得自己需要学习的地方真是太多了。
 
+
 ## 关注、点赞、拉黑、踩灰 [作者：\@vickylin 编辑：\@vickylin]
 
 #### 关注 Follow
@@ -465,7 +467,8 @@ steemit就是个小社会，自然也有各种糟心事。遇到经常发现莫�
 
 ## **延伸阅读：STEEMAUTO中文教程：自动点赞帖子或评论、自动跟随点赞[作者：\@dapeng；编辑：\@vickylin;]**
 
-![](images/steem-guides/images/02-SteemAuto01.png)
+
+![](images/02-SteemAuto01.png)
 
 在使用 SteemAuto 之前，我用的是另一款自动点赞工具。在没有仔细阅读服务条例的情况下，我就稀里糊涂开始用，后来才发现，那个工具会用我的名字给他们认为合适的帖子点赞，每天一次。这就尴尬了，万一哪篇帖子是骂我的，碰巧被我自己点赞的话，岂不是自打耳光？
 
@@ -481,22 +484,22 @@ http://steemauto.com/
 
 并登录，就来到了 SteemAuto 的用户主界面。
 
-![](steem-guides/images/02-SteemAuto02.jpg)
+![](images/02-SteemAuto02.jpg)
 
 ### 1 自动赞帖（指定作者）
 所谓“自动赞帖”，就是你可以指定一个或几个 id，当他们发帖（blog）一定时间后，你的 id 就自动为帖子点赞。使用这个功能，请点击左侧绿色边栏或右边主面板的 FAN BASE。
 
-![](steem-guides/images/02-SteemAuto03.jpg)
+![](images/02-SteemAuto03.jpg)
 
 这里，我将我喜欢的作者 blackbunny 的 id 填到了表单里，然后点 “Follow”，就把他加到了我的自动点赞列表里。注意，这里的 “Follow” 跟 steemit 上关注某人的 “Follow” 没有任何关系，仅仅是在 SteemAuto 里添加。
 
 默认情况下，是在作者发帖后立刻以 100% 的权重来点赞。如果想更改等待时间和点赞权重，那么在列表里点击 settings 按钮。
 
-![](steem-guides/images/02-SteemAuto04.jpg)
+![](images/02-SteemAuto04.jpg)
 
 在弹出的新表单里，从上到下依次填写等待时间（即作者发帖几分钟后自动点赞）、权重、是否激活，最后点击 Save Settings 保存设置，会发现列表里已经更新了。
 
-![](steem-guides/images/02-SteemAuto05.jpg)
+![](images/02-SteemAuto05.jpg)
 
 如果想短期中止对某位作者的自动点赞任务，那么将 Enabled 滑块调为灰色即可。如果想删除这条自动点赞任务，那么在作者列表里点击“Unfollow”即可。同样地，这里的 “Unfollow” 跟 steemit 上关注某人的 “Unfollow” 没有任何关系，
 
@@ -505,7 +508,7 @@ http://steemauto.com/
 
 点击左侧绿色边框的 UPVOTE COMMENTS，进入自动赞评的界面。
 
-![](steem-guides/images/02-SteemAuto06.jpg)
+![](images/02-SteemAuto06.jpg)
 
 主面板顶部的提示告诉我们，自动赞评功能可以让你对指定作者的评论自动点赞。如果该作者在同一篇帖子后面留了多条评论的话，你会只点赞其中的一条。每天（按UTC标准时区计算）最多点赞两条。
 
@@ -527,15 +530,15 @@ http://steemauto.com/
 
 点击左侧绿色边栏的 CURATION TRAIL，就进入了自动跟随点赞界面。这里列出了所有可供自动跟随的 ID 列表。假如我想自动跟随 @steemauto ，那么在列表里找到他，点击 “Follow”即可，他就出现在你的跟随列表里。
 
-![](steem-guides/images/02-SteemAuto07.jpg)
+![](images/02-SteemAuto07.jpg)
 
 默认情况下，你跟随的点赞权重跟他的权重相同，等待时间是 0。如果想调整，就点击 Settings：
 
-![](steem-guides/images/02-SteemAuto08.jpg)
+![](images/02-SteemAuto08.jpg)
 
 弹出下面的窗口：
 
-![](steem-guides/images/02-SteemAuto09.jpg)
+![](images/02-SteemAuto09.jpg)
 
 Follow Curator Weight 滑块默认是蓝色激活状态。如果想自定义你的点赞权重，则滑动它，在出现的窗口里填写你的点赞权重即可。
 
@@ -547,13 +550,13 @@ Follow Curator Weight 滑块默认是蓝色激活状态。如果想自定义你�
 
 在同一界面点击 become/edit your Trailer，在弹出的新窗口里填入一条描述信息，然后点击 submit，你的名字就出现在列表里，别人就可以追随你了。
 
-![](steem-guides/images/02-SteemAuto10.jpg)
+![](images/02-SteemAuto10.jpg)
 
 第二，如果有人追随了 @cnbuddy，如何查看追随者是哪些 ID 呢？
 
 在可供追随的 ID 列表里点击该 ID 就行了。会弹出下面的列表，给出了名单和每个 ID 的自动点赞权重。
 
-![](steem-guides/images/02-SteemAuto11.jpg)
+![](images/02-SteemAuto11.jpg)
 
 换句话说，你想自动追随谁，得先请他到 SteemAuto 里把他自己的名字用上述方法添进去，你才能追随。
 
@@ -812,3 +815,31 @@ Market Bandwidth：用于转账、交易等等
 此时，就可以查询到自己的带宽情况。往下拉，还可以看到谁给你留言了，谁用了多少Voting Power给你投票等。
 
 4、无论是代理、卖赞还是power down，务必在账户中留下足够的SP。曾遇到过有代理过多SP出去（退出代理需要7天的时间），导致自己什么都做不了的朋友，最后还是经由他人代理了一部分SP才解除困境。
+
+## **延伸阅读：如何power up [作者：\@vickylin；编辑：\@vickylin]** 
+
+对于已经在steemit待了七天以上的朋友来说，理论上有第一笔作者奖励已经入账，那么我们的账户中就会有sbd。对我来说，看到价格合适的情况下就会选择用sbd买入steem再power up，大家可以根据自己的具体需要决定。
+
+登陆主页——钱包——STEEM DOLLARS——市场
+![](images/03-基本常识-如何power up01.png)
+
+进入市场后，界面如下：
+![](images/03-基本常识-如何power up02.png)
+
+在左边购买steem表单中，填写入想要购买的心理价位及数量，点击购买steem；
+![](images/03-基本常识-如何power up03.png)
+
+提示“确认Limit Order Create”，点击“好”；
+![](images/03-基本常识-如何power up04.png)
+
+输入active key，点击登录
+![](images/03-基本常识-如何power up05.png)
+
+下单成功后会在左下角提示如下：
+![](images/03-基本常识-如何power up06.png)
+
+如果挂单价格合适的话，订单将会撮合成功。返回钱包，在第一栏中便可查询到刚才购入的steem；
+![](images/03-基本常识-如何power up07.png)
+
+点击右侧三角形下拉箭头，选择power up，填入此次想要power up的量，按确认即可。
+![](images/03-基本常识-如何power up08.png)
