@@ -78,15 +78,15 @@ steemit给小雅的第一印象是一个乱糟糟的博客，而且还是全英�
 
 打开软件后点击左上角数据库---新建---输入主密码，确认以后进入这个界面
 
-![](images/01-登陆与保存密码-keepass01.png)
+![](images/01-keepass01.png)
 
 点击添加按钮，如下图，就可以开始填写/生成密码了，OK以后按保存即可，会形成一个文件（有点类似word保存以后形成的文件）。
 
-![](images/01-登陆与保存密码-keepass02.png)
+![](images/01-keepass02.png)
 
 以后无论点击这个文件，还是keepass的图标，都可以打开这个界面。建议大家输入密码的时候可以把可视选项打开，以免输入的时候错误。
 
-![](images/01-登陆与保存密码-keepass03.png)
+![](images/01-keepass03.png)
 
 移动端
 
@@ -106,35 +106,35 @@ steemit给小雅的第一印象是一个乱糟糟的博客，而且还是全英�
 
 2、下载完后双击图标，进行安装；
 
-![](images/01-登陆和保存密码-VeraCrypt01.png)
+![](images/01-VeraCrypt01.png)
 
 3、如果出现以下界面，按照提示，前往[Fuse](https://osxfuse.github.io)下载安装驱动。然后就可以安装VeraCrypt，一路下一步即可；
 
-![](images/01-登陆和保存密码-VeraCrypt02.png)
+![](images/01-VeraCrypt02.png)
 
 加密数据步骤
 
 1、接下来创建加密卷，一般都是默认的选项，下一步即可；
 
-![](images/01-登陆和保存密码-VeraCrypt03.png)
+![](images/01-VeraCrypt03.png)
 
 2、根据要加密的文件设置加密盘的大小，如果只是保存密码的话，一般1M就够了；
 
-![](images/01-登陆和保存密码-VeraCrypt04.png)
+![](images/01-VeraCrypt04.png)
 
 3、然后设置密码（我没有使用秘钥文件，听说比较麻烦）。格式化完成后，确定并退出。这个时候你会看到已经加密好的文件，它没有后缀，也无法打开。
 
-![](images/01-登陆和保存密码-VeraCrypt05.png)
+![](images/01-VeraCrypt05.png)
 
 解密数据
 
 1、选择加密盘的所在位置，点击加载。如此就可以打开加密盘，可以任意读取盘内的内容，也可以把想要加密的东西丢进去；
 
-![](images/01-登陆和保存密码-VeraCrypt06.png)
+![](images/01-VeraCrypt06.png)
 
 2、看完以后，务必点击卸载。这时候，此盘就重新加密，除了有密码的情况下都无法打开；
 
-![](images/01-登陆和保存密码-VeraCrypt07.png)
+![](images/01-VeraCrypt07.png)
 
 注意
 

@@ -821,25 +821,25 @@ Market Bandwidth：用于转账、交易等等
 对于已经在steemit待了七天以上的朋友来说，理论上有第一笔作者奖励已经入账，那么我们的账户中就会有sbd。对我来说，看到价格合适的情况下就会选择用sbd买入steem再power up，大家可以根据自己的具体需要决定。
 
 登陆主页——钱包——STEEM DOLLARS——市场
-![](images/03-基本常识-如何power up01.png)
+![](images/03-power_up01.png)
 
 进入市场后，界面如下：
-![](images/03-基本常识-如何power up02.png)
+![](images/03-power_up02.png)
 
 在左边购买steem表单中，填写入想要购买的心理价位及数量，点击购买steem；
-![](images/03-基本常识-如何power up03.png)
+![](images/03-power_up03.png)
 
 提示“确认Limit Order Create”，点击“好”；
-![](images/03-基本常识-如何power up04.png)
+![](images/03-power_up04.png)
 
 输入active key，点击登录
-![](images/03-基本常识-如何power up05.png)
+![](images/03-power_up05.png)
 
 下单成功后会在左下角提示如下：
-![](images/03-基本常识-如何power up06.png)
+![](images/03-power_up06.png)
 
 如果挂单价格合适的话，订单将会撮合成功。返回钱包，在第一栏中便可查询到刚才购入的steem；
-![](images/03-基本常识-如何power up07.png)
+![](images/03-power_up07.png)
 
 点击右侧三角形下拉箭头，选择power up，填入此次想要power up的量，按确认即可。
-![](images/03-基本常识-如何power up08.png)
+![](images/03-power_up08.png)
