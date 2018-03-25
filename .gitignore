@@ -1,7 +1,8 @@
 rsconnect/
 .Rproj.user/
 .Rhistory
-_*/
+_r/
+_storage/
 
 # Windows image file caches
 Thumbs.db
