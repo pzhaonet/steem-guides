@@ -1,6 +1,6 @@
 # (PART) 高级篇 {#gjp .unnumbered} 
 
-# 区块链 [作者:\@yingpingzhang;编辑:\@maiyude;]
+# 区块链 ^[作者:\@yingpingzhang;编辑:\@maiyude;]
 - 区块链历史
 2008年11月1日，一个化名为中本聪（Satoshi Nakamoto）的密码极客发布了比特币白皮书（《比特币白皮书：一种点对点的电子现金系统》），至此比特币开始了一场人类历史上伟大的数字货币实验。
 
