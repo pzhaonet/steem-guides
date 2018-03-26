@@ -1,7 +1,7 @@
 # (PART) 初级篇 {#cjp .unnumbered} 
 
 # 新手第一步 {#xsdyb}
-## 浏览 steemit 网站 [作者:\@incrediblesnow;小故事:\@maiyude;编辑:\@maiyude;]
+## 浏览 steemit 网站 ^[作者:\@incrediblesnow;小故事:\@maiyude;编辑:\@maiyude;]
 
 小雅在朋友的介绍下来到了Steemit。
 
@@ -101,7 +101,7 @@ steem 新手注册成功后，会得到一个很长的字符串。官方称其�
 忙完密码的事情，她寻思着如何装修一下自己的个人主页。
 
 
-## 登陆和保存密码 [作者：\@vickylin 编辑：\@vickylin]
+## 登陆和保存密码 ^[作者：\@vickylin 编辑：\@vickylin]
 
 登陆过程比较简单，这里不做冗述。值得一提的是，注册时提供的是master password，首次登陆后，把posting key和active key保存下来后，再也不要用该密码登陆。在日常使用中，我们可以用posting key来发帖、点赞、回复，用active key交易、转账。
 
@@ -214,7 +214,7 @@ steem 新手注册成功后，会得到一个很长的字符串。官方称其�
 
 ## 设置个人基本信息 ^[作者：\@maiyude]
 
-小雅掉进了自己账号的设置页。
+小雅点进了自己账号的设置页。
 
 Steemit的各种设置和博客有点类似，虽然小雅的博客随着微博微信的兴起荒废多年了，但是小雅以前可是一个博客迷呢。
 
