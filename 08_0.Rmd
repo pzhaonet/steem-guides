@@ -1,6 +1,103 @@
 # 辅助工具 {#fcgjp}
 ## oflyhigh 的微信公众号 steemit {#oflyhigh_dwsgyh_steemit_dsyff}
 ## justyy 的在线工具和 API 接口 {#justyy_dzxgjh_api_ckdsyff}
+
+
+### CoinTools 介绍 ^[作者：\@justyy，原文链接：https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools]
+我之前很零碎的开发了查询STEEM/SBD币价的功能，把同样的功能放在公众号](https://justyy.com/archives/6086) 或者 [Discord](https://justyy.com/archives/6089) 频道里，但终究觉得不够直观，因为用户需要键盘敲入命令才能查询，这很程序员思维的设计。
+
+我想着如何让币价查询变得再简单一些，于是我想到了做成Chrome[浏览器插件](https://justyy.com/archives/4324)，因为我觉得这是最好的入口：
+1. Chrome 浏览器的市场占有率接近60\%
+2. Chrome 浏览器扩展是个非常方便的入口（右上角）
+3. Chrome 浏览器扩展的安装方便 (Google Webstore) 自动更新
+4. 跨平台
+
+**实现技术**
+大佬 [Jeff Atwood](https://en.wikipedia.org/wiki/Jeff_Atwood) 曾经说过：
+> Any application that can be written in JavaScript, will eventually be written in JavaScript
+
+意思就是，如果一个软件能用Javascript 来写，那么终究，它就会被用Javascript 来写。
+
+**安装**
+首先，您需要使用 Chrome 浏览器，当然如果您使用的是 Firefox，也许可以通过 [Chrome Store Foxified](https://addons.mozilla.org/en-GB/firefox/addon/chrome-store-foxified/) 来使用 大部分 Chrome 扩展。
+
+然后，在 Google Webstore 的  CoinTools 安装地址点击 “添加到 Chrome” (或者 "Add to Chrome") 就可以了。
+
+https://chrome.google.com/webstore/detail/coin-tools/fmglcggbdcbkpkfapngjobfeakehpcgj
+
+**源代码**
+开源： https://github.com/DoctorLai/CoinTools
+感谢各国友人提供界面翻译：https://github.com/DoctorLai/CoinTools/tree/master/lang
+
+**使用的API**
+CoinTools 采集了以下三个数据源的数据：
+- CoinMarketCap
+- CryptoCompare
+- Coinbase
+
+**使用方法**
+点击右上角的 XRP 图标 即可打开 CoinTools:
+
+![](images/08_justyy_xrp.jpg)
+
+**软件设置**
+CoinTools软件的默认语言是英语，在第一次使用的时候可以通过 Settings 标签页来选择成其它您喜爱的语言（支持十来种语言）：
+
+![](images/08_justyy_cointools-1.png)
+
+在这个界面设置里，我们还可以设置本地的法币，比如人民币。最下面的这个 “货币转换” 这是软件的精华。在这里，可以自定义我们想要看的信息，每一行就是一个查询命令。比如：
+
+- 虚拟货币和法币：`SBD USD` 命令查询 1 个 SBD 等于多少 USD
+- 虚拟货币和虚拟货币： `BTC SBD` 命令查询 1 个 BTC 等于多少 SBD
+- 法币和法币：`USD CNY` 1美元等于多少RMB
+- 虚拟货币查询：直接输入虚拟货币的代号，比如 SBD 或者 steem-dollars
+- 在前面的查询前可以加上数量，比如 `100 SBD USD` 查询 100 个 SBD 等于多少 USD
+- 还可以这样玩：`SBD 2 BTC` 查询 多少个 SBD 能换 2 个BTC
+
+**通用**
+软件一启动，所看到的页面，显示市场概况，更重要的是一些我们想看的币价信息，也就是上面所自定义的：
+
+![](images/08_justyy_cointools-2.png)
+
+**新闻**
+显示着一些英文的关于虚拟货币的一些文章 (Feed):
+![](images/08_justyy_cointools-3.png)
+
+**排名**
+默认列出了前200名的虚拟货币（按市场总量）：
+![](images/08_justyy_cointools-4.png)
+
+我们可以搜索，边敲字符就可以马上得到结果 (Instant)
+![](images/08_justyy_cointools-5.png)
+
+点击虚拟货币的名称，可以得到额外的一些信息：
+![](images/08_justyy_cointools-6.png)
+
+**图表**
+*所有市场总值（美元）*
+![](images/08_justyy_cointools-7.png)
+
+*24小时市场占用量（美元）*
+![](images/08_justyy_cointools-8.png)
+
+**工具**
+该工具可以转换任意两种货币（虚拟货币或者法币）
+![](images/08_justyy_cointools-9.png)
+
+数量为负的时候则会把转换的货币调换，如上图所示。
+
+**历史**
+任意天数，任意币种之间的历史数据，包括了 Open, Close, Low, High 和 Average 五条曲线 （默认只显示 平均，也就是 当日最高+最低价除于2）。
+![](images/08_justyy_cointools-10.png)
+
+**配对**
+该功能用于显示交易所中该币种的配对情况，如：
+
+![](images/08_justyy_cointools-11.png)
+
+**总结**
+这个工具，我相对来说 还是较满意的，因为：简单、好用。
+
 ## dapeng 的 steemr ^[作者：\@dapeng，原文链接：https://steemit.com/steemdev/@dapeng/display-all-the-posts-of-a-steemian-and-the-statistics-or]
 
 
