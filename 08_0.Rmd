@@ -3,7 +3,7 @@
 ## justyy 的在线工具和 API 接口 {#justyy_dzxgjh_api_ckdsyff}
 
 ### STEEMIT API 服务器
-@justyy 提供了4个免费的STEEMIT API服务器 分别于世界不同的地方供免费使用 (fair use policy)，API接口 (End Point) 是 `/api/steemit/`
+\@justyy 提供了4个免费的STEEMIT API服务器 分别于世界不同的地方供免费使用 (fair use policy)，API接口 (End Point) 是 `/api/steemit/`
 
 - 美国东部: helloacm.com
 - 日本东京: happyukgo.com
@@ -73,7 +73,6 @@ sbd_exchange_rate_quote_symbol
 url
 name
 created
-
 
 如果 \$_GET 参数 `s` 没有指定，该API接口也会去找 \$_POST 变量 `id`。
 
