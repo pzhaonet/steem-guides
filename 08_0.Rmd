@@ -75,7 +75,7 @@ name
 created
 
 
-如果 $_GET 参数 `s` 没有指定，该API接口也会去找 $_POST 变量 `id`。
+如果 \$_GET 参数 `s` 没有指定，该API接口也会去找 \$_POST 变量 `id`。
 
 > curl -X POST https://helloacm.com/api/steemit/account/witness/ -d "id=justyy"
 
