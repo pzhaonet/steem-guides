@@ -23,7 +23,7 @@
 2. 机器硬件不够了（内存不够了）
 3. 配置错误（私钥错误等）
 
-如果您的见证人一直处在离线状态，那么请考虑取消对于他们的投票，这样才能把您手上珍贵的一票交到更需要的人手上，比如我 [投票给 @justyy](https://steemconnect.com/sign/account_witness_vote?approve=1&witness=justyy) ^_^。这个小工具能列出您所投票的见证人信息。
+如果您的见证人一直处在离线状态，那么请考虑取消对于他们的投票，这样才能把您手上珍贵的一票交到更需要的人手上，比如我 [投票给 @justyy](https://steemconnect.com/sign/account_witness_vote?approve=1&witness=justyy)。这个小工具能列出您所投票的见证人信息。
 
 **工具地址**
 中文：https://helloacm.com/tools/steemit/list-of-witness/
