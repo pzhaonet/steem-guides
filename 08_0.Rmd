@@ -2,6 +2,81 @@
 ## oflyhigh 的微信公众号 steemit {#oflyhigh_dwsgyh_steemit_dsyff}
 ## justyy 的在线工具和 API 接口 {#justyy_dzxgjh_api_ckdsyff}
 
+### STEEMIT API 服务器
+\@justyy 提供了4个免费的STEEMIT API服务器 分别于世界不同的地方供免费使用 (fair use policy)，API接口 (End Point) 是 `/api/steemit/`
+
+- 美国东部: helloacm.com
+- 日本东京: happyukgo.com
+- 英国伦敦: uploadbeta.com
+- 美国西部: steakovercooked.com
+
+### 查看您投票的见证人 ^[作者：\@justyy，原文链接：https://steemit.com/cn-reader/@justyy/steem-justyy-api-steemit]
+我成为[见证人](https://steemit.com/cn/@justyy/5h6gyv-cn)有一个月左右了，然后就和其它见证人一样，到处拉票，特别是手上拥有大量SP的大鱼更是一票难求。
+
+我在拉票的过程中，有些大鱼人比较 nice 则会说，“我手上30票已经满了，等哪天有人不在线上了，我就投你票”。好吧，这一等不知道得等多久……
+
+这下好了，今天走在马路上琢磨着这事，想着，写一个工具，把你投票的见证人的状态全列出来，这样谁不在线上了，一清二楚，拿着这个数据再去找大鱼，估计他也很难再搪塞了吧，嘿嘿，说干就干，今天很顺利，代码一调就过。
+
+**离线的见证人**
+见证人的服务器离线了，很有可能是：
+1. 不玩了
+2. 机器硬件不够了（内存不够了）
+3. 配置错误（私钥错误等）
+
+如果您的见证人一直处在离线状态，那么请考虑取消对于他们的投票，这样才能把您手上珍贵的一票交到更需要的人手上，比如我 [投票给 @justyy](https://steemconnect.com/sign/account_witness_vote?approve=1&witness=justyy)。这个小工具能列出您所投票的见证人信息。
+
+**工具地址**
+中文：https://helloacm.com/tools/steemit/list-of-witness/
+英文 https://helloacm.com/tools/steemit/witness/
+
+**使用方法**
+只需要在 STEEM ID 文本框里输入 ID 并按回车（或者点下方绿色的按钮）即可
+![](images/08_justyy_steemid.png)
+
+一会儿就得到了结果，比如：
+![](images/08_justyy_steemit-witness-offline.jpg)
+
+状态那一列如果红色字体就表示该见证人离线了，可以点击链接 `取消投票` 来空出一票。
+
+取消投票是链接到 steemconnect:
+
+![](images/08_justyy_steemconnect-vote-witness.jpg)
+
+**原理**
+通过 STEEMSQL 获取见证人信息，其中 Signing Key 如果含有大量的1 就表示下线了，比如 `STM1111111111111111111111111111111114T1Anm`
+
+**API 程序接口(Application Programming Interface)**
+API访问接口如下：
+```
+https://helloacm.com/api/steemit/account/witness/?cached&id=justyy
+```
+
+数据将以JSON格式返回，每一行就是一个见证人信息，其中包括了以下字段：
+
+> sbd_interest_rate
+account_creation_fee_symbol
+last_sbd_exchange_update
+maximum_block_size
+sbd_exchange_rate_base_symbol
+votes
+votes_count
+last_aslot
+running_version
+signing_key
+account_creation_fee
+total_missed
+hardfork_version_vote
+last_confirmed_block_num
+hardfork_time_vote
+sbd_exchange_rate_quote
+sbd_exchange_rate_quote_symbol
+url
+name
+created
+
+如果 \$_GET 参数 `s` 没有指定，该API接口也会去找 \$_POST 变量 `id`。
+
+> curl -X POST https://helloacm.com/api/steemit/account/witness/ -d "id=justyy"
 
 ### CoinTools 介绍 ^[作者：\@justyy，原文链接：https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools]
 我之前很零碎的开发了查询STEEM/SBD币价的功能，把同样的功能放在公众号](https://justyy.com/archives/6086) 或者 [Discord](https://justyy.com/archives/6089) 频道里，但终究觉得不够直观，因为用户需要键盘敲入命令才能查询，这很程序员思维的设计。
