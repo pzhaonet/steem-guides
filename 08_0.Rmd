@@ -34,7 +34,7 @@ STEEM代理就是为了解决这两个问题，简单来说，你可以把自己
 2. 查看借给B (Delegatee)的所有代理情况：https://helloacm.com/tools/steemit/list-of-delegators/
 
 **使用方法**
-就拿 YY银行来说，我们可以通过 https://helloacm.com/tools/steemit/list-of-delegators/?id=justyy  来看把能量借给 @justyy 的情况，这里我们在工具地址上添加了参数 `id=justyy` 自动把页面上的 `Steem ID` 填上了 `justyy` 
+就拿 YY银行来说，我们可以通过 https://helloacm.com/tools/steemit/list-of-delegators/?id=justyy  来看把能量借给 \@justyy 的情况，这里我们在工具地址上添加了参数 `id=justyy` 自动把页面上的 `Steem ID` 填上了 `justyy` 
 
 很快，我们就得到了所有代理情况，默认是按照代理SP的数目从大到小排序，您也可以点击表头来对个别字段进行排序。
 
