@@ -45,7 +45,7 @@ witness
 witness_signature
 transaction_merkle_root
 
-如果 \$_GET 参数 s 没有指定，该API接口也会去找 \$_POST 变量 id。
+如果 \$\_GET 参数 s 没有指定，该API接口也会去找 \$\_POST 变量 id。
 
 > curl -X POST https://helloacm.com/api/steemit/deleted/ -d "id=justyy"
 
@@ -101,7 +101,7 @@ delegator
 
 > [{"time": "2017-09-17 22:46:18", "vests": 1890000.0, "delegatee": "mrsquiggle", "sp": 917.8161972282788}]
 
-如果 \$_GET 参数 s 没有指定，该API接口也会去找 \$_POST 变量 id。
+如果 \$\_GET 参数 s 没有指定，该API接口也会去找 \$\_POST 变量 id。
 
 > curl -X POST https://helloacm.com/api/steemit/delegatees/ -d "id=justyy"
 
@@ -151,6 +151,8 @@ https://helloacm.com/api/steemit/account/witness/?cached&id=justyy
 数据将以JSON格式返回，每一行就是一个见证人信息，其中包括了以下字段：
 
 > sbd_interest_rate
+total
+miss_rate
 account_creation_fee_symbol
 last_sbd_exchange_update
 maximum_block_size
@@ -171,7 +173,7 @@ url
 name
 created
 
-如果 \$_GET 参数 `s` 没有指定，该API接口也会去找 \$_POST 变量 `id`。
+如果 \$\_GET 参数 `s` 没有指定，该API接口也会去找 \$\_POST 变量 `id`。
 
 > curl -X POST https://helloacm.com/api/steemit/account/witness/ -d "id=justyy"
 
