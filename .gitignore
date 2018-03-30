@@ -3,6 +3,7 @@ rsconnect/
 .Rhistory
 _r/
 _storage/
+_book/
 
 # Windows image file caches
 Thumbs.db
