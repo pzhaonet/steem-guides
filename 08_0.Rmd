@@ -10,6 +10,59 @@
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### Discord 机器人 ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/steem-justyy-api-discord]
+Discord 原本是给游戏设计的，但由于其功能多，接口开放能力强，使用的用户越来越多。我们CN区也有一个Discord 频道，加入地址为：
+
+> https://discord.gg/7ctT3Xt
+
+在网页里就可以加入 cnsteem 的大家庭了，当然也可以下载手机APP或者桌面程序来加入 discord。
+
+相比微信群，Discord 没有500人限制，也可以无限时的撤回和修改消息，更重要的是，每个频道的聊天信息都是保存在服务器的，所以可以很方便的查看聊天记录。Discord 的每个频道都是一个聊天室，用于讨论不同的主题。
+
+我弄了两个Discord机器人，一个是 币价机器人 `cryptocurrency`，另一个是 `steemit` 机器人。我们可以分别添加这两个机器人为好友，通过和机器人私聊来对机器人发出指令，当然我们也可以在公共频道里发出指令（这样大家就可以信息共享）。
+
+两个机器人都支持 命令 `?` 或者 `help` 来列出帮助。
+
+**币价机器人 cryptocurrency**
+币价机器人 `cryptocurrency` 的安装地址（您可以添加到其它的 Discord 频道里）
+
+> https://discordapp.com/api/oauth2/authorize?client_id=417847038697406467&permissions=522304&scope=bot
+
+这个机器人的使用方法和 [justyy 在线工具与 API 系列 - 炒币必备 CoinTools](https://steemit.com/cn-reader/@justyy/steem-justyy-api-cointools) 的命令使用是一样的：
+
+- 虚拟货币和法币：`SBD USD` 命令查询 1 个 SBD 等于多少 USD
+- 法币和虚拟货币：`CNY BTC` 命令查询 1 元可以买 多少个 BTC
+- 虚拟货币和虚拟货币： `BTC SBD` 命令查询 1 个 BTC 等于多少 SBD
+- 法币和法币：`USD CNY` 1美元等于多少RMB
+- 虚拟货币查询：直接输入虚拟货币的代号，比如 SBD 或者 steem-dollars
+- 在前面的查询前可以加上数量，比如 `100 SBD USD` 查询 100 个 SBD 等于多少 USD
+- 还可以这样玩：`SBD 2 BTC` 查询 多少个 SBD 能换 2 个BTC
+
+![](images/08_justyy_discord_1.png)
+
+币价数据是从 `coinmarketcap` 取得。
+
+**steemit 机器人**
+该机器人的用途是用于查询 steemit 帐号和信息，您可以添加到您自己的 Discord 频道里：
+
+> https://discordapp.com/oauth2/authorize?client_id=418196534660694037&permissions=522304&scope=bot
+
+命令 `info` 将获取 STEEM区块链的一些信息：
+
+![](images/08_justyy_discord_2.png)
+
+使用 `?steemit_account` 来查询一个 steemit 帐号，比如:
+
+![](images/08_justyy_discord_3.png)
+
+使用 `p` 命令来获取是否 50/50\% 发文的建议
+
+![](images/08_justyy_discord_4.png)
+
+使用 `w steemit_account` 来获得 steemit 见证人的信息，例如：
+
+![](images/08_justyy_discord_5.png)
+
 ### 查看被删除的帖子或评论 ^[作者：\@justyy，原文链接：https://steemit.com/cn-reader/@justyy/7gwnq3-steem-justyy-api]
 大家都知道，STEEM上的一言一行都是会被记录在STEEM区块链上的，哪怕是7天内可以修改（或者删除）文章或者评论，[修改的记录](https://justyy.com/archives/5420)也都是会被忠实的记录的。不相信？这个在线工具就可以做到把删除过的评论给列出来。
 
