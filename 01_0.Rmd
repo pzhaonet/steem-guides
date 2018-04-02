@@ -312,7 +312,7 @@ Cancel Power Down：点击Power Down后才会出现的选项，可以随时取�
 全部界面介绍完毕，祝你的Steemit之旅愉快。
 
 
-## 第一帖 {#dyt}
+## 第一帖 ^[作者:\@oflyhigh;小故事:\@maiyude;编辑:\@maiyude;原文链接:https://steemit.com/steemit/@oflyhigh/steemit-and]
 小雅准备在steemit写自己的第一篇文章。
 
 她点击了发帖的按钮，之后弹出来的界面让小雅有点惊讶。这是她见过最简陋和功能最少的界面，整个界面几乎全是空白，她想找个插入图片的按钮都找不到，更别说调整字体大小等功能了。
