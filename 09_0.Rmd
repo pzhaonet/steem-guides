@@ -79,7 +79,7 @@ Busy的主网页为busy.org,这个网页的主要优势是在原版Steemit.com�
 > 影响力=更多跟随者=更高价值的赞
 
 ## dtube {#dtube}
-## 延伸阅读：授权与安全 [作者:\@rileyge;@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
+## 延伸阅读：授权与安全 ^[作者:\@rileyge;\@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
 - 什么是 SteemConnect
 

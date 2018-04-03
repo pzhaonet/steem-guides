@@ -439,7 +439,7 @@ steemit就是个小社会，自然也有各种糟心事。遇到经常发现莫�
 
 如果你没有太多时间，而手中又有较多的SP，则可以试试STEEMAUTO，它可以实现**自动点赞帖子**，**自动点赞评论**，**自动跟随点赞功能**。具体操作方法可参考下面帖子：
 
-[STEEMAUTO中文教程：自动点赞帖子或评论、自动跟随点赞/STEEMAUTO tutorial: How to upvote automatically](https://steemit.com/utopian-io/@dapeng/steemauto-steemauto-tutorial-how-to-upvote-automatically)
+[STEEMAUTO 中文教程：自动点赞帖子或评论、自动跟随点赞/STEEMAUTO tutorial: How to upvote automatically](https://steemit.com/utopian-io/@dapeng/steemauto-steemauto-tutorial-how-to-upvote-automatically)
 
 **买赞/卖赞**
 
@@ -688,7 +688,8 @@ http://steemauto.com/
 
 ![](images/02-SteemAuto02.jpg)
 
-### 1 自动赞帖（指定作者）
+**1 自动赞帖（指定作者）**
+
 所谓“自动赞帖”，就是你可以指定一个或几个 id，当他们发帖（blog）一定时间后，你的 id 就自动为帖子点赞。使用这个功能，请点击左侧绿色边栏或右边主面板的 FAN BASE。
 
 ![](images/02-SteemAuto03.jpg)
@@ -705,7 +706,8 @@ http://steemauto.com/
 
 如果想短期中止对某位作者的自动点赞任务，那么将 Enabled 滑块调为灰色即可。如果想删除这条自动点赞任务，那么在作者列表里点击“Unfollow”即可。同样地，这里的 “Unfollow” 跟 steemit 上关注某人的 “Unfollow” 没有任何关系，
 
-### 2 自动赞评（指定作者）
+**2 自动赞评（指定作者）**
+
 “自动赞评”跟“自动赞帖”类似，唯一不同的就是赞的是指定作者发布的评论（即回复，replies）。
 
 点击左侧绿色边框的 UPVOTE COMMENTS，进入自动赞评的界面。
@@ -718,7 +720,9 @@ http://steemauto.com/
 
 删除自动赞评任务的方法与删除自动赞帖是类似的，不再赘述。
 
-### 3 自动跟随点赞
+
+**3 自动跟随点赞**
+
 我写这个教程，原本是因为“华语区小伙伴” @cnbuddy 内部在讨论如何实现自动跟随点赞。现在，终于谈到这个问题了。
 
 所谓“自动跟随点赞”，就是你指定一个 id，他点赞了一个帖子，你的 id 就随后点赞同一个帖子。
