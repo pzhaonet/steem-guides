@@ -10,6 +10,39 @@
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 见证人相互投票 - 谁没有给你投票? ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api]
+见证人也是互相抱团的，网红 @jerrybanfield 给我[留言](https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z)，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。
+
+**工具地址**
+> https://helloacm.com/tools/steemit/list-of-mutual-witness/
+
+**使用方法**
+在文本框里输入您的 STEEM ID 按回车或者点击查询按钮即可。
+
+**这个工具能做什么？**
+它能够获取以下信息：
+
+1. 您的支持者，也就是谁投了您为见证人，列表将会链接到这个在线工具。
+2. 您支持的见证人，这个列表会在这个在线工具中，您可以查看谁离线了。
+3. 您支持的见证人中谁并没有投您为一票。需要注意的是：有些人使用投票代理，所以并不是直接的投票。
+4. 相互抱团的见证人列表，也就是你投他/她，他/她也投你。
+
+**API 程序接口(Application Programming Interface)**
+API访问接口如下：
+
+> https://helloacm.com/api/steemit/witness_voters/?id=justyy
+
+将返回4个JSON数组：
+
+1. voted (您的支持者)
+2. votes (您支持的见证人)
+3. not (您支持的见证人中谁没有给您投票)
+4. both (相互投票者)
+
+如果 \$_GET 参数 s 没有指定，该API接口也会去找 \$_POST 变量 id。
+
+> curl -X POST https://helloacm.com/api/steemit/witness_voters/ -d "id=justyy"
+
 ### Discord 机器人 ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/steem-justyy-api-discord]
 Discord 原本是给游戏设计的，但由于其功能多，接口开放能力强，使用的用户越来越多。我们CN区也有一个Discord 频道，加入地址为：
 
