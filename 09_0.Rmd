@@ -79,5 +79,338 @@ Busy的主网页为busy.org,这个网页的主要优势是在原版Steemit.com�
 > 影响力=更多跟随者=更高价值的赞
 
 ## dtube {#dtube}
-## 延伸阅读：授权与安全 {#ysyd_sqyaq}
+## 延伸阅读：授权与安全 [作者:\@rileyge;@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
+- 什么是 SteemConnect
+
+在讲这个问题之前，先说一个生活中的例子。大家都有过在淘宝上购物的经历，成功的应对了买家和卖家之间的信任问题是淘宝最成功的设计之一。我们购物时，并不了解卖家，无法信任卖家，但我们却需要在卖家发货之前付款。此时淘宝是怎么做的呢？淘宝让自己成为交易的第三方，买家把钱给了一个可以信任的第三方，就不担心自己的钱款安全了。
+
+同样道理，我们在登录第三方的Steem应用时，把自己的用户名密码直接提交给第三方应用，特别是我们不熟悉的第三方应用是非常不安全的。所以我们也需要一个大家都可以可以信任的第三方，来保证我们的账号安全的同时，又能够把我们的部分权限授权给第三方应用。SteemConnect就是这样一个可以信任的第三方。
+
+现在，Steem上的应用生态正变得越来越好，其中SteemConnect的出现起到了非常重要的作用。它为去中心化平台提供了一个安全的中心化授权接口，使用户与应用之间授权变得安全、简单又高效。
+
+- SteemConnect 基本原理
+
+SteemConnect 有 V1（SC1） 和 V2（SC2） 版本，两者从架构上来讲有很大不同。SC1将加密后的私钥存储在Cookie 中，但 SC2 并没有这样做。SC2 采取了一种“多重授权（multi-authority）”的方式，只要你将相应的权限授予第三方应用，他们就可以在不使用你的私钥就可以进行经过你授权的操作，进行如发布、投票、回复等操作。你也可以在任何时候收回你对第三方的授权。
+
+通过“多重授权”的方式，用户就能非常安全的使用第三方应用，而且 SC2 的安全性要远远高于 SC1，所以不推荐使用 SC1。以下的讲述中，如果不特殊指明， SteemConnect 特指SteemConnect V2。
+
+SteemConnect 的“多重授权”的实现，使用了OAuth2标准。OAuth是一个关于授权的开放网络标准，在全世界得到广泛应用，目前的最新版本是2.0版。现在我们经常使用的微信、QQ注册登录第三方网站的授权都是使用的此标准。
+
+- 开发者注册与设置
+
+第三方应用要接入SteemConnect，需要事先注册，注册地址：<https://v2.steemconnect.com/dashboard>
+
+登录之后，点击左下方的My Apps, 在 My Apps 界面中点击 New App：
+
+![](images/9-4-1.png)
+
+需要花费 3 Steem 的费用来账号注册一个APP，此账号由官方管理，你接触不到私钥。账号名称没有强制要求，但惯例以app结尾，如busy.app, cnsteem.app等。
+
+APP 注册成功之后，我们需要对 APP 进行配置，点击My Apps -> 选择 App -> 选择Edit：
+
+![](images/9-4-2.png)
+
+最重要的是Redirect URI(s)的设置，它可以设置一个或多个，但一定要包含下文`sc2.init`中设置的授权后返回的页面地址（callbackURL）。如在本地测试中（下文例程使用本地测试），用户申请授权后返回<http://localhost:8080/> ，Redirect URI(s)中必须有相同的地址！
+
+- SteemConnect 应用开发
+
+Steemit 官方为我们提供了完整的 Javascript 开发接口和示例，用户可以在github中找到完整的源码：
+<https://github.com/steemit/sc2-sdk>
+<https://github.com/cnsteem/sc2-angular>
+
+本文下面以cnsteem提供的augular版本的SDK为例，来详细的讲述使用 SteemConnect 进行第三方应用的授权方法。
+
+- SteemConnect 初始化
+
+在页面载入过程中，要对sc2进行初始化：
+
+```
+sc2.init({
+  app: 'cnsteem.app',
+  callbackURL: 'http://localhost:8080/',
+  scope: ['vote', 'comment']
+});
+```
+
+上面的代码中，我们初始化了三个参数：
+
+- **app**: 此参数需要初始化为我们在 SteemConnect V2 后台注册的APP的名称。
+
+- **callbackURL**: 此参数为授权后跳转到的页面 URL。此 URL 必须包含在APP后台设置的 "Redirect URI(s)" 列表中。
+
+- **scope**: 此参数表示用户授权给APP的权限列表。权限列表及具体描述可以参照下表。
+
+  | 名称                 | 描述                                           |
+  | -------------------- | ---------------------------------------------- |
+  | login                | 验证身份                                       |
+  | offline              | 允许长期使用令牌                               |
+  | vote                 | 对文章或评论点赞、踩或取消点赞                 |
+  | comment              | 发表评论或文章                                 |
+  | comment_delete       | 删除评论或文章                                 |
+  | comment_options      | 给文章或评论添加选项                           |
+  | custom_json          | 关注、取关、屏蔽、转发等任何`custom_json` 操作 |
+  | claim_reward_balance | 赎回奖励                                       |
+
+除上述三个参数以外，还有一个参数 **accessToken** 也可以在`sc2.init`中进行设置。
+
+- **accessToken**: 授权成功后返回的“接入令牌”，授权成功后就可使用此**accessToken** 执行相应的操作。
+
+但在实际开发中，在进行初始化时，我们往往不知道 **accessToken**。这种情况下，我们可以在初始化之后使用`sc2.setAccessToken(accessToken)`方法对此参数进行设置。
+
+- 其他常用操作
+
+下面的代码段使用AngularJs，在`sc2.init`后，设置了`accessToken`，并将读取评论、点赞、修改用户信息和登出等操作封装成函数，以方便使用。
+
+```
+//code area 1，对module进行初始化
+var myapp = angular.module('app', [])
+  .config(['$locationProvider', function($locationProvider){
+    $locationProvider.html5Mode(true);
+  }]);
+//code area 2，设置名为Main的controller
+myapp.controller('Main', function($scope, $location) {
+    $scope.loading = false;
+    $scope.parentAuthor = 'skenan';
+    $scope.parentPermlink = 'steem-connect-v2';
+    //$location为AngularJs中对URL进行相关操作的变量
+    $scope.accessToken = $location.search().access_token;
+    $scope.expiresIn = $location.search().expires_in;
+    $scope.loginURL = sc2.getLoginURL();
+
+    if ($scope.accessToken) {
+      //设置 accessToken
+      sc2.setAccessToken($scope.accessToken);
+      //读取用户信息
+      sc2.me(function (err, result) {
+        console.log('/me', err, result);
+        if (!err) {
+          $scope.user = result.account;
+          $scope.metadata = JSON.stringify(result.user_metadata, null, 2);
+          $scope.$apply();
+        }
+      });
+    }
+    //是否通过验证
+    $scope.isAuth = function() {
+      return !!$scope.user;
+    };
+    //读取评论
+    $scope.loadComments = function() {
+      steem.api.getContentReplies($scope.parentAuthor, $scope.parentPermlink, function(err, result) {
+        if (!err) {
+          $scope.comments = result.slice(-5);
+          $scope.$apply();
+        }
+      });
+    };
+    //评论
+    $scope.comment = function() {
+      $scope.loading = true;
+      var permlink = steem.formatter.commentPermlink($scope.parentAuthor, $scope.parentPermlink);
+      sc2.comment($scope.parentAuthor, $scope.parentPermlink, $scope.user.name, permlink, '', $scope.message, '', function(err, result) {
+        console.log(err, result);
+        $scope.message = '';
+        $scope.loading = false;
+        $scope.$apply();
+        $scope.loadComments();
+      });
+    };
+    //点赞
+    $scope.vote = function(author, permlink, weight) {
+      sc2.vote($scope.user.name, author, permlink, weight, function (err, result) {
+        if (!err) {
+          alert('You successfully voted for @' + author + '/' + permlink);
+          console.log('You successfully voted for @' + author + '/' + permlink, err, result);
+          $scope.loadComments();
+        } else {
+          console.log(err);
+        }
+      });
+    };
+    //更新用户信息
+    $scope.updateUserMetadata = function(metadata) {
+      sc2.updateUserMetadata(metadata, function (err, result) {
+        if (!err) {
+          alert('You successfully updated user_metadata');
+          console.log('You successfully updated user_metadata', result);
+          if (!err) {
+            $scope.user = result.account;
+            $scope.metadata = JSON.stringify(result.user_metadata, null, 2);
+            $scope.$apply();
+          }
+        } else {
+          console.log(err);
+        }
+      });
+    };
+    //登出
+    $scope.logout = function() {
+      sc2.revokeToken(function (err, result) {
+        console.log('You successfully logged out', err, result);
+        delete $scope.user;
+        delete $scope.accessToken;
+        $scope.$apply();
+      });
+    };
+  });
+```
+
+- Access Token在页面之间的传递
+
+Access Token是登录成功的最重要的信息之一，用户使用Access Token可以进行相应的操作。在上文中 Access Token 是从 URL 中读取的，把Access Token放到 URL 中虽然也可以实现 Access Token 在页面之间的传递。但这种方法既不安全也不方便。在实际应用中，最常用的方法为将Access Token存储在Cookies中。
+
+为了和原代码保持更高的一致性，使用了angular-cookie库。大家可以在github上找到这个库。话不多说，上代码：
+
+```
+myapp.controller('SetCookies', ['$scope', '$location', 'ipCookie', function($scope, $location, ipCookie) {
+    $scope.loading = false;    
+    $scope.accessToken = $location.search().access_token;
+    $scope.expiresIn = $location.search().expires_in;
+
+    if ($scope.accessToken) {
+      sc2.setAccessToken($scope.accessToken);
+      ipCookie('st_access_token', $scope.accessToken, 
+            {expirationUnit: 'seconds', expires: $scope.expiresIn * 1});
+      sc2.me(function (err, result) {
+        console.log('/me', err, result);
+        if (!err) {
+          $scope.user = result.account;
+          $scope.metadata = JSON.stringify(result.user_metadata, null, 2);
+          $scope.$apply();
+        }
+      });
+    }
+    $scope.isAuth = function() {
+      return !!$scope.user;
+    };
+  }]);
+```
+
+此段代码和上面的代码相比较，差别主要有以下三点：
+
+- 使用了angular-cookie.js库
+
+- 从 URL 读取Access Token之后将其存储到了Cookie中
+
+  在此设置之后，就可使用`ipCookie('st_access_token')`从Cookie中读取 Access Token。
+
+- 使用示例
+
+- callback.html
+
+  该页为验证成功返回的页面，其功能主要是实现跳转及将Access Token存储在Cookie中，所以此页面使用的Controller为SetCookies。
+
+  ```
+  <!DOCTYPE html>
+  <html lang="en" ng-app="app">
+  <head>
+    <title>Demo</title>
+    <base href="/" />
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    (html comment removed: [if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif])
+    <script src="sc2/angular.min.js"></script>
+    <script src="sc2/angular-cookie.min.js"></script>
+    <script src="sc2/sc2.min.js"></script>
+    <script src="sc2/steem.min.js"></script>
+    <script src="sc2/app.js"></script>  
+  </head>
+
+  <body>
+  <div ng-controller="SetCookies">
+    <div>
+      <h3>在此页中主要是设置Cookies和跳转</h3>
+      <a href="index.html">SteemThink</a>   
+    </div>
+  </div>
+  </body>
+  </html>
+  ```
+
+- index.html/testpage.html
+
+  此类页面为普通的页面，的这些页面中可以使用所用用户授权的操作。使用的Controller为Main，但已经将读取 Access Token 的位置从 URL 改为Cookie。
+
+  ```
+  <!DOCTYPE html>
+  <html lang="en" ng-app="app">
+  <head>
+    <title>Demo</title>
+    <base href="/" />
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    (html comment removed: [if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif])
+    <script src="sc2/angular.min.js"></script>
+    <script src="sc2/angular-cookie.min.js"></script>
+    <script src="sc2/sc2.min.js"></script>
+    <script src="sc2/steem.min.js"></script>
+    <script src="sc2/app.js"></script>
+  </head>
+
+  <body>
+
+  <div class="container py-5" style="max-width: 600px;" ng-controller="Main as main">
+    <div>
+      <h3>登录 & 退出</h3>
+      <b ng-show="isAuth()"><img src="//img.busy.org/@{{user.name}}?s=32" width="32" height="32"> @{{user.name}}</b>
+      <button ng-show="isAuth()" class="ml-2 btn btn-secondary" type="submit" ng-click="logout()">
+        退出
+      </button>
+      <a class="btn btn-primary" ng-href="{{loginURL}}" ng-hide="isAuth()">登录</a>
+    </div>
+
+    <hr />
+    <h3>评论 & 点赞</h3>
+    <div class="input-group input-group-lg">
+      @{{parentAuthor}}/{{parentPermlink}} 此帖子的评论: 
+    </div>
+
+    <ul class="list-group my-4" ng-init="loadComments()">
+      <li class="list-group-item" ng-repeat="comment in comments">
+        @{{comment.author}}: {{comment.body}}
+        <button ng-show="isAuth()" class="ml-2 btn btn-secondary btn-sm" type="submit" ng-click="vote(comment.author, comment.permlink, 1000)">
+          <i class="icon iconfont icon-praise"></i> {{comment.net_votes}}
+        </button>
+      </li>
+    </ul>
+
+    <form ng-show="isAuth()" ng-submit="comment()">
+      <div class="input-group">
+        <input type="text" class="form-control" ng-disabled="loading" placeholder="Write a comment here" ng-model="message">
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </span>
+      </div>
+    </form>
+
+    <hr />
+    <h3>用户信息</h3>
+    <p>SteemConnect 允许开发者存储每一个用户的相关信息，例如用户偏好，但不会影响核心功能的使用。</p>
+    <form ng-show="isAuth()" ng-submit="updateUserMetadata({ locale: locale })">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="What is your locale?" ng-model="locale">
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="submit">Save</button>
+        </span>
+      </div>
+      <pre class="mt-4">{{metadata}}</pre>
+    </form>
+
+  </div>
+
+  </body>
+  </html>
+  ```
+
+如果想要查看完整的代码，可以参考一下网站：
+
+源码（从 URL 读取Access Token版本）：<https://github.com/cnsteem/sc2-angular>
+
+示例网站（从 URL 读取Access Token版本）：<https://cnsteem.github.io/sc2-angular>
+
+源码（从 Cookie 读取Access Token版本）：<https://github.com/RileyGe/sc2-cookie>
+
+示例网站（从 URL 读取Access Token版本）：<https://rileyge.github.io/sc2test>
