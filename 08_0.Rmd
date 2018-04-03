@@ -11,7 +11,7 @@
 - 美国西部: steakovercooked.com
 
 ### 见证人相互投票 - 谁没有给你投票? ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api]
-见证人也是互相抱团的，网红 @jerrybanfield 给我[留言](https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z)，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。
+见证人也是互相抱团的，网红 \@jerrybanfield 给我[留言](https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z)，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。
 
 **工具地址**
 > https://helloacm.com/tools/steemit/list-of-mutual-witness/
@@ -39,7 +39,7 @@ API访问接口如下：
 3. not (您支持的见证人中谁没有给您投票)
 4. both (相互投票者)
 
-如果 \$_GET 参数 s 没有指定，该API接口也会去找 \$_POST 变量 id。
+如果 \$\_GET 参数 s 没有指定，该API接口也会去找 \$\_POST 变量 id。
 
 > curl -X POST https://helloacm.com/api/steemit/witness_voters/ -d "id=justyy"
 
