@@ -303,10 +303,69 @@ View 菜单里，可以选择不同的视图。大纲视图（Outliine）会显�
 
 这么好的编辑器，不推荐，根本忍不住。来试一下吧，告诉我你的体验。
 
-## 插入多媒体 {#crdmb}
+## 插入富媒体 ^[作者：\@dapeng;小故事:\@maiyude;原文链接：https://steemit.com/cn/@dapeng/insert-gif-embed-video-and-audio] {#crdmb}
+
 小雅使用Markdown语法已经越来越上手了，文章的排版也越来越美观了。小雅对自己的进步表示很开心，不过她可不是就这样就会满足的女人，她又开始研究新的玩意儿——在文章里面插入多媒体。
 
 小雅觉得在文章里面适当的插入图片和视频会让文章增色不少，她还想着给文章配个背景音乐，不过她怕声音太嘈杂影响别人心情，加音乐的想法也只是想想就算了。小雅想要在文章里面插入视频，她发现Steemit里面有个专门上传视频的地方叫做Dtube，她尝试着在这里录制了一个视频插入到了文章里面。一切都弄完好，她仔细的检查了几回，效果非常好，比她想象中的还要好，她满意的点了“POST”按钮，期待着粉丝的点赞。
+
+### 插入动图 gif
+
+往帖子里插入 gif 动图的方法与插入普通图片完全相同。如果是本地的动图，只需把动图文件拖入 steemit.com 发帖的编辑窗口即可。如果是网上的动图，那么只需使用markdown 插入图片的语法即可：
+
+```
+![](图片链接)
+```
+
+下面是个例子：
+
+```
+![](https://steemitimages.com/0x0/https://steemitimages.com/DQmXbiU6jS6D53RA2sUDX63K2511ENqzJUe3ak81dwf3v56/2017-07-25_sunset.gif)
+```
+
+### 嵌入视频
+
+steemit.com 支持两家网站的视频嵌入到帖子里：youtube 和 vimeo。其中，youtube最为常用，插入方法很简单：直接把视频的超级链接粘贴到帖子里即可。下面是个例子：
+
+```
+@dapeng 的吉他口琴弹唱：
+https://www.youtube.com/watch?v=N4rTR2WTLsM
+```
+
+视频的播放窗口会嵌入帖子里。点击上面的播放键就可以直接播放了。
+
+这种插入方法优点是省事，缺点是移植性差：只有 steemit 等少数几个网站会把帖子里这个网址自动渲染成嵌入视频。如果把帖子的文本原样贴到别的软件或网站的话，多半只会显示这个链接。从通用性的角度考虑，比较安全的做法是使用标准的嵌入代码。
+
+在上述示例的 youtube 视频播放页，点击播放窗口右下方的“分享”按钮，在弹出窗口点击“嵌入”，就会出现一段嵌入代码。
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N4rTR2WTLsM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+```
+
+把这段代码复制粘贴到帖子里即可。
+
+对于其他视频网站，steemit 暂不支持直接嵌入，只能将视频的链接粘贴到帖子里。
+
+### 嵌入音频
+
+steemit.com 仅支持一家网站的音频嵌入到帖子里：SoundCloud 。方法如下：
+
+1. 搜索或上传音乐或声音。
+2. 打开目标声音的页面。
+3. 点击 'share' 按钮。
+4. 点击窗口顶部的 'Embed'，就得到了代码。
+5. 将代码拷贝粘贴到帖子里。
+
+例如，搜索“成都 dapeng”，得到的嵌入代码是：
+
+```
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/347459247&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+```
+
+将这段代码粘贴到帖子里，点击上面的播放键就可以直接播放了。
+
+对于其他音频网站，steemit 暂不支持直接嵌入，只能将音频的链接粘贴到帖子里。
+
 
 ### 如何输入emoji表情符号 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/how-to-insert-emoji-on-steemit]
 

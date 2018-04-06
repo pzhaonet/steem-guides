@@ -1,5 +1,17 @@
 # 贡献者名录（临时版） {#aacontributors .unnumbered}
 
+本书的编写和维护需要长久的贡献，大门永远敞开，欢迎加入我们。你可以：
+
+- 贡献本书缺失的内容；
+
+- 修改已有内容；
+
+- 修改错别字；
+
+- 其他任何跟书稿编写有关的工作。
+
+向本书项目投稿的方法见附录\@ref(how-to-get-involved)。
+
 - 主编：\@dapeng
 
 - 副主编： \@maiyude
@@ -12,17 +24,16 @@
 
 本书的各章作者、编辑、校对见各章节脚注。待书稿完成后，名单将汇总在这里。
 
-本书的编写和维护需要长久的贡献，大门永远敞开，欢迎加入我们。你可以：
+**初级篇贡献者清单**
 
-- 贡献本书缺失的内容；
+| 章节             | 作者                                                         | 编辑                       | 校对    |
+| ---------------- | ------------------------------------------------------------ | -------------------------- | ------- |
+| 第1章 新手第一步 | @dapeng @hepeng.chn @incrediblesnow @ivysrono @maiyude @oflyhigh @vickylin @wang-peilin | @dapeng @maiyude           |         |
+| 第2章 基本常识   | @dapeng @incrediblesnow @maiyude@vickylin @wang-peilin @woolfe19861008 | @dapeng @maiyude @vickylin | @meixia |
+| 第3章 常用操作   | @hepeng.chn @lixing @maiyude @skenan                         | @dapeng @maiyude           |         |
+| 第4章 文章编辑   | @dapeng @oflyhigh @yellowbird                                | @dapeng                    |         |
+| 第5章 文章写作   | @rivalhw @tumutanzi                                          | @dapeng @maiyude           |         |
 
-- 修改已有内容；
-
-- 修改错别字；
-
-- 其他任何跟书稿编写有关的工作。
-
-向本书项目投稿的方法见附录\@ref(how-to-get-involved)。
 
 
 # 前言 {#secpro .unnumbered} 

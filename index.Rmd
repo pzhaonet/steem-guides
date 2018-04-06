@@ -1,5 +1,5 @@
 --- 
-title: "Steem Handbook"
+title: "Steem 指南：基础与开发"
 author: "Steem 中文社区集体创作"
 site: bookdown::bookdown_site
 date: "`r Sys.Date()`"
