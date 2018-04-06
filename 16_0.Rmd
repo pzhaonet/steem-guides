@@ -1,5 +1,108 @@
 \appendix
 
+# 如何参与《Steem 指南》的编写 ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/steem-handbook-2018-04-06] {#how-to-get-involved}
+
+《Steem 基础与开发指南》（简称《指南》）是一本正在编写的书稿。自《指南》项目开始以来，先后有很多朋友询问，能不能加入编写工作，如何加入。
+
+这部书稿旨在帮助 steem 新用户入门，同时为高级用户提供参考。书稿由“初级篇”、“中级篇”、“高级篇”三个分册组成，steem cn 区多位作者联合编写。书稿的编写是个长久的工作。任何人都可以加入，来添加本书缺失的内容，或修改和更新已有的内容，或者修改错别字等。
+
+那么，如何加入到书稿的编写工作中呢？本文在已有教程的基础上，做个相对全面的介绍。此外，最好先读一下我们的[项目实施纲要](https://github.com/pzhaonet/steem-guides/blob/master/shared/outline.md)，里面详细介绍了项目的来龙去脉，投稿要求和格式，参考资料列表等。
+
+本文会反复提到两个网页：一个是“[项目网页](https://github.com/pzhaonet/steem-guides/)”，相当于幕后；一个是“[书稿预览网页](http://steemh.org)”，相当于台前。
+
+![台前：书稿预览网页](images/16-12.jpg)
+
+**第 1 步：先来我们写书的书桌。**
+
+《指南》一书的编写模式，在 steem 上史无前例。为了方便理解，我们打个比方。
+
+我们协作写书，好比一张书桌上摆放一个空白本子，好几位作者手里各持一支笔，往这同一个本子里写字。怎样保证他们之间不冲突、不打架？
+
+我们的办法是，先把本子拆成 16 份，每份为 1 章，然后让这些作者各自挑选擅长和喜欢的章节，当然也可以跟别人合写，也可以帮别人涂涂改改。书桌旁边安装摄像机，把编写和修改的过程全部录下来。这样，谁贡献了哪些就很清楚了。
+
+回到现实里，我们选择了 github.com 这张书桌。我们的项目 [pzhaonet/steem-guides/](https://github.com/pzhaonet/steem-guides/) 就好比一个空白本子。打开这个项目，你会看到很多像 01.0.Rmd, 02.0.Rmd 这样的文件，共 16 个，前两位数字就是章节的编号。点击就能打开看里面现有的内容。而其他的文件和文件夹是系统文件，不用理。
+
+那么摄像机在哪里？github 自带摄像机！每个作者所有的修改过程，都会被保存下来！这就是我们选择 github 的主要原因。
+
+为了让 github 知道谁做了什么工作，你需要先在 github **注册**。打开 github.com，依次输入你希望用的用户名、你的有效邮箱、你希望下次登录 github 所用的密码，确认就可以了。下面的步骤全部选默认，“Continue”，最后提交（“Submit”）。你的邮箱里面就会收到一封邮件，点击里面的链接来验证邮箱是有效的，就可以了。
+
+下次访问项目主页 https:// github.com/pzhaonet/steem-guides，点击右上角的“sign in ”登录即可。
+
+关于 github 平台的介绍和注册方法，可以进一步阅读 @rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)。
+
+![幕后：项目主页](images/16-13.jpg)
+
+
+**第 2 步：挑选你想编写或修改的章节。**
+
+打开书稿预览网页 http://steemh.org，看看你想编写或修改哪一章（例如第 2 章），那么在 github 项目主页点击对应的书稿源文件（例如 02.0.Rmd），就打开了源文本。建议你将预览网站跟源文件对照着看，了解一下什么样的源文件能生成什么样的书稿。
+
+下一步，我们对文本进行添加或修改。
+
+**第 3 步：添加或修改文字。**
+
+承接上一步，打开书稿某章源文件后，添加或修改文字的步骤最简单。
+
+![](images/16-14.jpg)
+
+图片来自@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
+
+1. 点击编辑窗口右上角的铅笔符号。
+2. 在编辑窗口里添加新文字或修改旧文字。
+3. 编辑结束后，在底部的 Propose file change 窗口里输入标题（必填）和内容（可不填），用来简要说明一下你修改了什么，然后点击下面的绿色按钮提交。
+4. 在出现的新窗口上方，点击绿色按钮“Create pull request”（也就是我们常说的 PR）。
+5. 在新窗口右下角，再点击绿色按钮“Create pull request”。
+
+
+这样，你的修改就提交到了项目里。剩下的你就不用管了。
+
+关于上述添加和修改文字的演示，可以看 @maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（1）](https://steemit.com/dlive/@maiyude/f9e13220-2f04-11e8-8c78-95b7c3b77998)。
+
+**第 4 步：插图。**
+
+如果你添加和修改时需要插入图片，那么操作稍微复杂一点。先为要插入的图片命名为“章节编号_备注”的格式，例如 02_test.jpg，文件名里不要有中文或任何特殊字符。
+
+![](images/16-15.jpg)
+
+图片来自@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
+
+1. 在项目主页右上角点击 Fork 按钮，等待一段时间，就把项目复制到了你自己名下。网页会自动切换到你名下的项目主页。以下如无说明，均在你名下的项目里操作。
+2. 点击 images 文件夹，然后点击右上角的 Upload files 按钮。
+3. 将图片拖入新窗口的中央。或者点击中央的 choose your files，在弹出的窗口里选择要上传的图片。
+4. 在下方的 commit changes 栏，输入标题和内容，简要说明你上传了什么，然后点击绿色按钮。
+5. 跟添加文字类似，在书稿需要插入图片的地方，输入图片的相对路径，如 `images/02_test.jpg`，保存修改即可。
+6. 最后，在你名下的项目主页左上角，点击 New pull request。
+7. 后面的步骤跟添加文字的方法类似，点击绿色按钮“Create pull request”即可。
+
+
+关于上述添加和修改文字的演示，可以看 @maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（2）](https://steemit.com/dlive/@maiyude/933ab400-2f05-11e8-8c78-95b7c3b77998)。
+
+**至此，你的工作已经完成。**
+
+书稿在提交 PR 之后，需要以下步骤，才能最终在书稿预览网页上呈现。这些步骤目前由 @dapeng 完成，以下是简略介绍（不需要你来做）。
+
+1. 简单审查，看看新文稿是不是三观正确，有没有不当言论。
+2. 将你提交的修改版跟原文稿合并。如果存在冲突，需要仔细解决冲突。
+3. 利用软件对源文本进行编译，对编译时产生的错误进行修正，最后生成网页、pdf、epub 三种格式的预览文件。
+4. 将预览文件上传到 steemh.org 服务器。
+
+
+上面介绍的是参加本书编写的最简单方法，仅用网页浏览器就可以完成，不需要任何其他软件。
+
+当然，你可以使用文本编辑器（如typora），将文稿写好之后再复制粘贴到项目里；可以使用 github 的桌面软件，对项目进行管理。这些高级操作，可以参考以下教程：
+
+- @evathinking [如何参与dapeng《Steemit 教程》Github多人写作](https://steemit.com/github/@evathinking/github)
+- @evathinking [Github网站上面的按钮灰掉不可用](https://steemit.com/github/@evathinking/github-how-to-delete-github-repository)
+- @rileyge 的系列教程
+  - [git使用简明教程（一）：Branch和Merge的概念](https://steemit.com/cn/@rileyge/git-branch-merge) 
+  - [git使用简明教程（二）：git中常见概念](https://steemit.com/cn/@rileyge/git-git) 
+  - [git使用简明教程（三）：github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github) 
+  - [git使用简明教程（四）：git及github实战演练（理科汉子篇）](https://steemit.com/cn/@rileyge/git-git-github) 
+  - [git使用简明教程（五）：fork功能的使用](https://steemit.com/cn/@rileyge/github-fork) 
+  - [使用github书稿编辑精简明快版](https://steemit.com/steem-guides/@rileyge/5giegh-github) 
+  - [github落后了吗？要挨打了吗？](https://steemit.com/cn/@rileyge/3tpcyz-github) 
+  
+
 # Steem 指北:人物与八卦 {#fl}
 
 ## 有胆评

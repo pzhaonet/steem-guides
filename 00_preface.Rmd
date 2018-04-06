@@ -22,8 +22,10 @@
 
 - 其他任何跟书稿编写有关的工作。
 
-向本书项目投稿的方法见 GitHub 教程（有待整理）。
+向本书项目投稿的方法见附录\@ref(how-to-get-involved)。
 
+
+# 前言 {#secpro .unnumbered} 
 
 # 区块链是凝固的时间（代序） ^[作者：\@dapeng，原文链接：https://steemit.com/cn/@dapeng/79z9jz-or] {#secpre1 .unnumbered}
 
