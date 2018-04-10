@@ -10,14 +10,14 @@
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
-### 见证人代理
+### 见证人代理查询 ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api]
 之前我们了解到一个STEEM帐号可以有30票投给见证人，如果您有选择困难或者不愿意费心一个一个投，您可以设置 SteemIt 的见证人代理 (Witness Proxy) 。这个见证人代理就会全权代理你来投票：他/她投谁，那么你就跟投谁。
 
-比如大神 \@abit 设置 @smooth 为见证人代理，在 steemd.com/\@abit 上就会有这样的信息：
+比如大神 \@abit 设置 \@smooth 为见证人代理，在 steemd.com/\@abit 上就会有这样的信息：
 
 > \@abit uses smooth as a voting proxy.
 
-见证人代理是可以串起来的，比如 同时很多人设置 @abit 为见证人代理。
+见证人代理是可以串起来的，比如 同时很多人设置 \@abit 为见证人代理。
 
 **如何设置见证人代理**
 通过 steemconnect 把下面的 proxy 参数设置成您想要设置的代理见证人即可，取消见证人代理需要把 approve=1 改成 approve=0
@@ -25,9 +25,9 @@
 > https://v2.steemconnect.com/sign/account-witness-proxy?proxy=justyy&approve=1
 
 **查看谁设置您为代理见证人？**
-设置您为代理见证人的都是真爱，他/她们 对你如此相信，把选票全权交到您手上。
+设置您为代理见证人的都是真爱，他/她们对你如此相信，把选票全权交到您手上。
 
-可以通过工具：https://helloacm.com/tools/steemit/list-of-proxy/  来查看谁设置您为代理见证人。
+我们可以通过工具：https://helloacm.com/tools/steemit/list-of-proxy/  来查看谁设置您为代理见证人。
 
 输入 ID，按回车或者点击按钮，一会儿就会显示列表：
 
