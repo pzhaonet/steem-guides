@@ -24,3 +24,4 @@ bookdown::pdf_book:
   toc_unnumbered: yes
   toc_appendix: yes
   quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
+bookdown::word_document2: default
