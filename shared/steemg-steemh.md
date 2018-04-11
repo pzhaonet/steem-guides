@@ -2,4 +2,4 @@
 
 http://ec2-35-157-142-69.eu-central-1.compute.amazonaws.com:3838/myapp/ 
 
-# steemg.org shoud automatically redirect to the link above. If not, please click:
+# steemg.org shoud automatically redirect to the link above. If not, please click the link above.
