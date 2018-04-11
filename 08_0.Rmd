@@ -10,6 +10,44 @@
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 见证人代理查询 ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api]
+之前我们了解到一个STEEM帐号可以有30票投给见证人，如果您有选择困难或者不愿意费心一个一个投，您可以设置 SteemIt 的见证人代理 (Witness Proxy) 。这个见证人代理就会全权代理你来投票：他/她投谁，那么你就跟投谁。
+
+比如大神 \@abit 设置 \@smooth 为见证人代理，在 steemd.com/\@abit 上就会有这样的信息：
+
+> \@abit uses smooth as a voting proxy.
+
+见证人代理是可以串起来的，比如 同时很多人设置 \@abit 为见证人代理。
+
+**如何设置见证人代理**
+通过 steemconnect 把下面的 proxy 参数设置成您想要设置的代理见证人即可，取消见证人代理需要把 approve=1 改成 approve=0
+
+> https://v2.steemconnect.com/sign/account-witness-proxy?proxy=justyy&approve=1
+
+**查看谁设置您为代理见证人？**
+设置您为代理见证人的都是真爱，他/她们对你如此相信，把选票全权交到您手上。
+
+我们可以通过工具：https://helloacm.com/tools/steemit/list-of-proxy/  来查看谁设置您为代理见证人。
+
+输入 ID，按回车或者点击按钮，一会儿就会显示列表：
+
+![](images/08_justyy_proxy.jpg) 
+
+**API**
+API访问接口如下：
+
+> https://helloacm.com/api/steemit/proxy/?cached&id=justyy
+
+数据将以JSON格式返回，每一行就是一个见证人信息，其中包括了以下字段：
+
+> account
+proxy
+timestamp
+
+如果 \$\_GET 参数 s 没有指定，该API接口也会去找 \$\_POST 变量 id。
+
+> curl -X POST https://helloacm.com/api/steemit/proxy/ -d "id=justyy"
+
 ### 见证人相互投票 - 谁没有给你投票? ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/2lj55r-steem-justyy-api]
 见证人也是互相抱团的，网红 \@jerrybanfield 给我[留言](https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z)，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。
 
