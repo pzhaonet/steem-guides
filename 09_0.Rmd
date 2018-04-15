@@ -1,5 +1,53 @@
 # 周边网站 {#zbwzp_}
-## 乌托邦 {#wtb}
+## 乌托邦 ^[作者:\@nationalpark;编辑:\@maiyude;原文链接:https://steemit.com/utopian-io/@nationalpark/get-rewards-from-utopian-io]
+- 乌托邦是什么
+
+[@utopian-io](https://steemit.com/@utopian-io)是 [https://utopian.io](https://utopian.io/) 在Steem的账号。乌托邦试图奖励开源系统的贡献者。
+
+本来开源系统都是由志愿者义务贡献没有报酬。 [@elear](https://steemit.com/@elear)认为应该想办法奖励开源系统的志愿者，于是创建了utopian.io，用Steem的奖励系统奖励开源系统的志愿者。
+
+也就是说以前开源系统的志愿者都是活雷锋，而现在乌托邦要给志愿者发钱，于是Steem就成了最大的活雷锋。这笔经济账我不会算，不知道Steem将来是否会得到收益。但是目前对于草根小鱼来讲，去开源系统做贡献可以实实在在的得到回报。
+
+- 如何登陆乌托邦
+
+首先先去utopian.io登陆。用Steem的用户名密码可以登陆。
+
+**注意**：现在不可以用posting key登陆，必须至少用active key才可以登陆utopian.io。
+
+登陆utopian.io以后，他们会修改posting权限。这个我很不喜欢，但是既然改了就改了吧。以后如果不用了再想办法改回来。
+
+![](images/9-u-1.png)
+
+注意上面的截图，busy.org也一样把posting权限修改了。
+
+- 如何在乌托邦发帖
+
+登陆乌托邦以后就可以发“Contribution”，就跟在Steem发帖子差不多。不同的是，必须对开源系统有了贡献以后才能发，而且贡献要对应github上的开源系统。
+
+贡献包括以下几种：
+
+![](images/9-u-2.png)
+
+对于不懂编程的朋友可以去做翻译。翻译需要去crowdin.com登陆。那里的登陆用户和密码跟Steem没有关系。建议使用同样的用户名，表功的时候比较方便。大家可以看我这个[翻译贡献帖](https://steemit.com/utopian-io/@nationalpark/translation-for-openproject-to-chinese)。从登陆，到翻译完成，到乌托邦发帖总共忙活了一个多小时。发现自己不喜欢翻译这种事情，以后可能不玩这个了。大家谁有兴趣翻译可以去玩。
+
+像我一样对翻译没有兴趣的可以去提供新点子或者给各种开源系统找Bug。注意，您的贡献必须要对应GitHub的项目，提交贡献时必须填写：
+
+![](images/9-u-3.png)
+
+不一定需要GitHub的账号也可以做以上的工作。所以不是程序员也可以贡献很多。
+
+- 如何获得奖励
+
+在乌托邦发表帖子以后会有moderator来看。Moderator可以直接批准或者拒绝，也可以提出修改意见。我的前两个帖子都是根据意见修改以后接受的。
+
+![](images/9-u-4.png)
+
+在乌托邦的帖子会有很多beneficiaries，这些都是给乌托邦代理的SP的大股东。你的每个帖子都需要给这些股东分红。
+
+- 总结
+
+[@utopian-io](https://steemit.com/@utopian-io)用Steem系统奖励开源系统的贡献者。这个账号获得了超过三百万代理，也是目前不多的给草根小鱼点赞的大鲸账号。希望大家玩的开心。
+
 ## busy.org ^[作者:\@wang-peilin;@kimzwarch;编辑:\@maiyude;原文链接:https://steemit.com/cn/@wang-peilin/steemit-busy-cnsteem-utopian;https://steemit.com/utopian-io/@kimzwarch/steemit-busy-org]
 刚来Steemit的新人可能经常会经常听说Busy，CNSteem，Utopian（乌托邦），这几个词，却搞不懂它们是什么，那么它们是什么呢？我们应该都知道，Steemit的内容都是使用区块链技术保存，我们可以把这个区块链当作一块光盘，而我们可以使用很多方法播放这块光盘，比如DVD,EVD,或者带有光驱的电脑。也就是说我们可以用Busy，CNSteem,Utopian以及原版Steemit,这些不同的网站去读取这个Steemit区块链。那么既然有了Steemit.com这个网址，为什么还要用其它网址呢？这就是因为每个不同的网址登陆这个区块链都有不同的优缺点，下面我们分别介绍吧。
 
