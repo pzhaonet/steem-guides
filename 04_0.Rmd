@@ -303,7 +303,7 @@ View 菜单里，可以选择不同的视图。大纲视图（Outliine）会显�
 
 这么好的编辑器，不推荐，根本忍不住。来试一下吧，告诉我你的体验。
 
-## 插入富媒体 ^[作者：\@dapeng;小故事:\@maiyude;原文链接：https://steemit.com/cn/@dapeng/insert-gif-embed-video-and-audio] {#crdmb}
+## 插入多媒体 ^[作者：\@dapeng;小故事:\@maiyude;原文链接：https://steemit.com/cn/@dapeng/insert-gif-embed-video-and-audio] {#crdmb}
 
 小雅使用Markdown语法已经越来越上手了，文章的排版也越来越美观了。小雅对自己的进步表示很开心，不过她可不是就这样就会满足的女人，她又开始研究新的玩意儿——在文章里面插入多媒体。
 
@@ -381,7 +381,7 @@ Steemit 支持输入表情符号，是我在点击编辑器下方的 Markdown St
 
 表情符号跟插图有什么区别？表情符号是融于文字中的，有时候起的是标点符号的作用。表情符号要用得恰到好处，不可不用，不可滥用。就像饮酒，小饮怡情，大饮伤身。
 
-## 文章排版艺术 {#wzbbys}
+## steemit写文排版常用技巧** ^[作者：\@yellowbird，编辑：\@dapeng，小故事:\@maiyude,原文链接：https://steemd.com/cn/@yellowbird/3aeewa-steemit]
 小雅今天去菜市场买菜，发现众多菜档中有一档最为突出。这档菜贩把菜堆的整整齐齐，还按照菜的颜色进行了分类，远远看去，充满了韵律的美感。
 
 小雅在一边观察了一下，这档菜的价格比旁边的都贵一点，不过这档菜的生意明显菜旁边的好很多。
@@ -392,7 +392,9 @@ Steemit 支持输入表情符号，是我在点击编辑器下方的 Markdown St
 
 想到这里，小雅默默的点开了中文区几个大佬的文章，开始学习大神们的文章排版艺术。
 
-**steemit写文排版常用技巧** ^[作者：\@yellowbird，编辑：\@dapeng，原文链接：https://steemd.com/cn/@yellowbird/3aeewa-steemit]
+****
+
+好的排版能让你的文章增色不少，如果你是像小雅一样好学而上进，就跟着我们来一起学习排版的技巧吧！
 
 **1、账户页面介绍**
 
