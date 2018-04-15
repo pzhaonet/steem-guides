@@ -78,7 +78,68 @@ Busy的主网页为busy.org,这个网页的主要优势是在原版Steemit.com�
 
 > 影响力=更多跟随者=更高价值的赞
 
-## dtube {#dtube}
+## dtube ^[作者:\@yellowbird;编辑:\@maiyude;原文链接:https://bihu.com/article/216210]
+![](images/9-d-1.png)
+
+DTube是基于steem区块链开发的一个去中心化的视频分享网站，跟[busy.org](http://mp.weixin.qq.com/s?__biz=MzI4NDQ0NTIwNw==&mid=2247484210&idx=1&sn=248512f738b56345424410b5451f13b7&chksm=ebfa1c4adc8d955c871f114ec1f626d36d46c8c3b975af04e0726e676aba10a86c721f92df9c&scene=21#wechat_redirect)和steemit.com是类似的概念。在DTube上点赞留言分享，数据上传steem区块链后在steemit上是同步更新的。
+
+那么DTube具体是什么，如何使用，我们来初步体验下：
+
+**1、登陆**
+
+登陆网址：https://d.tube
+
+![](images/9-d-2.png)
+
+打开网站后，我们可以看到网站的首页已经有很多的视频分享，有热门短片，潮流短片等等。视频下面有个美元$的符号，跟steemit一样是分享内容获得点赞的收益。
+
+![](images/9-d-3.png)
+
+点击右上角登陆，出现上图的登陆界面。由于DTube是搭建在steem区块链上，使用steemit账号+post私钥登陆，如果没有steemit账号，那你需要注册一个。
+
+输入steemit ID账号，注意登陆密码一栏是输入private post key。需要登陆steemit获取private post key。
+
+![](images/9-d-4.png)
+
+进入在steemit的钱包页面的permissions，在第一行，点击右侧的 show private key，我们可以在左侧得到我们需要的DTube登陆密码（密码千万不要泄露）。
+
+**2、点赞留言**
+
+登陆后，你就可以去访问大家分享的视频，可以给他们点赞和留言了。
+
+![](images/9-d-5.png)
+
+如图，访问了一用户的游戏视频分享，在视频下面有一个大拇指的按钮，就是点赞。
+
+![](images/9-d-6.png)
+
+也可以留言，在这里的留言是同步显示到steemit上。
+
+**3、分享自己的视频**
+
+在网站右上角有个向上镜头的云朵，点击进入上传视频的页面。按照步骤一步步操作。1、上传视频  2、上传封面图片  3、提交到区块链。添加标题，内容摘简要和标签（dtube是默认标签，可自行再添加其它标签）。
+
+![](images/9-d-7.png)
+
+封面图片可以由DTube直接截屏视频获得。DTube只支持用户自己上传视频，不支持其它视频链接。
+
+![](images/9-d-8.png)
+
+跟steemit上传图片一样，DTube视频上传的速度很慢。在steemit中发文上传图片，图片并不上传到steem区块链上。DTube也是类似，不过DTube上传的视频接入了IPFS存储服务（一个去中心化的可能颠覆http网络协议的区块链项目）所有的视频将会先上传到IPFS存储。
+
+视频及截图上传完成后，填写标题，摘要及标签后就可以点击提交！
+
+提交完成后，弹出提交完成的信息，点击WATCH YOUR VIDEO你就可以查看你上传的视频了。
+
+同时steemit上也自动分享了DTube上分享的视频。
+
+![](images/9-d-9.png)
+
+在steemit里同步更新的视频分享如上图，steemit里点赞在DTube里数据也是同步的。在steemit里点击编辑，可以对DTube分享的视频摘要进行修改！
+
+![](images/9-d-10.png)
+
+除了在steemit写文章外，现在你也可以在DTube上分享视频了，顺便赚点零花钱！
 ## 延伸阅读：授权与安全 ^[作者:\@rileyge;\@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
 - 什么是 SteemConnect
