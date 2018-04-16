@@ -1,5 +1,53 @@
 # 周边网站 {#zbwzp_}
-## 乌托邦 {#wtb}
+## 乌托邦 ^[作者:\@nationalpark;编辑:\@maiyude;原文链接:https://steemit.com/utopian-io/@nationalpark/get-rewards-from-utopian-io]
+- 乌托邦是什么
+
+[@utopian-io](https://steemit.com/@utopian-io)是 [https://utopian.io](https://utopian.io/) 在Steem的账号。乌托邦试图奖励开源系统的贡献者。
+
+本来开源系统都是由志愿者义务贡献没有报酬。 [@elear](https://steemit.com/@elear)认为应该想办法奖励开源系统的志愿者，于是创建了utopian.io，用Steem的奖励系统奖励开源系统的志愿者。
+
+也就是说以前开源系统的志愿者都是活雷锋，而现在乌托邦要给志愿者发钱，于是Steem就成了最大的活雷锋。这笔经济账我不会算，不知道Steem将来是否会得到收益。但是目前对于草根小鱼来讲，去开源系统做贡献可以实实在在的得到回报。
+
+- 如何登陆乌托邦
+
+首先先去utopian.io登陆。用Steem的用户名密码可以登陆。
+
+**注意**：现在不可以用posting key登陆，必须至少用active key才可以登陆utopian.io。
+
+登陆utopian.io以后，他们会修改posting权限。这个我很不喜欢，但是既然改了就改了吧。以后如果不用了再想办法改回来。
+
+![](images/9-u-1.png)
+
+注意上面的截图，busy.org也一样把posting权限修改了。
+
+- 如何在乌托邦发帖
+
+登陆乌托邦以后就可以发“Contribution”，就跟在Steem发帖子差不多。不同的是，必须对开源系统有了贡献以后才能发，而且贡献要对应github上的开源系统。
+
+贡献包括以下几种：
+
+![](images/9-u-2.png)
+
+对于不懂编程的朋友可以去做翻译。翻译需要去crowdin.com登陆。那里的登陆用户和密码跟Steem没有关系。建议使用同样的用户名，表功的时候比较方便。大家可以看我这个[翻译贡献帖](https://steemit.com/utopian-io/@nationalpark/translation-for-openproject-to-chinese)。从登陆，到翻译完成，到乌托邦发帖总共忙活了一个多小时。发现自己不喜欢翻译这种事情，以后可能不玩这个了。大家谁有兴趣翻译可以去玩。
+
+像我一样对翻译没有兴趣的可以去提供新点子或者给各种开源系统找Bug。注意，您的贡献必须要对应GitHub的项目，提交贡献时必须填写：
+
+![](images/9-u-3.png)
+
+不一定需要GitHub的账号也可以做以上的工作。所以不是程序员也可以贡献很多。
+
+- 如何获得奖励
+
+在乌托邦发表帖子以后会有moderator来看。Moderator可以直接批准或者拒绝，也可以提出修改意见。我的前两个帖子都是根据意见修改以后接受的。
+
+![](images/9-u-4.png)
+
+在乌托邦的帖子会有很多beneficiaries，这些都是给乌托邦代理的SP的大股东。你的每个帖子都需要给这些股东分红。
+
+- 总结
+
+[@utopian-io](https://steemit.com/@utopian-io)用Steem系统奖励开源系统的贡献者。这个账号获得了超过三百万代理，也是目前不多的给草根小鱼点赞的大鲸账号。希望大家玩的开心。
+
 ## busy.org ^[作者:\@wang-peilin;@kimzwarch;编辑:\@maiyude;原文链接:https://steemit.com/cn/@wang-peilin/steemit-busy-cnsteem-utopian;https://steemit.com/utopian-io/@kimzwarch/steemit-busy-org]
 刚来Steemit的新人可能经常会经常听说Busy，CNSteem，Utopian（乌托邦），这几个词，却搞不懂它们是什么，那么它们是什么呢？我们应该都知道，Steemit的内容都是使用区块链技术保存，我们可以把这个区块链当作一块光盘，而我们可以使用很多方法播放这块光盘，比如DVD,EVD,或者带有光驱的电脑。也就是说我们可以用Busy，CNSteem,Utopian以及原版Steemit,这些不同的网站去读取这个Steemit区块链。那么既然有了Steemit.com这个网址，为什么还要用其它网址呢？这就是因为每个不同的网址登陆这个区块链都有不同的优缺点，下面我们分别介绍吧。
 
@@ -78,7 +126,68 @@ Busy的主网页为busy.org,这个网页的主要优势是在原版Steemit.com�
 
 > 影响力=更多跟随者=更高价值的赞
 
-## dtube {#dtube}
+## dtube ^[作者:\@yellowbird;编辑:\@maiyude;原文链接:https://bihu.com/article/216210]
+![](images/9-d-1.png)
+
+DTube是基于steem区块链开发的一个去中心化的视频分享网站，跟[busy.org](http://mp.weixin.qq.com/s?__biz=MzI4NDQ0NTIwNw==&mid=2247484210&idx=1&sn=248512f738b56345424410b5451f13b7&chksm=ebfa1c4adc8d955c871f114ec1f626d36d46c8c3b975af04e0726e676aba10a86c721f92df9c&scene=21#wechat_redirect)和steemit.com是类似的概念。在DTube上点赞留言分享，数据上传steem区块链后在steemit上是同步更新的。
+
+那么DTube具体是什么，如何使用，我们来初步体验下：
+
+**1、登陆**
+
+登陆网址：https://d.tube
+
+![](images/9-d-2.png)
+
+打开网站后，我们可以看到网站的首页已经有很多的视频分享，有热门短片，潮流短片等等。视频下面有个美元$的符号，跟steemit一样是分享内容获得点赞的收益。
+
+![](images/9-d-3.png)
+
+点击右上角登陆，出现上图的登陆界面。由于DTube是搭建在steem区块链上，使用steemit账号+post私钥登陆，如果没有steemit账号，那你需要注册一个。
+
+输入steemit ID账号，注意登陆密码一栏是输入private post key。需要登陆steemit获取private post key。
+
+![](images/9-d-4.png)
+
+进入在steemit的钱包页面的permissions，在第一行，点击右侧的 show private key，我们可以在左侧得到我们需要的DTube登陆密码（密码千万不要泄露）。
+
+**2、点赞留言**
+
+登陆后，你就可以去访问大家分享的视频，可以给他们点赞和留言了。
+
+![](images/9-d-5.png)
+
+如图，访问了一用户的游戏视频分享，在视频下面有一个大拇指的按钮，就是点赞。
+
+![](images/9-d-6.png)
+
+也可以留言，在这里的留言是同步显示到steemit上。
+
+**3、分享自己的视频**
+
+在网站右上角有个向上镜头的云朵，点击进入上传视频的页面。按照步骤一步步操作。1、上传视频  2、上传封面图片  3、提交到区块链。添加标题，内容摘简要和标签（dtube是默认标签，可自行再添加其它标签）。
+
+![](images/9-d-7.png)
+
+封面图片可以由DTube直接截屏视频获得。DTube只支持用户自己上传视频，不支持其它视频链接。
+
+![](images/9-d-8.png)
+
+跟steemit上传图片一样，DTube视频上传的速度很慢。在steemit中发文上传图片，图片并不上传到steem区块链上。DTube也是类似，不过DTube上传的视频接入了IPFS存储服务（一个去中心化的可能颠覆http网络协议的区块链项目）所有的视频将会先上传到IPFS存储。
+
+视频及截图上传完成后，填写标题，摘要及标签后就可以点击提交！
+
+提交完成后，弹出提交完成的信息，点击WATCH YOUR VIDEO你就可以查看你上传的视频了。
+
+同时steemit上也自动分享了DTube上分享的视频。
+
+![](images/9-d-9.png)
+
+在steemit里同步更新的视频分享如上图，steemit里点赞在DTube里数据也是同步的。在steemit里点击编辑，可以对DTube分享的视频摘要进行修改！
+
+![](images/9-d-10.png)
+
+除了在steemit写文章外，现在你也可以在DTube上分享视频了，顺便赚点零花钱！
 ## 延伸阅读：授权与安全 ^[作者:\@rileyge;\@skenan;编辑:\@maiyude;原文链接:https://steemit.com/cn/@rileyge/steemconnect-v2]
 
 - 什么是 SteemConnect
@@ -414,3 +523,47 @@ myapp.controller('SetCookies', ['$scope', '$location', 'ipCookie', function($sco
 源码（从 Cookie 读取Access Token版本）：<https://github.com/RileyGe/sc2-cookie>
 
 示例网站（从 URL 读取Access Token版本）：<https://rileyge.github.io/sc2test>
+
+## 延伸阅读：基于Steem区块链SMTs是什么？ ^[作者:\@yellowbird;\@skenan;编辑:\@maiyude;原文链接:https://bihu.com/article/218413]
+
+- **1、**S**MTs是什么？**
+
+SMTs是什么？SMTs是基于steem区块链的一个类似于以太坊的智能合约系统。 在SMTs的白皮书的简介里有以下几段文字我尝试做了一些翻译：Smart Media Tokens (SMTs)智能媒体代币协议*A Token Protocol for Content Websites, Applications, Online Communities and Guilds Seeking Funding, Monetization and User Growth.*一种服务内容网站、应用、在线社区和协会融资、创造货币和用户增长的代币协议。*Steem’s Smart Media Tokens (SMTs) give anyone the power to launch and sell Proof-of-Brain [1] tokens, which are tokens distributed by “upvote” and “like”-based algorithms and can be integrated with websites to align incentives and spur growth, while websites are empowered to adopt sustainable, currency-centric revenue models. This model has been tested and continues to be proven by steemit.com, busy.org, chainbb.com, dsound.audio, dtube.video and other Steem interfaces, which are monetizing content, tokens and media in a way never before seen.*steem的智能媒体代币协议给任何人权利去发布和销售“脑力证明”代币，这些代币是基于“点赞”和“喜欢”的分布式算法并且能集成到网站以激励和刺激增长，网站有权采用可持续发展的、货币为中心的收入模式。这个模式已经被steemit.com、 busy.org、chainbb.com、视频和其它前所未有的货币化内容，代币，媒体steem接口检验和持续的证明过了。通过SMTs白皮书简单理解，它是要做以太坊可以做的事。以太坊的最大作用就是让每个人可以发行自己的代币。并且发行自己的代币变得很简单，不需要自己创造或者管理一个区块链。我们知道的大部分代币都是基于以太坊发行的。可以把以太坊理解为一个股票发行结算系统，每个公司都可以在以太坊上发行自己的股票（把代币可以简单理解为股票），而不需要去管理这些股票如何交易结算，以及不需要担忧个交易系统的安全性。交易结算，安全性等都由以太坊区块链帮你解决。现在SMTs也是一样，每个公司都可以通过SMTs很容易的发行自己的股票（代币），而不需要自己做一个区块链，也不需要对区块链技术的管理。
+
+
+
+- **2、SMTs的众筹**
+
+理解了什么是SMTs，于是我们就可以来搞点事情了。比如申龙斌创建的“区块链生存训练”社群是一个提供区块链知识服务的内容社群，我们想搞一个公司发行自己的社群股票，代码SBS。但是我们没有钱只有内容和技术，怎么办？
+
+![](images/9-s-1.png)
+
+图SMTs中FASHN代币发行操作
+
+1）在正规的证劵交易所去发行股票筹集资金？想也不用想。
+
+2）自己创造一个区块链，通过ICO来筹集资金？技术要求太高，没戏。
+
+3）在SMTs上发行代币SBS筹集资金？这个可以有。
+
+在SMTs上发行社群代币（股票）SBS，筹集steem代币来解决资金问题，代币（股票）的流通交易结算都是运行在steem区块链技术上，我们不需要管理它。我们发行的SBS可以自己定义“区块链生存训练”社群的股份分配方案，利润分配方案等等。
+
+认可公司价值的个人和团队可以通过steem来参与众筹，持有SBS成为社群股东，成为股东的你可以享受到社群的服务参与社区的发展。社群不断壮大，价值也就不断增大，SBS代币的价值也就增大。
+
+- **3、SMTs生态**
+
+SMTs的提出，旨在构建内容生态。SMTs不是重新创造一个区块链，是基于steem区块链。所以SMTs的ICO也必然会用steem，就像很多基于以太区块链的发行代币众筹都是以太坊一样。
+
+Steem代币是steem区块链的燃料，通过SMTs在steem区块链上构建新的内容公司（发行自己的股票）需要steem来保证整个系统的运行。
+
+所以SMTs发展出更多的内容生态，会增加steem的流通性和价值。
+
+- **4、SMTs与ETH的智能合约的不同**
+
+如果都是筹集资金，发行自己的代币（股票），为什么不用以太坊的智能合约，要用SMTs。要回答这个问题，你需要了解steem区块链和ETH区块链背后的区块链技术的不同。
+
+最大的不同点是，steem是基于石墨烯区块链技术，处理信息比以太坊更快，快到可以用在一些内容相关的应用上。我们在Steemit网站上的每一个操作（发文，点赞，评论等）都是产生信息，如果steemit运行在以太坊上，速度肯定很慢，用户体验差，这样的内容网站是没有竞争力的。
+
+如果纯粹用作发行公司股票（代币），以太坊还是有它存在的价值——每个公司发行自己的股票变得很容易。处理的信息也主要就是代币间交易，目前以太坊的处理速度还是可以接受的。况且，在以太坊上的这种代币发行机制，相比真正意义的股票，很好的解决流通性（全球流通），发行难度（股票要求很高审查很严），结算系统，安全性等问题。
+
+综上，内容相关的公司鉴于本身需要更快信息处理速度，以满足良好的应用体验，通过SMTs来发行自己的代币是目前为数不多的选择（未来的EOS上线后也是一个选择）。
