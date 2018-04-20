@@ -10,6 +10,29 @@
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 同时给多个帐号发送SBD或者STEEM ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem]
+STEEMIT 和 BUSY 的前端都有一个内置的钱包工具，您可以一次给一个帐号发送 SBD 或者 STEEM。当我们要给很多很多人发送钱的时候，就显得有些不方便了。这时候可以用这个在线工具：
+
+https://helloacm.com/tools/steemit/wallet-tool/
+
+**填写表单**
+只需要填上你的ID、私钥(active key)、需要发送的金额（最少0.001）、选择SBD或者STEEM，然后把收款人的ID放在每一行上，如下：
+
+![](images/08_justyy_steemit-wallet-tools.jpg)
+
+MEMO 就是附言，这里可以用 *[username]* 来替代收款人的ID。私钥不会被上传或者保存，只会在浏览器中调用 steem.min.js 的时候使用到。
+
+点击 *发送* 将会有一个最终确认：
+![](images/08_justyy_steemit-wallet-confirmation.jpg)
+
+然后显示已经发送成功了！
+![](images/08_justyy_steemit-wallet-log.jpg)
+
+在区块链上已经有记录了。
+![](images/08_justyy_steemit-blockchain.jpg)
+
+这个小工具用来群发消息或者发些奖励再适合不过了。不过当前版本的局限性就是每个收款人的金额是一样的。
+
 ### 见证人代理查询 ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/78a3jr-steem-justyy-api]
 之前我们了解到一个STEEM帐号可以有30票投给见证人，如果您有选择困难或者不愿意费心一个一个投，您可以设置 SteemIt 的见证人代理 (Witness Proxy) 。这个见证人代理就会全权代理你来投票：他/她投谁，那么你就跟投谁。
 
