@@ -1,5 +1,451 @@
 # 辅助工具 {#fcgjp}
-## oflyhigh 的微信公众号 steemit {#oflyhigh_dwsgyh_steemit_dsyff}
+## oflyhigh 的微信公众号 steemit ^[本文由 \@dapeng 根据 \@oflyhigh 的帖子整理而成。] {#oflyhigh_dwsgyh_steemit_dsyff}
+
+有一款 steem 信息查询工具，不用不知道，用了离不了。精致小巧，功能丰富，它是 STEEM 用户的一把瑞士军刀。
+
+这款工具可以帮助你实时查询各种重要的 steem 信息，包括一个账号的 SP、声望、VP、钱包；可以为你提供发文收益百分比的建议；可以提供各种电子货币的实时市场价格……
+
+事实上，类似的工具有不少， 但这款工具的绝妙之处在于，它是个微信公众号。你可以享受微信平台提供的一切便利，例如节省流量、反应迅速、方便转发等。只需在微信上关注它，就像跟朋友聊天一样问问题，它就会告诉你答案，实时从区块链直接读取。
+
+这个微信公众号叫“steemit”，全称 “STEEMIT 学习与实践”，昵称“萌蛋”。它的开发者是 \@oflyhigh 。
+
+使用这个工具的前提是，你得有微信。只需进入微信通讯录，点击公众号，点右上角加号，搜索`steemit`，关注即可。或者直接扫描以下二维码：
+
+![](images/08_17.jpg)
+
+目前，萌蛋主要有三个功能：
+
+1. 定期发布《社区周边事》
+
+2. 智能机器人聊天
+
+3. 提供 steem 查询信息
+
+其中，《社区周边事》是由 \@deanliu 和 \@wilkinshui 编写的杂志，提供重要的社区资讯；智能机器人聊天是一项自动聊天功能，无聊的时候你可以跟萌蛋谈天说地，比如你对这个公众号发条信息“你是谁”，萌蛋会回答“我是棒棒哒萌蛋”；你说“我失恋了”，萌蛋会回答“中华儿女千千万，实在不行咱就换”（听这语气萌蛋像是东北人）……萌蛋还可以给你讲故事、讲笑话、翻译、查天气、算算术等等，这里按下不表。
+
+在这里，我们重点介绍的是 steem 信息查询功能。萌蛋提供的信息大体分三类：账户信息，市场信息，系统信息。
+
+### 查询账户信息
+
+**`@steemid` 查询账户概览**
+
+发送 \@steemid，就可以查询账户信息概览。比如我们查查 \@ned 的账户概览信息：
+
+
+![](images/08_18.jpg)
+
+
+翻译过来，就是：
+
+```
+STEEM: 111873.055
+SBD: 5753.431
+SP: 3602770.267
+
+收到的代理Steem Power: 1.008
+代理出去的Steem Power: 1719090.678
+有效 SP: 1883680.596
+
+投票权百分比: 100.00%
+点赞价值: 234.273 SBD
+最近点赞时间: 04/10/2018 16:13
+
+声望: 69.025
+粉丝数量: 20622
+追随数量: 916
+剩余带宽: 100.00%
+
+注册日期: 2016-03-31
+```
+
+如果这个账户在 Power Down，那么还会增加两行：
+
+```
+Next PowerDown STEEM: 
+Next PowerDown Time:
+```
+
+分别是下次 Power Down 的 STEEM 金额和时间。
+
+除了用`@steemid`查询账户信息概览，我们还可以为这条命令后面添加参数，来查询账户的各类详细信息。
+
+**`@steemid?vv` 查询点赞价值**
+
+vv的意思是votevalue，即投票（点赞）价值。例如，发送留言`@dapeng?vv`，萌蛋的回答是：
+
+```
+Voting Power: 70.95%
+Effective SP: 5446.72
+
+Vote Value(Current VP):
+---> 0.597 SBD
+Vote Value(Full VP):
+---> 0.841 SBD
+
+Last Vote Time(UTC):
+---> 2018-04-14 05:25:18
+Current Time(UTC):
+---> 2018-04-14 05:52:37
+```
+
+翻译过来就是：
+
+```
+投票力: 70.95%
+有效 SP: 5446.72
+
+投票价值(当前投票力):
+---> 0.597 SBD
+投票价值(当投票力满血时):
+---> 0.841 SBD
+
+最近一次的投票时间(UTC):
+---> 2018-04-14 05:25:18
+当前时间(UTC):
+---> 2018-04-14 05:52:37
+```
+
+
+**`@steemid?as` 查询账户资产**
+
+as的意思是assets。我们来问问萌蛋，`@ned?as`
+
+```
+STEEM: 111873.055
+SBD: 5753.431
+SP: 3602771.723
+
+STEEM(Savings): 0
+SBD(Savings): 1249.949
+
+STEEM(Market): 0
+SBD(Market): 0
+
+STEEM(Rewards): 0
+SBD(Rewards): 787.162
+SP(Rewards): 3971.979
+
+SBD(Conversion): 0
+
+Total STEEM: 111873.055
+Total SBD: 7790.542
+Total SP: 3606743.702
+Value(EST): 3907817.843 SBD
+```
+
+得到的答案分 6 部分，相邻部分用空行分隔：
+
+- 钱包资产
+
+- 存款账户((Savings)
+
+- 内部市场资产(Market)
+
+- 待收取收益(Rewards)
+
+- 转换中SBD资产(Conversion)
+
+- 总资产(Total)和账户估值(EST)
+
+**`@steemid?mt` 查询谁拉黑你**
+
+mt的意思是muted。我们看看谁把 \@ned 拉黑了，只需发送留言 `@ned?mt`：
+
+**`@steemid?po` 查询最近文章**
+
+po 的意思是 posts。发送留言 `@dapeng?po`，会显示文章序号、文章标题、点赞人数、收益金额。
+
+文章取个人博客的最近10篇文章，为了减少干扰，去掉了转发(RESTEEM)的内容。取决于你最近十篇博客是否有转发内容，显示的内容会等于或者少于10篇。
+
+**@steemid?dg 查询SP代理给了谁**
+
+dg 的意思是 delegations。这条指令无须多做解释，返回的结果是这个 id 往外代理 SP 的对象，数额和时间。
+
+```
+@ned?dg
+
+To: keygen1
+SP: 14.510
+VESTS: 29577.648341
+MDT: 2018-04-29T19:41:51
+```
+
+**`@steemid?fd` 查询用户feed**
+
+fd 的意思是 feed。输入**@steemid?fd**，就可以查看对应ID的feed列表中最新五篇文章，不用多做解释。
+
+
+**`@steemid?pdr` 查询P账号的 owerDown 路径**
+
+pdr 的意思是 Routes。关于 PowerDown 的路径，详见：https://steemit.com/security/@oflyhigh/power-down-routes-withdraw-routes
+
+
+**`@steemid?w` 查询见证人信息**
+
+w 的意思是 witness。如果查询的 id 是见证人，那么这条留言就可以得到见证人的信息。例如：
+
+```
+@abit?w
+
+-------------------
+Owner: abit
+WID: 952
+Rank(Votes): 34
+Rank(Real): 33
+Status: Online
+Type: TimeShare
+Version: 0.19.2
+Reg Fee: 0.100 STEEM
+Block Size: 65536
+APR : 0.00%
+Missed: 187
+Approval: 31171M (8.03%)
+Feed: $15.607
+Last block: 21553187
+Rewards(per Block):0.968
+Blocks(Day):35.352
+Rewards(Day):34.227
+-------------------
+Processed in 0.5817 second(s)
+```
+
+解释如下：
+
+- `Owner`: 见证人的所有者
+
+- `WID`: 见证人ID
+
+- `Version`: 见证人节点版本号
+
+- `Reg Fee`: 账户注册费
+
+- `Block Size`: 最大块大小
+
+- `APR`: SBD年利率
+
+- `Missed`: 丢块个数
+
+- `Approval`: 总投票量以及占比
+
+- `Feed`: 喂价
+
+- `Last block`: 最后确认的区块编号
+
+### 查询市场信息
+
+用萌蛋可以很方便地查询各种电子货币的市场信息。
+
+**`tk` 查询内部市场报价**
+
+
+tk 的意思是 ticker。Steemit 的市场（Market）界面，可以将文章收益的 SBD 购买成 STEEM 然后POWER UP，还可以通过低买高卖赚取差价，最重要的是内部市场交易，没有手续费。用 tk 来查询实时价格，有助于你迅速对市场做出反应。
+
+```
+tk
+
+Bid: $1.011829
+Ask: $1.033194
+Last price: $1.028546(0%)
+24h volume: $25310.59
+24h volume: 24080.299 STEEM
+Processed in 0.2387 second(s
+```
+
+其中：
+
+- Bid: 出价，亦即购买，这里显示买单中出价最高的
+
+- Ask: 要价，亦即出售，这里显示卖单中叫价最低的
+
+**`ob` 查询市场订单信息**
+
+ob 的意思是 order book。发送留言 `ob` 给萌蛋，就得到如下回复：
+
+```
+Buy Orders:
+1) Price: 1.000998
+SBD: 105.225 STEEM: 105.120
+
+2) Price: 1.000000
+SBD: 76.639 STEEM: 76.639
+
+3) Price: 1.000000
+SBD: 0.016 STEEM: 0.016
+
+4) Price: 1.000000
+SBD: 0.012 STEEM: 0.012
+
+5) Price: 1.000000
+SBD: 0.021 STEEM: 0.021
+
+Sell Orders:
+1) Price: 1.001033
+STEEM: 68.855 SBD: 68.926
+
+2) Price: 1.010787
+STEEM: 37.268 SBD: 37.670
+
+3) Price: 1.025000
+STEEM: 0.040 SBD: 0.041
+
+4) Price: 1.032976
+STEEM: 2.517 SBD: 2.600
+
+5) Price: 1.033079
+STEEM: 664.927 SBD: 686.922
+
+------
+
+Processed in 0.2326 second(s)
+```
+
+给出了买（buy）和卖（sell）的价格（price）。可以简单理解成
+
+- 提供SBD，想得到STEEM的行为为买。
+
+- 提供STEEM，想得到SBD的行为为卖。
+
+**查询 BTS 等价格信息**
+
+公众号输入电子货币的简称，就可以返回该货币对人民币CNY或美元USD的价格。目前萌蛋支持查询的指令包括：
+
+- bts
+
+- yoyow
+
+- eos
+
+- steem
+
+- open.btc
+
+- open.eth
+
+- gdex.btc
+
+- gdex.eth
+
+- open.doge
+
+- open.sbd
+
+- ipfs
+
+不用多做解释，都可以顾名思义。
+
+除此之外，还可以用`!bitshares_id`格式的指令来查询某个账号在 bts 的资产情况。这些指令跟本书关系不大，因此就不详细介绍了。
+
+
+### 查询系统帮助信息
+
+**`pu` 发文建议信息**
+
+pu 的意思是 power up。在发帖的时候，Rewards 一栏会有 50%/50% 和 100% 的选项。对此的解释详见[这里](https://steemit.com/steemit/@oflyhigh/to-power-up-100-or-not-that-is-the-question-100-power-up)。发送留言 pu，萌蛋会告诉你发帖时该选择哪一个才最划算。
+
+```
+pu
+
+Feed Price: 1.805
+Market Price: 1.033
+SBD Prt Rate: 88.66%
+
+Reward:100.000 SBD
+Curation: 13.850 SP
+
+Power UP 100%
+Steem Power: 41.551
+系统估值:75.000 SBD
+市场价格:42.932 SBD
+
+50%/50%
+Steem Power: 20.776
+SBD: 33.248
+STEEM: 2.356
+系统估值:75.000 SBD
+市场价格:57.148 SBD
+
+发文建议: 
+Default(50%/50%)
+```
+
+在这条长长的信息里，先是假设一篇文章 100SBD 作者收入，在当前行情下，不同选择的估算价格以及市场价格，萌蛋会给出相应的建议。如果你不懂每行的具体含义，那么就看最后一行就行了。
+
+**`info` 查询区块链信息**
+
+
+```
+info
+
+API Ver: 0.19.4
+-------------------
+Head: 21581487
+Irreversible: 21581472
+Feed Price: 2.596 SBD/STEEM
+Market Price: 1.086 SBD/STEEM
+Total Accounts: 943657
+Blockchain Time: 2018-04-15T06:38:33
+-------------------
+Processed in 0.5531 second(s)
+```
+
+解释如下：
+
+- API Ver 是 API 节点版本
+
+- head 和  irreversible 分别是最新区块编号以及最新不可逆区块编号。当需要遍历区块的时候，这两个很有用。我们的程序不正常的时候，可以与这两个区块对比一下，看看是不是程序延迟太大。
+
+- Feed Price 和 Market Price：喂价和市场价，分别代表 STEEM 的c urrent_median_history_price 以及 STEEM 在内部市场的当前价格。这个价格信息和`pu`指令返回的部分内容相同。
+
+- Blockchain Time 是最新区块的时间。
+
+**`?`查询帮助信息**
+
+上面介绍了这么多查询指令，怎么可能记得住呢？别担心，萌蛋会贴心地提醒你有哪些指令可用。只需发送留言**?** 或 help 或`帮助`，就会返回一个简短的帮助。
+
+```
+?
+
+
+欢迎来到STEEMIT学习和实践!
+
+@steemid 查询账户信息
+@steemid?vv 查询投票价值
+@steemid?as 查询账户资产
+@steemid?mt 查询谁拉黑你
+@steemid?po 查询最近文章
+@steemid?dg 查询SP委派
+@steemid?fd 查询用户feed
+@steemid?pdr 查询PowerDown Routes
+tk / ?ticker 查询市场报价
+ob / ?orderbook 查询订单信息
+pu / ?powerup 发文建议信息
+bts 查询BTS价格信息
+yoyow 查询YOYOW价格信息
+open.eos 查询OPEN.EOS价格信息
+open.btc 查询OPEN.BTC价格信息
+open.eth 查询OPEN.ETH价格信息
+open.steem 查询OPEN.STEEM价格信息
+gdex.btc 查询GDEX.BTC价格信息
+gdex.eth 查询GDEX.ETH价格信息
+
+指令说明：
+vv=votevalue
+as=assets
+mt=muted
+po=posts
+dg=delegations
+fd=feed
+短指令长指令效果相同指令
+
+指令示例：
+@oflyhigh
+@oflyhigh?vv
+@oflyhigh?assets
+....
+```
+
+以上我们用三篇帖子介绍了微信公众号 steemit 也就是萌蛋的常用功能和用法。更多的功能仍在开发中。一般情况下，每有新功能推出，萌蛋的主人 \@oflyhigh 都会在 steemit.com 发帖详细介绍。如果你感兴趣，那么就请关注他吧。
+
 ## justyy 的在线工具和 API 接口 {#justyy_dzxgjh_api_ckdsyff}
 
 ### STEEMIT API 服务器

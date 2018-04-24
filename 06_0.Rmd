@@ -231,8 +231,7 @@ Payout自然吸引，不過，平常心更重要，不要只為賺Steem而寫一
 （注释：文中“steem”是指steem区块链，steemit则是指steemit社区）
 
 
-## 善用标签 {#sybq}
-## steem 上的活动：月旦评和其他 ^[作者：\@wilburm 原文链接：https://steemit.com/steem-guides/@wilburm/367we2-steem]
+## steem 上的活动 ^[作者：\@wilburm 原文链接：https://steemit.com/steem-guides/@wilburm/367we2-steem]
 
 相信不少人加入 Steemit 的原因，都是被“写写文字就能赚钱”这个噱头给吸引，就像中文官网欢迎页面上所宣传的那样——你的思想是有价值的，快来加入一个给文章付钱的社区。除此之外，Steemit 网站基于 Steem 区块链的去中心化属性，可能也是另一个值得叫嚣的“卖点”。在当下很多人大谈特谈所谓“去中心化”，以及未来区块链科技大势所趋的前提下，Steemit 似乎给了人们一个错觉——普通人在这里也能靠码字赚钱，像很多内容平台上的大 V 一样。
 

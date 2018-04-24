@@ -28,11 +28,11 @@
 
 | 章节             | 作者                                                         | 编辑                       | 校对    |
 | ---------------- | ------------------------------------------------------------ | -------------------------- | ------- |
-| 第1章 新手第一步 | @dapeng @hepeng.chn @incrediblesnow @ivysrono @maiyude @oflyhigh @vickylin @wang-peilin | @dapeng @maiyude           |    @jaffer     |
-| 第2章 基本常识   | @dapeng @incrediblesnow @maiyude@vickylin @wang-peilin @woolfe19861008 | @dapeng @maiyude @vickylin | @meixia |
-| 第3章 常用操作   | @hepeng.chn @lixing @maiyude @skenan                         | @dapeng @maiyude           |         |
-| 第4章 文章编辑   | @dapeng @oflyhigh @yellowbird                                | @dapeng                    |         |
-| 第5章 文章写作   | @rivalhw @tumutanzi                                          | @dapeng @maiyude           |         |
+| 第1章 新手第一步 | \@dapeng \@hepeng.chn \@incrediblesnow \@ivysrono \@maiyude \@oflyhigh \@vickylin \@wang-peilin | \@dapeng \@maiyude           |    \@jaffer     |
+| 第2章 基本常识   | \@dapeng \@incrediblesnow \@maiyude\@vickylin \@wang-peilin \@woolfe19861008 | \@dapeng \@maiyude \@vickylin | \@meixia |
+| 第3章 常用操作   | \@hepeng.chn \@lixing \@maiyude \@skenan                         | \@dapeng \@maiyude           |         |
+| 第4章 文章编辑   | \@dapeng \@oflyhigh \@yellowbird                                | \@dapeng                    |         |
+| 第5章 文章写作   | \@rivalhw \@tumutanzi                                          | \@dapeng \@maiyude           |         |
 
 
 
