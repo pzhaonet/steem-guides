@@ -456,6 +456,34 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 踩人与被踩 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3czrdz-steem]
+这两天 [utopian.io 被黑 - Utopian.io 被黑，你可能关心的一些问题 / 如何移除授权](https://steemit.com/utopian-io/@oflyhigh/utopian-io) 你可能想知道自己有没有中招。中招的表现就是你会当枪使：去踩 haejin。
+
+踩在STEEM上是标红旗的动作，一般来说就是文章三观不正，但也经常被误用于表示情绪的不满。踩人最直接的表现就会让该帖子收益变少(如果踩人者的有效ESP、能量都很足的话)，甚至能让帖子变灰，也可能让作者的声誉值变少（如果踩人者的等级比被踩者的高）。
+
+**查看你踩人的记录**
+工具地址：https://helloacm.com/tools/steemit/list-of-flag/
+支持URL后 ?id=steem_id 帐号参数
+
+填写ID 然后点击按钮稍微即可得到该帐号过去一年内踩人的记录。
+
+![](images/08_justyy_steem-tools-who-you-downvote.jpg)
+
+**被踩**
+类似的，如果是查看别人踩过你的记录，那么请用工具：
+https://helloacm.com/tools/steemit/who-downvote-you-steemit/
+
+![](images/08_justyy_steem-tools-who-downvoted-you.jpg)
+
+**踩人与被踩都如泼出去的水**
+区块链总是会忠实的记录你的一言一行。比如A踩了B，之后撤消了，这样也会被显示在结果中，因为只要踩过，这就会被记录在STEEM区块中，大概类似是：
+
+> 块 12345: A downvote (-100) B
+> ...
+> 块 12349: A unvote B
+
+所以，踩之前请三思！
+
 ### 同时给多个帐号发送SBD或者STEEM ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem]
 STEEMIT 和 BUSY 的前端都有一个内置的钱包工具，您可以一次给一个帐号发送 SBD 或者 STEEM。当我们要给很多很多人发送钱的时候，就显得有些不方便了。这时候可以用这个在线工具：
 
