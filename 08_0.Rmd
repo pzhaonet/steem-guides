@@ -1051,6 +1051,179 @@ Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所�
 
 除了“三个一”，我用同样的框架，把“华语好声音”的参赛情况也做了个页面，访问地址相同，点击顶部“华语好声音”标签即可。
 
+## Steem上有用的网站分享---SteemWorld.com [作者：\@ericet]
+Steemit最全面数据的网站：SteemWorld
+
+这个集多种工具以一身的网站，强烈建议收藏！
+
+网址：www.steemworld.org
+
+查询方法：在网站后面加上steemit id，比如 www.steemworld.org/@ericet
+
+页面最上面：
+
+**Steemit最全面数据的网站：SteemWorld**
+
+这个集多种工具以一身的网站，强烈建议收藏！
+
+网址：www.steemworld.org
+
+查询方法：在网站后面加上steemit id，比如 www.steemworld.org/@ericet
+
+页面最上面：
+
+![](images/08_steemworld_1.png)
+
+左边：目前账户的Voting Power和在满赞的价值
+
+中间：不同比例的点赞价值
+
+右边：最近6天的点赞收益/发帖SP收益/发帖SBD收益/受益人SP/换算成美金价值
+
+**Stats: 个人信息**
+
+账户的一些信息，包括目前的SP数量，点赞价值，名声，点赞/收到点赞，自赞率，等信息
+
+可以通过右边的“Simulate SP”按钮模拟SP的点赞价值
+
+还可以通过右边“Inc. Votes" 查看点赞来源
+
+通过”Out．Votes"查看给别人点赞记录
+
+![](images/08_steemworld_2.png)
+
+**Balances: 账目信息**
+
+查看账户的SBD/Steem数量，价值。
+
+可以通过右边的"Power Up" 把Steem转化成SP
+
+通过右边的"Delegate SP" 把SP代理给其他人
+
+![](images/08_steemworld_3.png)
+
+
+**General Data：通用数据**
+
+查看账户创建日期，上次点赞日期等
+
+![](images/08_steemworld_4.png)
+
+
+**Account Details: 账户详情**
+
+查看账户简介，剩余宽带等。
+
+![](images/08_steemworld_5.png)
+
+
+**Delegations(In): 代理给你**
+
+查看谁代理SP给你
+
+![](images/08_steemworld_6.png)
+
+
+**Delegations(Out): 代理委派**
+
+查看你把SP代理给谁
+
+![](images/08_steemworld_7.png)
+
+
+**Followers: 粉丝**
+
+查看粉丝
+
+![](images/08_steemworld_8.png)
+
+
+**Mentions: 提到你**
+
+查看谁在文章/回复里提到你
+
+![](images/08_steemworld_9.png)
+
+
+**Steem Info: Steem信息**
+
+查看Steem的价格信息
+
+![](images/08_steemworld_10.png)
+
+
+**System Info: 系统信息**
+
+查看Steem系统信息
+
+![](images/08_steemworld_11.png)
+
+**Setting: 设置**
+
+查看/修改 SteemWorld设置
+
+![](images/08_steemworld_12.png)
+
+**Account Operations: 账户操作**
+
+查看账户所有操作记录。比如帖子收益/点赞收益/回复/点赞 等记录信息
+
+![](images/08_steemworld_13.png)
+
+**Recent Posts: 最近的帖子**
+
+查看账户最近发的帖子
+
+![](images/08_steemworld_14.png)
+
+**Coming Author Rewards: 待分配的收益**
+
+查看待分配的收益
+
+![](images/08_steemworld_15.png)
+
+**Tools：工具**
+
+Account Votes: 账户点赞数据
+
+查看账户帖子被点赞或者给别人点赞的记录
+
+![](images/08_steemworld_16.png)
+
+**Delegation History: 代理历史记录**
+
+查看代理历史记录
+
+![](images/08_steemworld_17.png)
+
+**Manual Vote: 手动点赞**
+
+手动操作点赞
+
+![](images/08_steemworld_18.png)
+
+**Transfer: 转账**
+
+转账给别的账户
+
+![](images/08_steemworld_19.png)
+
+
+**Transfer Search：转账搜索**
+
+转账记录搜索
+
+![](images/08_steemworld_20.png)
+
+**Witnesses: 见证人**
+
+查看所有的见证人，并可以给他们投票(一个账户有30票可以投)或者取消投票
+
+![](images/08_steemworld_21.png)
+
+
+
+
 ## 想玩转Steemit? 试试这些有意思的网站和工具[作者：\@tumutanzi；编辑：\@maiyude;]
 
 我们在 Steemit.com上写作、阅读、评论，其实 Steemit.com 上有很多有趣的玩法。高手们可以使用数据库工具来分析 Steemsql 或者 Steemdata 调取出来的数据，但需要一些数据库查询语法和工具软件。
