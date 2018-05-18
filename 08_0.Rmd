@@ -456,6 +456,15 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### STEEM 自动领赏工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/steem-steem]
+文章收益7天后得领赏，如果不通过程序自动领赏的话就得人为的去点领赏的按钮。并不是所有人都是能付得起24/7服务器的程序员，也并不是所有人都喜欢人工去领赏的这么一个过程。
+
+这个网页版本的工具是基于 [steem-js](https://github.com/steemit/steem-js) 库开发的。完全是客户端，只需要填写ID和私钥（不会被保存或者上传），选择一个时间间隔即可让领赏程序自动在后台运行，然后你就可以该干嘛干嘛了。
+
+工具地址：https://helloacm.com/tools/steemit/auto-claim-rewards/
+
+![](08_justyy_steemit-auto-claim-tools.jpg)
+
 ### 踩人与被踩 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3czrdz-steem]
 这两天 [utopian.io 被黑 - Utopian.io 被黑，你可能关心的一些问题 / 如何移除授权](https://steemit.com/utopian-io/@oflyhigh/utopian-io) 你可能想知道自己有没有中招。中招的表现就是你会当枪使：去踩 haejin。
 
