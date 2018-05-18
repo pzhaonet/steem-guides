@@ -463,7 +463,7 @@ fd=feed
 
 工具地址：https://helloacm.com/tools/steemit/auto-claim-rewards/
 
-![](08_justyy_steemit-auto-claim-tools.jpg)
+![](images/08_justyy_steemit-auto-claim-tools.jpg)
 
 ### 踩人与被踩 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3czrdz-steem]
 这两天 [utopian.io 被黑 - Utopian.io 被黑，你可能关心的一些问题 / 如何移除授权](https://steemit.com/utopian-io/@oflyhigh/utopian-io) 你可能想知道自己有没有中招。中招的表现就是你会当枪使：去踩 haejin。
