@@ -456,6 +456,25 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### Steem 钱包转帐查询工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2bxnhm-steem-steem]
+有时候我想搜索一下某条转帐记录，苦于记不太清楚时间，于是只能不停的刷或者翻页来找，很不方便，于是想着做一个简单的钱包转帐查询工具，可以满足这样的需求。
+
+工具地址：https://helloacm.com/tools/steemit/advanced-transfer-viewer/
+
+**使用方法**
+只需要输入 ID 然后可以设置参数来限制搜索范围：
+
+- 货币单位可以是SBD或者是STEEM
+- 附言是加密过的或者是普通的
+- 你发的或者是你收到的
+- 有写附言或者是没写附言的
+- 发送者ID、接收ID还是附言带着字符串的
+- 数量在一定范围内的
+
+![](images/08_justyy_steem-wallet-transfer-lookup-tool.jpg)
+
+每条记录都可以通过链接来获得具体所在块的信息 (steemd)。
+
 ### STEEM 自动领赏工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/steem-steem]
 文章收益7天后得领赏，如果不通过程序自动领赏的话就得人为的去点领赏的按钮。并不是所有人都是能付得起24/7服务器的程序员，也并不是所有人都喜欢人工去领赏的这么一个过程。
 
