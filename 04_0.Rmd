@@ -381,7 +381,7 @@ Steemit 支持输入表情符号，是我在点击编辑器下方的 Markdown St
 
 表情符号跟插图有什么区别？表情符号是融于文字中的，有时候起的是标点符号的作用。表情符号要用得恰到好处，不可不用，不可滥用。就像饮酒，小饮怡情，大饮伤身。
 
-## steemit写文排版常用技巧** ^[作者：\@yellowbird，编辑：\@dapeng，小故事:\@maiyude,原文链接：https://steemd.com/cn/@yellowbird/3aeewa-steemit]
+## steemit写文排版常用技巧** ^[作者：\@yellowbird，编辑：\@dapeng，小故事:\@maiyude,原文链接：https://steemd.com/cn/@yellowbird/3aeewa-steemit] {#pbcyjq}
 小雅今天去菜市场买菜，发现众多菜档中有一档最为突出。这档菜贩把菜堆的整整齐齐，还按照菜的颜色进行了分类，远远看去，充满了韵律的美感。
 
 小雅在一边观察了一下，这档菜的价格比旁边的都贵一点，不过这档菜的生意明显菜旁边的好很多。

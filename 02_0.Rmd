@@ -1,5 +1,5 @@
 # 基本常识 {#jbcsp_}
-## 什么是 steem^[作者：\@wang-peilin；小故事：\@maiyude；编辑：\@dapeng]
+## 什么是 steem^[作者：\@wang-peilin；小故事：\@maiyude；编辑：\@dapeng] {#what-is-steem}
 小雅的第一篇文章发出去之后，只有寥寥几个人给她点了赞，收益也只有可怜的0.03美元，这让她有点失望。
 
 不过她很快就从失落中走了出来，自己还只是个新人嘛，没人关注是很正常的事情，加油写文章就是。
@@ -32,7 +32,7 @@ Steem区块链采用的是跟Bitshares一样的石墨烯(Graphene)区块链技�
 
 虽然Steem链是机器无感的，但在上面运行的东西是活的，是被人赋予意义的。我们可以说Steem链是一切的根本，是Steem世界万物之依归。而我们来自世界各地的广大用户则依托Steem链,创造了缤纷的Steem世界。
 
-## Steem上的各种货币^[作者：\@wang-peilin；小故事:\@maiyude;编辑：\@dapeng。本文部分引用自\@rivalhw的文章]
+## Steem上的各种货币^[作者：\@wang-peilin；小故事:\@maiyude;编辑：\@dapeng。本文部分引用自\@rivalhw的文章] {#gzhb}
 
 小雅对文章的收益热情非常高，虽然她的钱包里面并没有钱。
 
@@ -67,7 +67,7 @@ SBD初衷是设计来1：1兑换美元的，官方现在也是把1SBD固定视�
 
 Steem上的货币是相互依存，息息相关的，新手朋友光看这些文字可能还是不能完全理解。如果你想投资进来我建议可以先投资一小部分自己实际操作一下，完全搞清楚这里面的各种关系后再决定是否大力投资。
 
-## 关于SP（steem power）
+## 关于SP（steem power） {#about-sp}
 
 ### SP 代理 ^[作者：\@maiyude；校对：\@meixia]
 

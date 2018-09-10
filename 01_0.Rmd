@@ -658,7 +658,7 @@ steem 网站顶部都有搜索栏。输入关键词，自己搜。google 百度�
 以上涵盖了新人遇到的所有问题，除此之外，再无废话。
 
 
-## 更改 steemit 的网页界面配色 ^[作者：\@dapeng，原文链接：https://steemit.com/steemit/@dapeng/if-you-dislike-the-steemit-green-or]
+## 更改 steemit 的网页界面配色 ^[作者：\@dapeng，原文链接：https://steemit.com/steemit/@dapeng/if-you-dislike-the-steemit-green-or] {#change-color}
 
 
 你喜欢 steemit 的新界面吗？尤其是那一片绿……

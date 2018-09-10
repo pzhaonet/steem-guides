@@ -63,7 +63,7 @@ steemit社区有着各种各样的征文活动，如cn区的“月旦评”（#c
 ![](images/3-3-4.png)
 
 
-### steemit上的操作
+### steemit上的操作 {#transaction-on-steemit}
 
 - 1、进入steemit钱包/wallet
 ![](images/3-3-5.png)
@@ -166,7 +166,7 @@ Steemit里面有四种密码，分别是Owner Key（主密码）；post key（�
 3. 不要让浏览器记住你的密码。用 keepass 或 lastpass 来管理密码。
 4. 防盗的最好办法是没钱可盗。STEEM 钱包里有两种钱： STEEM 和 STEEM DOLLARS（ SBD）是可以被随时转走的，而 STEEM POWER 和SAVINGS 是无法马上取出的。把 STEEM 和 SBD 保留到最小额度，最好是0；多余的要么变现，要么 power up，要么存到 SAVINGS 里。Power up 的钱需要花 13 周才能全部取出，SAVING 里的钱需要花三天才能取出，二者都能随时中止。这样，即使发现钱包出现异常，也可以把损失降至最低。
 
-## 延伸阅读：如何恢复你被盗的Steem帐号？ ^[作者:\@skenan;编辑:\@maiyude;原文链接：https://steemit.com/cn/@skenan/steem]
+## 延伸阅读：如何恢复你被盗的Steem帐号？ ^[作者:\@skenan;编辑:\@maiyude;原文链接：https://steemit.com/cn/@skenan/steem] {#how-to-recover-your-key}
 
 **结论**
 

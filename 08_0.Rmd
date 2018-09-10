@@ -1023,53 +1023,88 @@ Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所�
 
 除了“三个一”，我用同样的框架，把“华语好声音”的参赛情况也做了个页面，访问地址相同，点击顶部“华语好声音”标签即可。
 
-## 想玩转Steemit? 试试这些有意思的网站和工具[作者：\@tumutanzi；编辑：\@maiyude;]
+## 其他工具
 
-我们在 Steemit.com上写作、阅读、评论，其实 Steemit.com 上有很多有趣的玩法。高手们可以使用数据库工具来分析 Steemsql 或者 Steemdata 调取出来的数据，但需要一些数据库查询语法和工具软件。
+### 工具汇总站
 
-我们普通用户完全可以从 Steemtools.com 找到不少简单易用的方法，来分析挖掘 Steemit 上的数据。感谢这些可爱有趣的开发者们。
+除了前面三个章节介绍的 \@oflyhigh \@justyy \@dapeng 这几位国人开发的软件外，还有很多外国人开发的有用、有趣、功能强大的辅助工具，数都数不尽。这些工具，一方面可以帮助你在 steem 上玩出更多花样，另一方面也启发我们，以 steem 为基础能开发哪些产品。
 
-下面我收集整理介绍一下我认为比较有趣的玩法和工具，分享给大家参考。
+这些工具哪里找？我推荐几个去处：
 
-http://steemreports.com/ 可以查阅每个用户的点赞收入来源和去处，还能查阅哪些文章最受欢迎被点赞，哪些互动比较强烈。
+- [steemprojects.com](https://steemprojects.com)。这是 steemit 官方推荐的资源汇总站， 对各种 Steem 应用、网站和工具进行了分类整理和介绍。	
 
-https://steemstats.com 几乎能查看所有的信息，差不多赶上 Steemd.com 一样，但比后者的界面要美观得多。
+- [steemtools.com](http://steemtools.com)。这是steemit 官方以前推荐的汇总站，后来被 steemprojects 取代。
 
-https://www.steemnow.com/ 可以查看实时收益情况，当前点赞值多少钱，还有多少点赞能量，谁给你点赞，用了多少权重。查看声望 Reputation 分值——精确到3位小数点。
+- [steem 布尔根兰学院](https://steemitburgenlandacademy.wordpress.com/useful-guides-anleitungen/notifications-verstaendigungen/)。这是一群奥地利 steem 用户创办的网站，他们根据自己的使用经验推荐了一些工具。
 
-http://steemvp.com/ 这个网站可以查看谁是你的金主，给你点赞的情况，当然 Steemreport.com 也能实现。
+此外，\@tumutanzi 曾[撰文](https://steemit.com/cn/@tumutanzi/69vabx-steemit)推荐过一些小工具，只是由于时过境迁，其中有些如今有了较大变化，有的已经被更新更好的工具所取代了。
 
-https://steemwhales.com 查看用户的许多信息，Follow 和被 Follow 的数量，声望分等。
+这些工具，有些功能大同小异。我们只需找到几款自己喜欢的，足够日常使用即可。
 
-https://mentions.steemdata.com/ 查看你被谁在文章和评论里@了，即被提及到。
+在此，我简单介绍几款我自己收藏夹里的强大而便捷的工具。虽然这些工具都是英文界面，但只要稍微熟悉之后，即使不懂英文，也不影响正常使用。
 
-http://steemr.org/ 大鹏 @dapeng 开发的工具，可以生成粉丝的词云图，支持多种排序方法。更多功能还在开发中。
+### steemd.com
 
-https://www.asksteem.com/ 专门用于 Steemit 的搜索引擎网站，比 Steemit 内置的 Google 站内搜索要好用，支持各种语法搜索（点击这里了解更多），比如，你甚至可以搜索到和你同城的 Steemit 用户，这样就方便组织同城聚会了。
+steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透视仪：steemit 网站的大部分网页，只要把地址里的 steemit 换成 steemd，你就会看到这个网页的内部结构，有多少块骨头都数得出来。
 
-https://busy.org 这个网站可以实现与 Steemit.com 一样的功能，界面更像 Facebook 一样。其实 Steemit.com 和 Busy.org 都是一样基于 Steem Blockchain 区块链，两者不过是将数据呈现出来的不同界面而已。
+我们用这台 X 光透视仪，来给几个网页拍个片。
 
-以下是 http://steemtools.com/ 没有提及但我个人觉得也很有用的工具。
+第一个，相当于为 steemit.com 的首页拍的片。访问 <https://steemd.com>，你看到的是最新发帖的帖子源码。侧边栏显示的是 steem 区块链的系统信息。
 
-Steemit Voting Power Chrome 浏览器可安装此插件，查看当前用户的点出去的点赞数量——我每天就是用它来知道我点赞了多少人。
+![](images/08_19.jpg)
 
-https://helloacm.com/tools/steemit/who-has-not-voted-yet/ @justyy 开发的邪恶工具：查看哪些粉丝没有点赞你的文章——我到目前还没用过。
+第二个，是为账号拍的片。就拿我的个人主页来说吧， <https://steemit.com/@dapeng>。把其中的 it 换成 d，即 <https://steemd.com/@dapeng>，那么就给我自己拍了个片。
 
-http://steemit.serviceuptime.net/check_resteem.php O哥 @oflyhigh 开发的工具。查看谁转载 Resteem 了你的文章，转载是真爱。
-
-http://steemit.serviceuptime.net/mute.php O哥发布的工具。查看谁拉黑屏蔽 Mute 了你，拉黑是真不爱。
-
-http://steemit.serviceuptime.net/check_vote_value.php O哥发布的工具。查看点赞值多少钱。
-
-http://mysteemitfriends.online/ My Steemit Friends 查看点赞投票投出与投入的信息。
-
-http://www.steemittraffic.com/ steemit traffic 查看 Steemit 的宏观流量等信息。
-
-当然，上面提到的所有网站其实都是分析 Steem 这个区块链，它们只是一个用户界面用来查询相关信息。看到这里，你就知道 Steemit.com 的有趣之处了吧？它不像一般的网站，在 Steemit.com 上面，Steem 区块链忠实地记录你所有的行为，并且全程公开透明。
-
-所以，下次有人跟你谈及现在热门的 Blockchain 区块链技术，你可以告诉对方：“不就是区块链吗？我也有一根，叫 Steemit.com，还给我带来一点收入呢。”
-
-最后，我再啰嗦一句，上面的这些工具也许很好玩，但不要玩得过火，重点还是要放在多写作好的内容，这才是最根本的东西。
+![](images/08_20.jpg)
 
 
+片子分左右两栏（窄屏时是上下两栏）。
+
+- 左栏显示的是我账号的实时信息，包括我的 SP 以及 SP 代理情况、V、剩余带宽、声望、注册年龄、发帖数等等，非常详尽。值得一提的是，底部显示了你的授权情况：如果你授权第三方网站或应用使用你的发帖权限，这些网站或应用就都列在这里。如果这里出现了未经你授权的应用，那么就要小心了，可能你的权限被盗用了。
+
+- 右栏显示的是近期跟我有关的各种活动，包括发帖、回复、点赞、转账……
+
+第三个，是为帖子拍的片，比如我某篇帖子在 steemit 的地址是 <https://steemit.com/cn/@dapeng/dapeng-cv>。把 steemit 换成 steemd，就是 <https://steemd.com/cn/@dapeng/dapeng-cv>。打开看到的是这篇帖子的源文本和点赞这个帖子的全部id。
+
+![](images/08_21.jpg)
+
+不是有朋友想翻旧帖的markdown源文本嘛，就在这里。只不过是折叠的。点一下那个“...”就展开了。
+
+如果点击右上角的 advanced mode，则会显示帖子和每条留言更为详细的信息，是台高倍 X 光透射仪，大家自己去研究吧，这里不再详细介绍。
+
+谢谢 steemd 的作者 \@roadscape！
+
+### steemdata.com ^[steemdata 已于2018年5月1日关闭服务。]
+
+steemdata 本身是个数据库，我们将在本书的高级篇里详细介绍这个数据库的用法。由于免费，很多应用都是以这个数据库为基础的。其作者 \@furion 就开发出了有用有趣的工具。
+
+![](images/08_22.jpg)
+
+访问 steemdata.com，点击顶部的 Apps，就看到工具列表了。其中，Tickers 给出了 STEEM、SBD、BTC 等几种货币的市场价格（含图表），Charts 给出了 steem 账号的活跃情况图，无须多讲。这里我们只介绍一下 Mentions 和 Post History 两个工具。
+
+Mentions 有三个功能：
+
+1.  如果你在搜索栏输入的是以 `@`开头的 id，那么就查询哪些帖子里提到了这个 id。如果你经常通过这种方式看谁提到了你，可以直接在浏览器地址栏输入：
+
+```
+https://mentions.steemdata.com/find?q=@dapeng
+```
+
+当然，得把我的id dapeng 换成你自己的。
+
+2.  如果你在搜索栏输入的是其他词，那么就查询哪些帖子里提到了这个词。跟前面类似，如果你经常通过这种方式查询某个关键词，比如我经常查“steemr”，就可以直接访问：
+
+```
+https://mentions.steemdata.com/find?q=steemr
+```
+
+这跟用 steemit 的搜索框来搜索有什么区别呢？
+
+首先，不用翻墙。另外，我个人感觉，搜索的结果跟更合理。
+
+3.  Post History 用来查询一篇帖子的修改历史。只要输入帖子的链接，点 Go 按钮，帖子的历次历史修改记录就显示出来了。
+
+所以，不要以为你把帖子的内容清空就看不见了。区块链上，覆水难收！
+
+![](images/08_23.jpg)
 
