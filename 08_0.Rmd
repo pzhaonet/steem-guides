@@ -456,6 +456,27 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 查看STEEM区块链上最受欢迎的代理 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3zfiuk-steem-steem]
+STEEM [区块链](https://justyy.com/archives/5733)上一个很好玩的功能就是你可以把你的STEEM POWER代理给别人。有很多项目都有很多人参于。如果我们想发现STEEM上比较火的项目，我们可以用以下几个工具。这几个工具对应的API由于处理耗时较久，所以并不是实时的数据，一般情况下有几分钟的延时。
+
+**按代理人数显示最受欢迎的STEEM帐号**
+工具地址：https://helloacm.com/tools/steemit/list-of-top-delegations-by-count/
+打开，稍微片刻就能把STEEM区块链上最受欢迎的帐号按代理人数列出来了， \@justyy 银行代理位列前10.
+
+![](images/08_justyy_top_delegation_by_count.png)
+
+**按代理总数显示最受欢迎的STEEM帐号**
+工具地址：https://helloacm.com/tools/steemit/list-of-top-delegations-by-sp/
+如果是按代理SP总量，则 \@utopian-io 位居第一。
+
+![](images/08_justyy_top_delegation_by_sp.png)
+
+**查看一段时间内（最近）大额的代理记录**
+工具地址：https://helloacm.com/tools/steemit/list-of-top-delegations/
+默认显示过去一周中大额代理的记录：
+
+![](images/08_justyy_top_delegation.png)
+
 ### Steem 钱包转帐查询工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2bxnhm-steem-steem]
 有时候我想搜索一下某条转帐记录，苦于记不太清楚时间，于是只能不停的刷或者翻页来找，很不方便，于是想着做一个简单的钱包转帐查询工具，可以满足这样的需求。
 
