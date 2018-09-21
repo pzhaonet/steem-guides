@@ -456,6 +456,17 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 您的见证人信息页面 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/6u2yjq-steem]
+STEEM区块链上活跃的见证人大概有100来个，他们是STEEM区块链上不可缺失的一环节：把STEEM上所有的活动都打包成块，出块的时候相应的得到SP作为奖励。
+
+我弄一个简单的页面，显示见证人的基本信息和最新出的块：
+
+工具地址： https://helloacm.com/tools/steemit/witness-lookup/justyy
+可以把最后面 justyy 改成你想要看的见证人帐号名称，比如
+https://helloacm.com/tools/steemit/witness-lookup/abit
+
+![](images/08_justyy_steem_witness.png)
+
 ### 查看STEEM区块链上最受欢迎的代理 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3zfiuk-steem-steem]
 STEEM [区块链](https://justyy.com/archives/5733)上一个很好玩的功能就是你可以把你的STEEM POWER代理给别人。有很多项目都有很多人参于。如果我们想发现STEEM上比较火的项目，我们可以用以下几个工具。这几个工具对应的API由于处理耗时较久，所以并不是实时的数据，一般情况下有几分钟的延时。
 
