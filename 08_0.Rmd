@@ -456,6 +456,16 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 查看你的帐号信息 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2rhnkr-steem]
+基于 [Steem-JS](https://steemyy.com/steemjs-editor) 撸了一个查看STEEM帐号信息的工具。地址如下：
+https://steemyy.com/account-data/justyy
+可以把URL最后面的ID换成你的STEEM ID就可以打开使用了。
+
+工具显示了STEEM帐号的一些基本信息以外，还列出了最近给你发钱的帐号、金额和附言等信息。
+
+![](images/08_justyy_steem_account-overview.png)
+![](images/08_justyy_steem_account.png.png)
+
 ### 您的见证人信息页面 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/6u2yjq-steem]
 STEEM区块链上活跃的见证人大概有100来个，他们是STEEM区块链上不可缺失的一环节：把STEEM上所有的活动都打包成块，出块的时候相应的得到SP作为奖励。
 
