@@ -456,10 +456,108 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 查看你的帐号信息 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2rhnkr-steem]
+基于 [Steem-JS](https://steemyy.com/steemjs-editor) 撸了一个查看STEEM帐号信息的工具。地址如下：
+https://steemyy.com/account-data/justyy
+可以把URL最后面的ID换成你的STEEM ID就可以打开使用了。
+
+工具显示了STEEM帐号的一些基本信息以外，还列出了最近给你发钱的帐号、金额和附言等信息。
+
+![](images/08_justyy_steem_account-overview.png)
+![](images/08_justyy_steem_account.png.png)
+
+### 您的见证人信息页面 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/6u2yjq-steem]
+STEEM区块链上活跃的见证人大概有100来个，他们是STEEM区块链上不可缺失的一环节：把STEEM上所有的活动都打包成块，出块的时候相应的得到SP作为奖励。
+
+我弄一个简单的页面，显示见证人的基本信息和最新出的块：
+
+工具地址： https://steemyy.com/witness-lookup/justyy
+可以把最后面 justyy 改成你想要看的见证人帐号名称，比如
+https://steemyy.com/witness-lookup/abit
+
+![](images/08_justyy_steem_witness.png)
+
+### 查看STEEM区块链上最受欢迎的代理 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3zfiuk-steem-steem]
+STEEM [区块链](https://justyy.com/archives/5733)上一个很好玩的功能就是你可以把你的STEEM POWER代理给别人。有很多项目都有很多人参于。如果我们想发现STEEM上比较火的项目，我们可以用以下几个工具。这几个工具对应的API由于处理耗时较久，所以并不是实时的数据，一般情况下有几分钟的延时。
+
+**按代理人数显示最受欢迎的STEEM帐号**
+工具地址：https://steemyy.com/list-of-top-delegations-by-count/
+打开，稍微片刻就能把STEEM区块链上最受欢迎的帐号按代理人数列出来了， \@justyy 银行代理位列前10.
+
+![](images/08_justyy_top_delegation_by_count.png)
+
+**按代理总数显示最受欢迎的STEEM帐号**
+工具地址：https://steemyy.com/list-of-top-delegations-by-sp/
+如果是按代理SP总量，则 \@utopian-io 位居第一。
+
+![](images/08_justyy_top_delegation_by_sp.png)
+
+**查看一段时间内（最近）大额的代理记录**
+工具地址：https://steemyy.com/list-of-top-delegations/
+默认显示过去一周中大额代理的记录：
+
+![](images/08_justyy_top_delegation.png)
+
+### Steem 钱包转帐查询工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2bxnhm-steem-steem]
+有时候我想搜索一下某条转帐记录，苦于记不太清楚时间，于是只能不停的刷或者翻页来找，很不方便，于是想着做一个简单的钱包转帐查询工具，可以满足这样的需求。
+
+工具地址：https://steemyy.com/advanced-transfer-viewer/
+
+**使用方法**
+只需要输入 ID 然后可以设置参数来限制搜索范围：
+
+- 货币单位可以是SBD或者是STEEM
+- 附言是加密过的或者是普通的
+- 你发的或者是你收到的
+- 有写附言或者是没写附言的
+- 发送者ID、接收ID还是附言带着字符串的
+- 数量在一定范围内的
+
+![](images/08_justyy_steem-wallet-transfer-lookup-tool.jpg)
+
+每条记录都可以通过链接来获得具体所在块的信息 (steemd)。
+
+### STEEM 自动领赏工具 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/steem-steem]
+文章收益7天后得领赏，如果不通过程序自动领赏的话就得人为的去点领赏的按钮。并不是所有人都是能付得起24/7服务器的程序员，也并不是所有人都喜欢人工去领赏的这么一个过程。
+
+这个网页版本的工具是基于 [steem-js](https://github.com/steemit/steem-js) 库开发的。完全是客户端，只需要填写ID和私钥（不会被保存或者上传），选择一个时间间隔即可让领赏程序自动在后台运行，然后你就可以该干嘛干嘛了。
+
+工具地址：https://steemyy.com/auto-claim-rewards/
+
+![](images/08_justyy_steemit-auto-claim-tools.jpg)
+
+### 踩人与被踩 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/3czrdz-steem]
+这两天 [utopian.io 被黑 - Utopian.io 被黑，你可能关心的一些问题 / 如何移除授权](https://steemit.com/utopian-io/@oflyhigh/utopian-io) 你可能想知道自己有没有中招。中招的表现就是你会当枪使：去踩 haejin。
+
+踩在STEEM上是标红旗的动作，一般来说就是文章三观不正，但也经常被误用于表示情绪的不满。踩人最直接的表现就会让该帖子收益变少(如果踩人者的有效ESP、能量都很足的话)，甚至能让帖子变灰，也可能让作者的声誉值变少（如果踩人者的等级比被踩者的高）。
+
+**查看你踩人的记录**
+工具地址：https://steemyy.com/list-of-flag/
+支持URL后 ?id=steem_id 帐号参数
+
+填写ID 然后点击按钮稍微即可得到该帐号过去一年内踩人的记录。
+
+![](images/08_justyy_steem-tools-who-you-downvote.jpg)
+
+**被踩**
+类似的，如果是查看别人踩过你的记录，那么请用工具：
+https://steemyy.com/who-downvote-you-steemit/
+
+![](images/08_justyy_steem-tools-who-downvoted-you.jpg)
+
+**踩人与被踩都如泼出去的水**
+区块链总是会忠实的记录你的一言一行。比如A踩了B，之后撤消了，这样也会被显示在结果中，因为只要踩过，这就会被记录在STEEM区块中，大概类似是：
+
+> 块 12345: A downvote (-100) B
+> ...
+> 块 12349: A unvote B
+
+所以，踩之前请三思！
+
 ### 同时给多个帐号发送SBD或者STEEM ^[作者：\@justyy，原文链接：https://steemit.com/cn/@justyy/steem-justyy-api-sbd-steem]
 STEEMIT 和 BUSY 的前端都有一个内置的钱包工具，您可以一次给一个帐号发送 SBD 或者 STEEM。当我们要给很多很多人发送钱的时候，就显得有些不方便了。这时候可以用这个在线工具：
 
-https://helloacm.com/tools/steemit/wallet-tool/
+https://steemyy.com/wallet-tool/
 
 **填写表单**
 只需要填上你的ID、私钥(active key)、需要发送的金额（最少0.001）、选择SBD或者STEEM，然后把收款人的ID放在每一行上，如下：
@@ -496,7 +594,7 @@ MEMO 就是附言，这里可以用 *[username]* 来替代收款人的ID。私�
 **查看谁设置您为代理见证人？**
 设置您为代理见证人的都是真爱，他/她们对你如此相信，把选票全权交到您手上。
 
-我们可以通过工具：https://helloacm.com/tools/steemit/list-of-proxy/  来查看谁设置您为代理见证人。
+我们可以通过工具：https://steemyy.com/list-of-proxy/  来查看谁设置您为代理见证人。
 
 输入 ID，按回车或者点击按钮，一会儿就会显示列表：
 
@@ -521,7 +619,7 @@ timestamp
 见证人也是互相抱团的，网红 \@jerrybanfield 给我[留言](https://steemit.com/witness-category/@justyy/witness-tool-update-showing-total-blocks-produced-and-miss-rate#@jerrybanfield/re-justyy-witness-tool-update-showing-total-blocks-produced-and-miss-rate-20180331t010922718z)，问我是否能提供一个工具能用于查看投你为见证人的支持者、和你相互抱团的见证人 还有没给你投票的见证人。
 
 **工具地址**
-> https://helloacm.com/tools/steemit/list-of-mutual-witness/
+> https://steemyy.com/list-of-mutual-witness/
 
 **使用方法**
 在文本框里输入您的 STEEM ID 按回车或者点击查询按钮即可。
@@ -607,8 +705,8 @@ Discord 原本是给游戏设计的，但由于其功能多，接口开放能力
 大家都知道，STEEM上的一言一行都是会被记录在STEEM区块链上的，哪怕是7天内可以修改（或者删除）文章或者评论，[修改的记录](https://justyy.com/archives/5420)也都是会被忠实的记录的。不相信？这个在线工具就可以做到把删除过的评论给列出来。
 
 **工具地址**
-中文：https://helloacm.com/tools/steemit/list-of-deleted-comments/
-英文：https://helloacm.com/tools/steemit/deleted-comments/
+中文：https://steemyy.com/list-of-deleted-comments/
+英文：https://steemyy.com/deleted-comments/
 
 **使用方法**
 把 ID 输入文本框中并按回车或者查询按钮即可：
@@ -658,7 +756,7 @@ API 并没有直接返回被删除的文本，但是其中 `permlink` 就非常�
 
 STEEM代理就是为了解决这两个问题，简单来说，你可以把自己的Steem Power借给另一帐号，代理SP就如把一只会下蛋的母鸡(SP)借出去，从此，下的蛋立刻属于受赠者，但是这只母鸡却还是属于你，而且你也不用担心母鸡被杀人了炖汤吃。
 
-代理和取消代理都可以通过这个[在线工具](https://helloacm.com/tools/steemit/delegate-form/)来完成。有几点我们需要注意的：
+代理和取消代理都可以通过这个[在线工具](https://steemyy.com/delegate-form/)来完成。有几点我们需要注意的：
 
 1. 代理的能量必须是属于自己的，也就是说别人代理给你的SP你是不能再代理给别人的。
 2. 自己代理出去的能量是不能再代理给另一帐号的。
@@ -668,11 +766,11 @@ STEEM代理就是为了解决这两个问题，简单来说，你可以把自己
 
 **代理查看工具**
 如果，A借给B，那么我们可以：
-1. 查看A (Delegator) 借出的所有SP代理情况：https://helloacm.com/tools/steemit/list-of-delegatees/
-2. 查看借给B (Delegatee)的所有代理情况：https://helloacm.com/tools/steemit/list-of-delegators/
+1. 查看A (Delegator) 借出的所有SP代理情况：https://steemyy.com/list-of-delegatees/
+2. 查看借给B (Delegatee)的所有代理情况：https://steemyy.com/list-of-delegators/
 
 **使用方法**
-就拿 YY银行来说，我们可以通过 https://helloacm.com/tools/steemit/list-of-delegators/?id=justyy  来看把能量借给 \@justyy 的情况，这里我们在工具地址上添加了参数 `id=justyy` 自动把页面上的 `Steem ID` 填上了 `justyy` 
+就拿 YY银行来说，我们可以通过 https://steemyy.com/list-of-delegators/?id=justyy  来看把能量借给 \@justyy 的情况，这里我们在工具地址上添加了参数 `id=justyy` 自动把页面上的 `Steem ID` 填上了 `justyy` 
 
 很快，我们就得到了所有代理情况，默认是按照代理SP的数目从大到小排序，您也可以点击表头来对个别字段进行排序。
 
@@ -716,8 +814,8 @@ delegator
 如果您的见证人一直处在离线状态，那么请考虑取消对于他们的投票，这样才能把您手上珍贵的一票交到更需要的人手上，比如我 [投票给 @justyy](https://steemconnect.com/sign/account_witness_vote?approve=1&witness=justyy)。这个小工具能列出您所投票的见证人信息。
 
 **工具地址**
-中文：https://helloacm.com/tools/steemit/list-of-witness/
-英文 https://helloacm.com/tools/steemit/witness/
+中文：https://steemyy.com/list-of-witness/
+英文 https://steemyy.com/witness/
 
 **使用方法**
 只需要在 STEEM ID 文本框里输入 ID 并按回车（或者点下方绿色的按钮）即可
@@ -1023,7 +1121,184 @@ Steem 有个让人无比郁闷的毛病：想一目了然地看一个人的所�
 
 除了“三个一”，我用同样的框架，把“华语好声音”的参赛情况也做了个页面，访问地址相同，点击顶部“华语好声音”标签即可。
 
+<<<<<<< HEAD
 ## 其他工具
+=======
+## Steem上有用的网站分享---SteemWorld.com [作者：\@ericet]
+Steemit最全面数据的网站：SteemWorld
+
+这个集多种工具以一身的网站，强烈建议收藏！
+
+网址：www.steemworld.org
+
+查询方法：在网站后面加上steemit id，比如 www.steemworld.org/@ericet
+
+页面最上面：
+
+**Steemit最全面数据的网站：SteemWorld**
+
+这个集多种工具以一身的网站，强烈建议收藏！
+
+网址：www.steemworld.org
+
+查询方法：在网站后面加上steemit id，比如 www.steemworld.org/@ericet
+
+页面最上面：
+
+![](images/08_steemworld_1.png)
+
+左边：目前账户的Voting Power和在满赞的价值
+
+中间：不同比例的点赞价值
+
+右边：最近6天的点赞收益/发帖SP收益/发帖SBD收益/受益人SP/换算成美金价值
+
+**Stats: 个人信息**
+
+账户的一些信息，包括目前的SP数量，点赞价值，名声，点赞/收到点赞，自赞率，等信息
+
+可以通过右边的“Simulate SP”按钮模拟SP的点赞价值
+
+还可以通过右边“Inc. Votes" 查看点赞来源
+
+通过”Out．Votes"查看给别人点赞记录
+
+![](images/08_steemworld_2.png)
+
+**Balances: 账目信息**
+
+查看账户的SBD/Steem数量，价值。
+
+可以通过右边的"Power Up" 把Steem转化成SP
+
+通过右边的"Delegate SP" 把SP代理给其他人
+
+![](images/08_steemworld_3.png)
+
+
+**General Data：通用数据**
+
+查看账户创建日期，上次点赞日期等
+
+![](images/08_steemworld_4.png)
+
+
+**Account Details: 账户详情**
+
+查看账户简介，剩余宽带等。
+
+![](images/08_steemworld_5.png)
+
+
+**Delegations(In): 代理给你**
+
+查看谁代理SP给你
+
+![](images/08_steemworld_6.png)
+
+
+**Delegations(Out): 代理委派**
+
+查看你把SP代理给谁
+
+![](images/08_steemworld_7.png)
+
+
+**Followers: 粉丝**
+
+查看粉丝
+
+![](images/08_steemworld_8.png)
+
+
+**Mentions: 提到你**
+
+查看谁在文章/回复里提到你
+
+![](images/08_steemworld_9.png)
+
+
+**Steem Info: Steem信息**
+
+查看Steem的价格信息
+
+![](images/08_steemworld_10.png)
+
+
+**System Info: 系统信息**
+
+查看Steem系统信息
+
+![](images/08_steemworld_11.png)
+
+**Setting: 设置**
+
+查看/修改 SteemWorld设置
+
+![](images/08_steemworld_12.png)
+
+**Account Operations: 账户操作**
+
+查看账户所有操作记录。比如帖子收益/点赞收益/回复/点赞 等记录信息
+
+![](images/08_steemworld_13.png)
+
+**Recent Posts: 最近的帖子**
+
+查看账户最近发的帖子
+
+![](images/08_steemworld_14.png)
+
+**Coming Author Rewards: 待分配的收益**
+
+查看待分配的收益
+
+![](images/08_steemworld_15.png)
+
+**Tools：工具**
+
+Account Votes: 账户点赞数据
+
+查看账户帖子被点赞或者给别人点赞的记录
+
+![](images/08_steemworld_16.png)
+
+**Delegation History: 代理历史记录**
+
+查看代理历史记录
+
+![](images/08_steemworld_17.png)
+
+**Manual Vote: 手动点赞**
+
+手动操作点赞
+
+![](images/08_steemworld_18.png)
+
+**Transfer: 转账**
+
+转账给别的账户
+
+![](images/08_steemworld_19.png)
+
+
+**Transfer Search：转账搜索**
+
+转账记录搜索
+
+![](images/08_steemworld_20.png)
+
+**Witnesses: 见证人**
+
+查看所有的见证人，并可以给他们投票(一个账户有30票可以投)或者取消投票
+
+![](images/08_steemworld_21.png)
+
+
+
+
+## 想玩转Steemit? 试试这些有意思的网站和工具[作者：\@tumutanzi；编辑：\@maiyude;]
+>>>>>>> fdbaec35a68d0acec8c6bab8e525216c791e49c5
 
 ### 工具汇总站
 
@@ -1053,7 +1328,11 @@ steemd 是个神奇的网站。我们可以把它理解成 steemit 的 X 光透�
 
 ![](images/08_19.jpg)
 
+<<<<<<< HEAD
 第二个，是为账号拍的片。就拿我的个人主页来说吧， <https://steemit.com/@dapeng>。把其中的 it 换成 d，即 <https://steemd.com/@dapeng>，那么就给我自己拍了个片。
+=======
+https://steemyy.com/who-has-not-voted-yet/ @justyy 开发的邪恶工具：查看哪些粉丝没有点赞你的文章——我到目前还没用过。
+>>>>>>> fdbaec35a68d0acec8c6bab8e525216c791e49c5
 
 ![](images/08_20.jpg)
 
