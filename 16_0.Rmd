@@ -28,14 +28,14 @@
 
 下次访问项目主页 https:// github.com/pzhaonet/steem-guides，点击右上角的“sign in ”登录即可。
 
-关于 github 平台的介绍和注册方法，可以进一步阅读 @rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)。
+关于 github 平台的介绍和注册方法，可以进一步阅读  \@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)。
 
 ![幕后：项目主页](images/16-13.jpg)
 
 
 **第 2 步：挑选你想编写或修改的章节。**
 
-打开书稿预览网页 http://steemh.org，看看你想编写或修改哪一章（例如第 2 章），那么在 github 项目主页点击对应的书稿源文件（例如 02.0.Rmd），就打开了源文本。建议你将预览网站跟源文件对照着看，了解一下什么样的源文件能生成什么样的书稿。
+打开书稿[预览网页](http://steemh.org)，看看你想编写或修改哪一章（例如第 2 章），那么在 github 项目主页点击对应的书稿源文件（例如 02.0.Rmd），就打开了源文本。建议你将预览网站跟源文件对照着看，了解一下什么样的源文件能生成什么样的书稿。
 
 下一步，我们对文本进行添加或修改。
 
@@ -45,7 +45,7 @@
 
 ![](images/16-14.jpg)
 
-图片来自@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
+图片来自 \@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
 
 1. 点击编辑窗口右上角的铅笔符号。
 2. 在编辑窗口里添加新文字或修改旧文字。
@@ -56,7 +56,7 @@
 
 这样，你的修改就提交到了项目里。剩下的你就不用管了。
 
-关于上述添加和修改文字的演示，可以看 @maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（1）](https://steemit.com/dlive/@maiyude/f9e13220-2f04-11e8-8c78-95b7c3b77998)。
+关于上述添加和修改文字的演示，可以看  \@maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（1）](https://steemit.com/dlive/@maiyude/f9e13220-2f04-11e8-8c78-95b7c3b77998)。
 
 **第 4 步：插图。**
 
@@ -64,7 +64,7 @@
 
 ![](images/16-15.jpg)
 
-图片来自@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
+图片来自 \@rileyge 编写的[github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github)
 
 1. 在项目主页右上角点击 Fork 按钮，等待一段时间，就把项目复制到了你自己名下。网页会自动切换到你名下的项目主页。以下如无说明，均在你名下的项目里操作。
 2. 点击 images 文件夹，然后点击右上角的 Upload files 按钮。
@@ -75,11 +75,11 @@
 7. 后面的步骤跟添加文字的方法类似，点击绿色按钮“Create pull request”即可。
 
 
-关于上述添加和修改文字的演示，可以看 @maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（2）](https://steemit.com/dlive/@maiyude/933ab400-2f05-11e8-8c78-95b7c3b77998)。
+关于上述添加和修改文字的演示，可以看  \@maiyude 制作的视频教程[5分钟学会往《steem 指南》上传书稿（2）](https://steemit.com/dlive/@maiyude/933ab400-2f05-11e8-8c78-95b7c3b77998)。
 
 **至此，你的工作已经完成。**
 
-书稿在提交 PR 之后，需要以下步骤，才能最终在书稿预览网页上呈现。这些步骤目前由 @dapeng 完成，以下是简略介绍（不需要你来做）。
+书稿在提交 PR 之后，需要以下步骤，才能最终在书稿预览网页上呈现。这些步骤目前由 \@dapeng 完成，以下是简略介绍（不需要你来做）。
 
 1. 简单审查，看看新文稿是不是三观正确，有没有不当言论。
 2. 将你提交的修改版跟原文稿合并。如果存在冲突，需要仔细解决冲突。
@@ -91,9 +91,9 @@
 
 当然，你可以使用文本编辑器（如typora），将文稿写好之后再复制粘贴到项目里；可以使用 github 的桌面软件，对项目进行管理。这些高级操作，可以参考以下教程：
 
-- @evathinking [如何参与dapeng《Steemit 教程》Github多人写作](https://steemit.com/github/@evathinking/github)
-- @evathinking [Github网站上面的按钮灰掉不可用](https://steemit.com/github/@evathinking/github-how-to-delete-github-repository)
-- @rileyge 的系列教程
+-  \@evathinking [如何参与dapeng《Steemit 教程》Github多人写作](https://steemit.com/github/@evathinking/github)
+-  \@evathinking [Github网站上面的按钮灰掉不可用](https://steemit.com/github/@evathinking/github-how-to-delete-github-repository)
+-  \@rileyge 的系列教程
   - [git使用简明教程（一）：Branch和Merge的概念](https://steemit.com/cn/@rileyge/git-branch-merge) 
   - [git使用简明教程（二）：git中常见概念](https://steemit.com/cn/@rileyge/git-git) 
   - [git使用简明教程（三）：github使用实战演练（文科妹子篇）](https://steemit.com/cn/@rileyge/github) 
@@ -108,45 +108,45 @@
 ## 有胆评
 
 ### 《Steem 指北》steem人物大杂烩
-话说当日地陷东南，这东南一隅有处曰姑苏，有城曰阊门者，最是红尘中一二等富贵风流之地。这阊门外有个十里街，街内有个仁清巷，巷内有个古庙，庙里有个和尚，这和尚原名叫@melaleuca，本来是红尘中的一名足球巨星，人送外号“贝克.斯蒂姆（Becksteem”。他听别人说币市红火，于是向steem第一大银行行长@justyy借了一大笔款项，投资了一个叫做足球链的币。谁知道钱才投下去，就遇到了大熊市，真金白银的钱化成了一堆空气币。
+话说当日地陷东南，这东南一隅有处曰姑苏，有城曰阊门者，最是红尘中一二等富贵风流之地。这阊门外有个十里街，街内有个仁清巷，巷内有个古庙，庙里有个和尚，这和尚原名叫 \@melaleuca，本来是红尘中的一名足球巨星，人送外号“贝克.斯蒂姆（Becksteem”。他听别人说币市红火，于是向steem第一大银行行长 \@justyy借了一大笔款项，投资了一个叫做足球链的币。谁知道钱才投下去，就遇到了大熊市，真金白银的钱化成了一堆空气币。
 
-钱没了怎么办？面对@justyy的追债，@melaleuca只能跑啊。好不容易跑到了人迹罕至的老庙做了个和尚，@melaleuca心想啊“我可能这辈子踢不成球了，起码脑袋还要像个球一样圆。”@melaleuca从此就在这老庙安心的做了一个和尚，念的不是经，是足球。
+钱没了怎么办？面对 \@justyy的追债， \@melaleuca只能跑啊。好不容易跑到了人迹罕至的老庙做了个和尚， \@melaleuca心想啊“我可能这辈子踢不成球了，起码脑袋还要像个球一样圆。” \@melaleuca从此就在这老庙安心的做了一个和尚，念的不是经，是足球。
 
-@justyy也郁闷，当初@melaleuca抵押给他的资产都是假资产，变卖不了几个钱。于是@justyy就寻思着，这@melaleuca好歹是个球星，多少有点名气吧。于是@justyy找了steem上最红火的旅游博主@sweetsssj帮忙给@melaleuca写了几篇小文，@sweetsssj可是不得了的大人物，号称一个笑容值一千万的大红人。这文章一写就不得了了，@melaleuca一下子变成了传奇球星，身价暴涨，自传和各种周边卖的红红火火，@justyy一下子就收回了欠款，还把@melaleuca从老庙请了回来继续当球星，这回他们两个可能还正忙着数钱呢。
+ \@justyy也郁闷，当初 \@melaleuca抵押给他的资产都是假资产，变卖不了几个钱。于是 \@justyy就寻思着，这 \@melaleuca好歹是个球星，多少有点名气吧。于是 \@justyy找了steem上最红火的旅游博主 \@sweetsssj帮忙给 \@melaleuca写了几篇小文， \@sweetsssj可是不得了的大人物，号称一个笑容值一千万的大红人。这文章一写就不得了了， \@melaleuca一下子变成了传奇球星，身价暴涨，自传和各种周边卖的红红火火， \@justyy一下子就收回了欠款，还把 \@melaleuca从老庙请了回来继续当球星，这回他们两个可能还正忙着数钱呢。
 
-不过这都是后话了，今天要说的不是这个故事，说的是什么呢？说的是@melaleuca和小和尚说故事，故事是从前有座山，山里有座庙，那座庙叫steem，庙里有个活神仙叫@dapeng。这活神仙@dapeng原来也只是个普通的凡人，但是他按着自己的兴趣爱好创办了steemr这个网站，这网站帮助到了许许多多的steemit的粉丝们，于是这些粉丝就把@dapeng奉为神人，还建了个小庙供奉了起来。
+不过这都是后话了，今天要说的不是这个故事，说的是什么呢？说的是 \@melaleuca和小和尚说故事，故事是从前有座山，山里有座庙，那座庙叫steem，庙里有个活神仙叫 \@dapeng。这活神仙 \@dapeng原来也只是个普通的凡人，但是他按着自己的兴趣爱好创办了steemr这个网站，这网站帮助到了许许多多的steemit的粉丝们，于是这些粉丝就把 \@dapeng奉为神人，还建了个小庙供奉了起来。
 
-不过@dapeng可不乐意这样，他人生两大乐趣就是唱歌和晒娃，被供起来算什么事儿？于是乎，这天他又跑去找@tvb唱歌去了。这@tvb是何许人也？说起来这@tvb也是了不起的大人物，她分别在币乎和steem拥有两座大山头。她还举办了无数的活动，最有名的属“三好兔噢”活动。江湖上流传着这样的一句话：“steemit上的新人，几乎都在@tvb手上走过一遭。”@tvb阅人无数，看过的文章堪比星河，吐过的槽比你吃过的饭还多。江湖上混出头的新人，没有一个不被@tvb照顾过。
+不过 \@dapeng可不乐意这样，他人生两大乐趣就是唱歌和晒娃，被供起来算什么事儿？于是乎，这天他又跑去找 \@tvb唱歌去了。这 \@tvb是何许人也？说起来这 \@tvb也是了不起的大人物，她分别在币乎和steem拥有两座大山头。她还举办了无数的活动，最有名的属“三好兔噢”活动。江湖上流传着这样的一句话：“steemit上的新人，几乎都在 \@tvb手上走过一遭。” \@tvb阅人无数，看过的文章堪比星河，吐过的槽比你吃过的饭还多。江湖上混出头的新人，没有一个不被 \@tvb照顾过。
 
-这会@tvb和@dapeng就唱起了rap：
+这会 \@tvb和 \@dapeng就唱起了rap：
 
 “时机到了！什么时机？
 
 你别管什么时机，你只管打开收音机！
 
-我赶紧打开收音机，收听@tumutanzi的演讲！
+我赶紧打开收音机，收听 \@tumutanzi的演讲！
 
-@tumutanzi，大博士，古今中外样样通！
+ \@tumutanzi，大博士，古今中外样样通！
 
-但论有趣，还是听@oflyhigh闲聊有意思！
+但论有趣，还是听 \@oflyhigh闲聊有意思！
 
-什么？你的心，要远行？那就跟着@sweetsssj去旅游！
+什么？你的心，要远行？那就跟着 \@sweetsssj去旅游！
 
-我们来到广州见到大神@rivalhw！
+我们来到广州见到大神 \@rivalhw！
 
 大神“月旦评”办的红火！
 
-再到台湾找@deanliu，
+再到台湾找 \@deanliu，
 
 你到底是“游北里”还是“刘美女”？
 
 大江南北，万里河山，我一键遨游。
 
-我去看@lovemyson晒照片，跟着@angelina6688学画画。
+我去看 \@lovemyson晒照片，跟着 \@angelina6688学画画。
 
-没钱的时候跟着@htliao学投资，有钱了再去找@irisz画头像！
+没钱的时候跟着 \@htliao学投资，有钱了再去找 \@irisz画头像！
 
-什么？你还想要点赞？那你要问@abit答不答应！”
+什么？你还想要点赞？那你要问 \@abit答不答应！”
 
 the end
 
@@ -156,7 +156,7 @@ the end
 
 2018 年马上要来了。我被 \@towardsthesun 点名写个 2018 年计划。谢谢。
 
-要不是 \@towardsthesun 留言提醒，我可能还不知道。因为我一直用 [steemdata mentions](https://mentions.steemdata.com/find?q=@dapeng) 来查老师留的作业，但是这网站显示最近没作业啊？——如果错过了你留的作业，请莫要见怪，我实在是没看见。 \@kona 留给我的黑白摄影作业我还没做呢。
+要不是 \@towardsthesun 留言提醒，我可能还不知道。因为我一直用 [steemdata mentions](https://mentions.steemdata.com/find?q= \@dapeng) 来查老师留的作业，但是这网站显示最近没作业啊？——如果错过了你留的作业，请莫要见怪，我实在是没看见。 \@kona 留给我的黑白摄影作业我还没做呢。
 
 其实，看到大家精彩的计划书，我有点恐慌。记得上大学那会儿，每次寒暑假，我都从图书馆借满满一包书背回家；假期结束，再原样背回大学，里面的书一页都没翻。下回还背。
 
@@ -187,8 +187,8 @@ the end
 当然，也有人会藏得很深，比如：
 
 - [24 x 7 在线](https://www.google.com/url?q=https://steemit.com/cn/%40dapeng/steem-tvb&sa=U&ved=0ahUKEwjPqdX1iajYAhXE8qQKHUlmCyQQFggFMAA&client=internal-uds-cse&cx=011445933062884569876:-jmpkfnkicw&usg=AOvVaw1qKDmam)的 \@tvb 到底是一个人，还是 t 和 v 和 b 三姐妹轮值；
-- \@jubi 和 \@dapeng 到底[谁是谁的马甲](https://steemit.com/cn/@dapeng/or-10-sbd-to-build-a-mirror-site-for-your-own-steem-posts#@deanliu/re-jubi-re-deanliu-re-dapeng-or-10-sbd-to-build-a-mirror-site-for-your-own-steem-posts-20171108t122942)；
-- \@coldhair 的[小号到底是什么](https://steemit.com/cn/@coldhair/6mbkpw#@dapeng/re-coldhair-6mbkpw-20171222t153442507z)等等。
+- \@jubi 和 \@dapeng 到底[谁是谁的马甲](https://steemit.com/cn/@dapeng/or-10-sbd-to-build-a-mirror-site-for-your-own-steem-posts# \@deanliu/re-jubi-re-deanliu-re-dapeng-or-10-sbd-to-build-a-mirror-site-for-your-own-steem-posts-20171108t122942)；
+- \@coldhair 的[小号到底是什么](https://steemit.com/cn/@coldhair/6mbkpw# \@dapeng/re-coldhair-6mbkpw-20171222t153442507z)等等。
 
 然而，纸包不住火，只要想挖，就有料。甚至数据挖掘本身也成为玩 steem 的乐趣之一。如果你想找些例（乐）子，我推荐去看看 \@nationalpark 的帖子。如果说，在 steem 上活动的第一原则是“别忘记你的密码"，那么第二原则就是：
 
@@ -204,20 +204,20 @@ the end
   - [Steemit 的新手们，你们考虑过数据隐私的问题吗](https://steemit.com/cn/@dapeng/steemit)
   - [看到他暴露的 Steem 用户数据后我震惊了](https://steemit.com/cn/@dapeng/steem-a-preliminary-analysis-of-a-steem-id-s-data)
   - [坛中酒醉： steem 的帖子到底应该怎么写](https://steemit.com/cn/@dapeng/no-1s-of-his-steem-posts-steem)
-- \@justyy：[Steem 史记： @justyy 列传](https://steemit.com/cn/@dapeng/steem-id-report-1-justyy-1)
-- \@htliao：[Steem 史记： @htliao 列传](https://steemit.com/cn/@dapeng/steem-htliao-steem-s-watch-a2)
-- \@shenchensucc：[Steem 史记： @shenchensucc 列传](https://steemit.com/cn/@pzhao/steem-shenchensucc)
-- \@mrspointm：[Steem 史记： @mrspointm列传](https://steemit.com/cn/@dapeng/steem-mrspointm)
-- \@hannahwu：[Steem 史记： @hannahwu 列传](https://steemit.com/cn/@dapeng/steem-hannahwu)
-- \@mrpointp：[Steem 史记： @mrpointp 列传](https://steemit.com/cn/@dapeng/steem-mrpointp)
-- \@tvb：[Steem 史记： @tvb 列传](https://steemit.com/cn/@dapeng/steem-tvb)
+- \@justyy：[Steem 史记：\@justyy 列传](https://steemit.com/cn/@dapeng/steem-id-report-1-justyy-1)
+- \@htliao：[Steem 史记： \@htliao 列传](https://steemit.com/cn/@dapeng/steem-htliao-steem-s-watch-a2)
+- \@shenchensucc：[Steem 史记： \@shenchensucc 列传](https://steemit.com/cn/@pzhao/steem-shenchensucc)
+- \@mrspointm：[Steem 史记： \@mrspointm列传](https://steemit.com/cn/@dapeng/steem-mrspointm)
+- \@hannahwu：[Steem 史记： \@hannahwu 列传](https://steemit.com/cn/@dapeng/steem-hannahwu)
+- \@mrpointp：[Steem 史记： \@mrpointp 列传](https://steemit.com/cn/@dapeng/steem-mrpointp)
+- \@tvb：[Steem 史记： \@tvb 列传](https://steemit.com/cn/@dapeng/steem-tvb)
 
 steem 的人物传记并非我首创。小猎豹 \@incrediblesnow 就写过《[介绍华语区元老 1](https://steemit.com/cn/@incrediblesnow/cn-part1)》和《[介绍华语区元老 2](https://steemit.com/cn/@incrediblesnow/cn-cny-part2)》以及《[优秀作者推荐](https://steemit.com/cn/@incrediblesnow/cn-cny-part3)》。\@zsilence 也简略写过《[Steemit 人物志》](https://steemit.com/cn/@zsilence/4dybom-steemit)——如果你去翻这篇的留言，就会发现我写《steem 史记》系列文章的源头。
 
 后来，因为各种原因吧，我把《steem 史记》系列停掉了。与其展示枯燥的数字，我更愿意写写人物本身，例如：
 
-- \@deanliu：[关于大长腿杀人鲸刘美女 @deanliu 的一切](https://steemit.com/cn/@dapeng/deanliu-or-all-bout-deanliu)
-- \@yingpingzhang：[爱音乐的人：推荐 @yingpingzhang 的歌](https://steemit.com/cn/@dapeng/yingpingzhang-or)
+- \@deanliu：[关于大长腿杀人鲸刘美女 \@deanliu 的一切](https://steemit.com/cn/@dapeng/deanliu-or-all-bout-deanliu)
+- \@yingpingzhang：[爱音乐的人：推荐 \@yingpingzhang 的歌](https://steemit.com/cn/@dapeng/yingpingzhang-or)
 
 4
 
@@ -229,7 +229,7 @@ steem 的人物传记并非我首创。小猎豹 \@incrediblesnow 就写过《[�
 
 不过，我觉得还是挺有意思的。因为，透过凝固的文字，绕开枯燥的数据，我们看到的，是背后有血有肉的人。这样的文章应该是广大人民群众喜闻乐见的。你瞧，直到今天，[关于大长腿杀人鲸刘美女 \@deanliu 的一切](https://steemit.com/cn/@dapeng/deanliu-or-all-bout-deanliu) 还[被引用](https://cnsteem.com/cn/@deanliu/beauty-is-only-skin-deep)呢。
 
-我打算写 12 篇，平均每个月一篇（我内心的计划是 52 篇，每周一篇，但是看到 [\@winniex 的计划](https://steemit.com/cn/@winniex/winniex-2018#@dapeng/re-winniex-winniex-2018-20171226t085509651z)里说计划要保守一点才方便超额完成，咳咳）。可能会重点捞一下像 \@yingpingzhang 这样快被埋没的牛人，也有可能抱一抱像 \@deanliu 这样的大神大腿——后者的分寸比较难把握，有些陈年旧事我并不清楚，玩不好可能会被大腿踩，需要一点胆量。
+我打算写 12 篇，平均每个月一篇（我内心的计划是 52 篇，每周一篇，但是看到 [\@winniex 的计划](https://steemit.com/cn/@winniex/winniex-2018# \@dapeng/re-winniex-winniex-2018-20171226t085509651z)里说计划要保守一点才方便超额完成，咳咳）。可能会重点捞一下像 \@yingpingzhang 这样快被埋没的牛人，也有可能抱一抱像 \@deanliu 这样的大神大腿——后者的分寸比较难把握，有些陈年旧事我并不清楚，玩不好可能会被大腿踩，需要一点胆量。
 
 所以，我给这个计划取名为“有胆评”，新建了个'cn-people'标签。当然是山寨 \@rivalhw的“月旦评” 啦。
 
@@ -662,7 +662,7 @@ steem 的人物传记并非我首创。小猎豹 \@incrediblesnow 就写过《[�
 
 唯一能猜测的，是她的饮食起居时间。
 
-[她说](https://steemit.com/cn/@dancingapple/dancingapple-2018)她要去浮潜和冲浪，要去莫高窟，触摸千年前她曾经起舞的地方。她要开个小客栈，当老板娘——在此之前，先携茶叶萌宠[去老道茶馆当店小二](https://steemit.com/laodr-teahouse/@rivalhw/6tk4fm#@dancingapple/re-rivalhw-6tk4fm-20180322t141601839z)实个习。
+[她说](https://steemit.com/cn/@dancingapple/dancingapple-2018)她要去浮潜和冲浪，要去莫高窟，触摸千年前她曾经起舞的地方。她要开个小客栈，当老板娘——在此之前，先携茶叶萌宠[去老道茶馆当店小二](https://steemit.com/laodr-teahouse/@rivalhw/6tk4fm# \@dancingapple/re-rivalhw-6tk4fm-20180322t141601839z)实个习。
 
 她加入了[月旦评评委](https://steemit.com/cn/@dancingapple/dancingapple-art)，天天发掘好作品和优秀作者。
 
@@ -764,7 +764,7 @@ steemit于我来说仿佛就是一个魔盒，打开之前你不知道里面会�
 
 说到我的steemit故事，熟悉我的朋友都知道，我是在我们家长老的介绍下开始写的。记得当时，他看了我的影评，对我说：“你文章放在个人博客上，看到的人寥寥无几。放在简书上，虽然叫好但不叫座，等人从口袋里掏出钱来给你打赏，太难了，何况这平台还规定得累积到一百才能提现。你可以把文章发到steemit上去，让文章得到最大的发挥，让更多的人可以看到，更何况还能赚钱呢。”他大概是去年7月份的时候得知这个网站，注册并发布了写文章，但并未上心维护。这使得我后来常调笑他说：“我感觉你错过了个好时代，要是坚持下来，指不定也是条小鱼了。”
 
-自从去年12月开始，我关闭了朋友圈，卸载了微博，对我来说获取外界消息的，一个是当日的报纸，另一个就是推特。推特上戾气太重，实在不适合成为日常阅读的媒体。然而，steemit则不同，这里真的是人才济济。有超级it男神\@skenan，有乐于帮助新人的\@rivalhw \@dapeng\ @justyy，有steemit百事通\@oflyhigh，有万能的\@tvb，有超级奶爸\@mangoanddaddy，有热爱分享生活的\@ace108 \@chann，有摄影达人\@stabilowl，有超级爱看书的妹纸\@weisheng167388，有超赞的\@angelina6688 \@vivia\ @irisz，有文笔超好的\@hannahwu \@dancingapple。我社交能力比较差，目前认识的人还很少，希望在未来的日子里面和更多人结识，在他们身上学习到我所没有的特质。
+自从去年12月开始，我关闭了朋友圈，卸载了微博，对我来说获取外界消息的，一个是当日的报纸，另一个就是推特。推特上戾气太重，实在不适合成为日常阅读的媒体。然而，steemit则不同，这里真的是人才济济。有超级it男神\@skenan，有乐于帮助新人的\@rivalhw \@dapeng\  \@justyy，有steemit百事通\@oflyhigh，有万能的\@tvb，有超级奶爸\@mangoanddaddy，有热爱分享生活的\@ace108 \@chann，有摄影达人\@stabilowl，有超级爱看书的妹纸\@weisheng167388，有超赞的\@angelina6688 \@vivia\  \@irisz，有文笔超好的\@hannahwu \@dancingapple。我社交能力比较差，目前认识的人还很少，希望在未来的日子里面和更多人结识，在他们身上学习到我所没有的特质。
 
 steemit也让我恢复了写作的习惯。我是一个每天习惯用纸笔记录下日记的人，只是那些太琐碎了。为了拿出不那么水，勉强能看得下去的文章，每天我都得在电脑前起码冥思苦想一个来小时，有时候甚至为了一篇文章花上五六个小时的时间。
 
@@ -844,13 +844,13 @@ steemit也让我恢复了写作的习惯。我是一个每天习惯用纸笔记�
 
 - C. 为Yoyow潘多拉计划绘制“爬山”创意画。
 
-- D. 为 @skenan制作的cnsteem中文网站设计网站Logo。
+- D. 为 \@skenan制作的cnsteem中文网站设计网站Logo。
 
-- E. 为 @melaleuca老铁设计专属steem头像。
+- E. 为 \@melaleuca老铁设计专属steem头像。
 
 - F. 参加外国朋友绘画比赛，并获奖若干。
 
-- G. 构思月旦评“琅琊榜”点子，被主办人大伟老师 @rivalhw采纳，并被文武双全的大鹏哥 @dapeng设计程序得以实现。
+- G. 构思月旦评“琅琊榜”点子，被主办人大伟老师 \@rivalhw采纳，并被文武双全的大鹏哥 \@dapeng设计程序得以实现。
 
 - H. 自己策划并举办cn-drawing第1届“齐白石杯绘画大赛”圆满收官，第2届比赛年后即将开始，敬请期待。
 
@@ -1059,7 +1059,7 @@ Steemit有一个魔鬼一样的规则，这个魔鬼把影响力发挥到了让�
 
 ### 我的steemit畅游之旅 by songtiejun[作者:\@songtiejun;]
 
-我之所以能够来到steemit，要非常感谢\@yellowbird，是他带我进入到了这个神奇的世界。说来有缘，我们在同一时间段加入007行动不出局，并成了57班的战友。期间，@yellowbird分享的文章[《写作四个月，我赚到10000元》](https://mp.weixin.qq.com/s/H5AcRbfBFM5KrL4NpTDcbg)，引起了我的巨大好奇。开始关注并了解steemit，才逐渐了解到，\@yellowbird加入时间并不长，但进步却神速，原以为很遥远的小目标早已成为现实，用一步一个脚印的自我成长实践证明：只要你愿意付出自己的真诚、努力和汗水，每个人在steemit不仅可以有所作为，而且大有作为。无论你的出发点是为了获得更多的财富奖励，还是想认识更多的人、知道更多有趣的事，还是想实现更大的自我价值，steemit给你提供了无限的可能和实现梦想的机会。
+我之所以能够来到steemit，要非常感谢\@yellowbird，是他带我进入到了这个神奇的世界。说来有缘，我们在同一时间段加入007行动不出局，并成了57班的战友。期间， \@yellowbird分享的文章[《写作四个月，我赚到10000元》](https://mp.weixin.qq.com/s/H5AcRbfBFM5KrL4NpTDcbg)，引起了我的巨大好奇。开始关注并了解steemit，才逐渐了解到，\@yellowbird加入时间并不长，但进步却神速，原以为很遥远的小目标早已成为现实，用一步一个脚印的自我成长实践证明：只要你愿意付出自己的真诚、努力和汗水，每个人在steemit不仅可以有所作为，而且大有作为。无论你的出发点是为了获得更多的财富奖励，还是想认识更多的人、知道更多有趣的事，还是想实现更大的自我价值，steemit给你提供了无限的可能和实现梦想的机会。
 
 在对steemit产生了浓厚的兴趣之后，逐篇细读\@yellowbird系列文章，并按照步骤一步一步地进行尝试，在去年12月份非常顺利地注册成功，但因各种原因并没有发帖。后来，在我们007不出局57班的开班仪式上，\@yellowbird又被邀请作了一次关于steemit的专题分享，又强烈刺激了我的好奇心。从那时开始，陆续在steemit上发帖评论。
 
@@ -1121,7 +1121,7 @@ steemit是一个全新的事物，充满着新奇，畅游其中，不断探索�
 > 
 > 因为我来过
 > 
-> ——@wangwenjing
+> —— \@wangwenjing
 
 ### 我的steem故事 by nationalpark[作者:\@nationalpark;]
 
@@ -1172,12 +1172,12 @@ Steem 虽然不能删帖，但是还是可能被踩灰。比如现在有一个�
 
 ### 我的steem故事 by littlett666[作者:\@littlett666;]
 
-年前就看到、@melaleuca发起的“我的Steem故事” 作品集活动，还有幸被点名，说好了积极参加活动的，结果开心过大年去了，现在才来交上我的“作业”。
-我是通过、@angelina6688的引荐进入到steem的大平台的，那个时候刚好经历了一段时间的心理挣扎，我姑且将其定义为“中年危机”，恨透了之前的碌碌无为，所以在而立之年希望能有所转变，如果是原来的我在听到“发文赚钱”这个诱引时可能会听听然后一笑而过，毕竟没啥专长，想要赚钱谈何容易，但是一切就是这么的刚巧，碰上我想挑战新的事物，于是下定决心要来尝试一下全新的区块链，不为赚钱更多的是为挑战自己。我是一个很怕麻烦的人，在听完、@angelina6688曲折的注册经历后，我居然没有放弃还寻求了国际友人的帮忙，最终无比顺利（顺利的超乎我的想象，一天之内注册成功）的加入到了steem中，可见我想改变的决心还是非常坚定的。
+年前就看到、 \@melaleuca发起的“我的Steem故事” 作品集活动，还有幸被点名，说好了积极参加活动的，结果开心过大年去了，现在才来交上我的“作业”。
+我是通过、 \@angelina6688的引荐进入到steem的大平台的，那个时候刚好经历了一段时间的心理挣扎，我姑且将其定义为“中年危机”，恨透了之前的碌碌无为，所以在而立之年希望能有所转变，如果是原来的我在听到“发文赚钱”这个诱引时可能会听听然后一笑而过，毕竟没啥专长，想要赚钱谈何容易，但是一切就是这么的刚巧，碰上我想挑战新的事物，于是下定决心要来尝试一下全新的区块链，不为赚钱更多的是为挑战自己。我是一个很怕麻烦的人，在听完、 \@angelina6688曲折的注册经历后，我居然没有放弃还寻求了国际友人的帮忙，最终无比顺利（顺利的超乎我的想象，一天之内注册成功）的加入到了steem中，可见我想改变的决心还是非常坚定的。
 
-加入steem的时间不长，到现在还不到两个月，要说故事什么的，感觉也没啥好说的，其中有个小插曲就是刚开始加入的时候不知道“钱包”里的收益还需要特地去点击提取，在经、@angelina6688的提点后才记得时不时的要去点击一下收益，不过在她告诉我这个事情的时候，我已经错过了我在steem上最大的一笔收益，就是大伟哥帮忙点赞的第一篇介绍文，10个刀的收益，就这么白生生的错过了，感觉错过一个亿，也不知道下次何时才会再有这么多的收益。
+加入steem的时间不长，到现在还不到两个月，要说故事什么的，感觉也没啥好说的，其中有个小插曲就是刚开始加入的时候不知道“钱包”里的收益还需要特地去点击提取，在经、 \@angelina6688的提点后才记得时不时的要去点击一下收益，不过在她告诉我这个事情的时候，我已经错过了我在steem上最大的一笔收益，就是大伟哥帮忙点赞的第一篇介绍文，10个刀的收益，就这么白生生的错过了，感觉错过一个亿，也不知道下次何时才会再有这么多的收益。
 
-听说steem上来来走走了很多新人，因为不能短期的看到可观收益，最后很多人选择了放弃，我想说坚持真的挺难的，辛辛苦苦发一篇文，没有多少人看更没有多少人点赞，有种“一江春水付之东流”的感觉，后来加入了一个新人群，也认识了很多志同道合的小伙伴，大家互相支持互相鼓励，和、@melaleuca也是在群中认识的，很好的一个同志，热情，友善，就像一个邻家大哥哥一样默默的支持着群里的每个人。Steem真的是个很好的平台，牛人多多，看到那么多比你优秀的人还比你努力真的对自己也是种很大的激励。
+听说steem上来来走走了很多新人，因为不能短期的看到可观收益，最后很多人选择了放弃，我想说坚持真的挺难的，辛辛苦苦发一篇文，没有多少人看更没有多少人点赞，有种“一江春水付之东流”的感觉，后来加入了一个新人群，也认识了很多志同道合的小伙伴，大家互相支持互相鼓励，和、 \@melaleuca也是在群中认识的，很好的一个同志，热情，友善，就像一个邻家大哥哥一样默默的支持着群里的每个人。Steem真的是个很好的平台，牛人多多，看到那么多比你优秀的人还比你努力真的对自己也是种很大的激励。
 
 没有才华的我在steem上晋级还是很难的，想为自己定个小目标，不是升多少级不是吸多少粉，只希望自己能一直坚持下去，希望steem能见证我的成长。
 
@@ -1224,19 +1224,19 @@ steem这艘未来之船正带给你无穷无尽的美好风光，这艘船上有
  
 ### \@yellowbird参加吐槽大会[作者:\@yellowbird;]
 
-大家好，我是@yellowbird！
+大家好，我是 \@yellowbird！
  
 >鼓掌鼓掌！！！
 
-很高兴来作为嘉宾来参加由@tvb组织的吐槽大会，看到这个活动的介绍，我就想吐槽一番，吐槽大会怎么没有主题呢，就像吐槽大会没有主咖一样，这怎么行。
+很高兴来作为嘉宾来参加由 \@tvb组织的吐槽大会，看到这个活动的介绍，我就想吐槽一番，吐槽大会怎么没有主题呢，就像吐槽大会没有主咖一样，这怎么行。
 
 所以，我强烈推荐这期的主咖就是给大家发钱的大财主斯迪姆（steemit）。
 
 欢迎欢迎！
 
-说到组织这次活动的\@tvb，她在steemit可是无人不知无晓，最成功的是假装自己是机器人。可能来steemit新手不是很了解@tvb，因为最近中文区的人太多了，工作量太大，24小时不够用了，终于假装不下去了。
+说到组织这次活动的\@tvb，她在steemit可是无人不知无晓，最成功的是假装自己是机器人。可能来steemit新手不是很了解 \@tvb，因为最近中文区的人太多了，工作量太大，24小时不够用了，终于假装不下去了。
 
-对于@tvb不知道是自称还是别人这样称呼的，叫她steemit一姐，是啊，tvb很有一姐的情怀，也许，她最早是想假装自己是香港电视台。
+对于 \@tvb不知道是自称还是别人这样称呼的，叫她steemit一姐，是啊，tvb很有一姐的情怀，也许，她最早是想假装自己是香港电视台。
 
 >鼓掌鼓掌，大笑大笑！（此处文字特效）
 
@@ -3015,7 +3015,7 @@ steemit_cn新手村村歌-原创歌曲《动起来》，为咋们村加油！: h
 
 ### 【新手村计划#35】\@robin.han 一位来自青岛的自动化工程师
 
-接下来这位是来自青岛，为了了解区块链技术而加入steemit 的Robin @robin.han
+接下来这位是来自青岛，为了了解区块链技术而加入steemit 的Robin  \@robin.han
 
 问： \@robin.han 您居住在哪里？
 
@@ -3239,7 +3239,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 
 谢谢村长\@ericet给这个专访机会。愿大家在村里玩的开心。愿各位此生都能找到真实与完整的自我。谢谢！
 
-从美丽 \@artsymelanie 的交流中，可以看出她是一个从心出发，尊重内心感受的人。 她从另外一个层面解析了区块链和传统商业模式，也是让我对区块链有了新的认识。希望大家可以关注这位美丽知性的 @artsymelanie。
+从美丽 \@artsymelanie 的交流中，可以看出她是一个从心出发，尊重内心感受的人。 她从另外一个层面解析了区块链和传统商业模式，也是让我对区块链有了新的认识。希望大家可以关注这位美丽知性的  \@artsymelanie。
 
 \@artsymelanie 美丽真人照：
 
@@ -3248,7 +3248,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 
 ### 【新手村计划#39】\@gerer 一位来自江苏的工程项目经理
 
-接下来这位是个很疼爱女儿的 @gerer 晨歌
+接下来这位是个很疼爱女儿的  \@gerer 晨歌
 
 问： \@gerer 您居住在哪里？
 
@@ -3296,7 +3296,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 
 ![](images/team-cn-39-gerer.jpg)
 
-### 【新手村计划#40】@richestjackma 一位现居香港的自媒体
+### 【新手村计划#40】 \@richestjackma 一位现居香港的自媒体
 
 接下来这位有个霸气的steemit id：\@richestjackma(最富马云）。
 
@@ -3351,7 +3351,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 ![](images/team-cn-40-richestjackma.jpg)
 
 
-### 【新手村计划#41】@sunai 一位现居大理做茶生意的商人
+### 【新手村计划#41】 \@sunai 一位现居大理做茶生意的商人
 
 接下来这位是现居大理的小懒猫 \@sunai， 喵喵喵～
 
@@ -3406,7 +3406,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 ![](images/team-cn-41-sunai.jpg)
 
 
-### 【新手村计划#42】@slientstorm 一位现居珠海的软件开发工程师
+### 【新手村计划#42】 \@slientstorm 一位现居珠海的软件开发工程师
 
 接下来这位是一位爱画画的程序员阿杰 \@slientstorm。
 
@@ -3445,7 +3445,7 @@ Robin \@robinhan 是个有趣的人，几乎每天会爬新手村的微信群，
 ![](images/team-cn-42-slientstorm.jpg)
 
 
-### 【新手村计划#43】@odillegogh 一位现居泰国来自青岛的自媒体人
+### 【新手村计划#43】 \@odillegogh 一位现居泰国来自青岛的自媒体人
 
 接下来这位是现居泰国，很有个性的自媒体人 \@odillegogh.
 
@@ -3487,7 +3487,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 ![](images/team-cn-43-odillegogh.jpg)
 
 
-### 【新手村计划#44】@edwardchan 一位现居广州的游戏业人士
+### 【新手村计划#44】 \@edwardchan 一位现居广州的游戏业人士
 
 问： \@edwardchan 您居住在哪里？您想人们怎样称呼您？
 
@@ -3519,7 +3519,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 
 问：想过放弃吗？
 
-答案是肯定的，作为非互联网原住民，我只经历过一小段时间的博客时代，后来很快就出现微博、Facebook等轻量化产品，从那以后的博客的概念就是140字、配图片、@人等。我应该连轻度用户都不太算得上，所以不擅长搜集写作材料，也因文章关注度少，感受不到写作乐趣。
+答案是肯定的，作为非互联网原住民，我只经历过一小段时间的博客时代，后来很快就出现微博、Facebook等轻量化产品，从那以后的博客的概念就是140字、配图片、 \@人等。我应该连轻度用户都不太算得上，所以不擅长搜集写作材料，也因文章关注度少，感受不到写作乐趣。
 
 问：您是怎样走出起步的困局的？
 
@@ -3527,7 +3527,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 
 ![](images/team-cn-44-edwardchan.jpg)
 
-### 【新手村计划#45】@victorleung 一位现居香港的篮球小子
+### 【新手村计划#45】 \@victorleung 一位现居香港的篮球小子
 
 问： \@victorleung 您居住在哪里？您想人们怎样称呼您？
 
@@ -3543,7 +3543,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 
 问：您想什么类型的朋友关注您？
 
-其实交朋友都没有想过什么类型，志趣相投当然就最好，能谈谈共同的爱好，就好像 @wilhb81 那样，我很喜欢和他讨论足球。
+其实交朋友都没有想过什么类型，志趣相投当然就最好，能谈谈共同的爱好，就好像  \@wilhb81 那样，我很喜欢和他讨论足球。
 
 问：您有什么爱好吗？
 
@@ -3568,7 +3568,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 ![](images/team-cn-45-victorleung.jpg)
 
 
-### 【新手村计划#46】@cryptocurrencyhk来自香港的反洗黑钱调查员
+### 【新手村计划#46】 \@cryptocurrencyhk来自香港的反洗黑钱调查员
 
 问：\@cryptocurrencyhk您居住在哪里 ? 希望大家怎样称呼您?
 
@@ -3627,7 +3627,7 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 ![](images/team-cn-46-cryptocurrencyhk.jpg)
 
 
-### 【新手村计划#47】@sherry.gong 一位现居泰国清迈的宿舍女老师
+### 【新手村计划#47】 \@sherry.gong 一位现居泰国清迈的宿舍女老师
 
 接下来这位是现居泰国清迈的美女老师
 
@@ -3676,11 +3676,11 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 ![](images/team-cn-47-sherry-gong.jpg)
 
 
-### 【新手村计划#48】@andrewwayne 一位来自浙江嘉兴的准高中生
+### 【新手村计划#48】 \@andrewwayne 一位来自浙江嘉兴的准高中生
 
 这位是有趣的准高中生 \@andrewwayne 小黑/撸仔/未成年
 
-问：@andrewwayne您居住在哪里 ? 
+问： \@andrewwayne您居住在哪里 ? 
 
 我现在居住在一个的小城市浙江嘉兴（国内随便哪里都有我们的五芳斋粽子我超级佩服，而且粽子要吃咸口才好吃！
 
@@ -3720,9 +3720,9 @@ Odille来源于俄罗斯著名芭蕾舞剧《天鹅湖》里面的一个角色�
 
 ![](images/team-cn-48-andrewwayne.jpg)
 
-### 【新手村计划#49】@haidaming 一位来自深圳的摄影师
+### 【新手村计划#49】 \@haidaming 一位来自深圳的摄影师
 
-问：@haidaming 您居住在哪里 ? 
+问： \@haidaming 您居住在哪里 ? 
 
 深圳
 
@@ -3756,7 +3756,7 @@ haidaming
 
 问：还记得您刚在Steemit起步时的情况吗？
 
-刚申请的时候从自己微信公众分享了两篇文章过来但是没朋友点赞，也没人看，然后就断了一两个月没发文章，后面很意外的遇到了一些朋友，拉我进了微信群，然后又开始发了些文章，能继续在steemit 呆着还是蛮感谢这朋友@wwstreet 。后面呢有遇见了很多玩steemit的朋友，现在呢有进到了新手村，认识了村长啊，还有@julian2013，@kingwriting等等朋友。真是万分的荣幸~谢谢你们，我的朋友
+刚申请的时候从自己微信公众分享了两篇文章过来但是没朋友点赞，也没人看，然后就断了一两个月没发文章，后面很意外的遇到了一些朋友，拉我进了微信群，然后又开始发了些文章，能继续在steemit 呆着还是蛮感谢这朋友 \@wwstreet 。后面呢有遇见了很多玩steemit的朋友，现在呢有进到了新手村，认识了村长啊，还有 \@julian2013， \@kingwriting等等朋友。真是万分的荣幸~谢谢你们，我的朋友
 
 问：您想过放弃吗？
 
@@ -3772,7 +3772,7 @@ haidaming
 
 ![](images/team-cn-49-haidaming.jpg)
 
-### 【新手村计划#50】@cairou 一位来自广州的美女英语产品编辑专员
+### 【新手村计划#50】 \@cairou 一位来自广州的美女英语产品编辑专员
 
 第50个新人访谈了～
 
@@ -3826,7 +3826,7 @@ Cairou ---->彩柔，可以叫我本名啦，但村长给我取了“包子”�
 ![](images/team-cn-50-cairou.jpg)
 
 
-### 【新手村计划#51】@minloulou 一位来自香港的全职投资人
+### 【新手村计划#51】 \@minloulou 一位来自香港的全职投资人
 
 问： \@minloulou 您居住在哪里？
 
@@ -3875,7 +3875,7 @@ Minloulou其实2部分，起始是指mining，就是”min”另外lou是我的�
 ![](images/team-cn-51-minloulou.jpg)
 
 
-#### 【新手村计划#52】@zy-sb 一位来自湖南的保险代理人
+#### 【新手村计划#52】 \@zy-sb 一位来自湖南的保险代理人
 
 问：\@zy-sb 您居住在哪里 ?
 
@@ -3962,7 +3962,7 @@ Steemit_cn新手村凉亭 村长\@ericet,\@tvb小姐姐，王美丽小姐姐\@ar
 ![](images/team-cn-52-zy-sb.jpg)
 
 
-### 【新手村计划#53】@huiguannova 一位来自上海的视觉设计师
+### 【新手村计划#53】 \@huiguannova 一位来自上海的视觉设计师
 
 问：\@huiguannova 您居住在哪里 ? 
 

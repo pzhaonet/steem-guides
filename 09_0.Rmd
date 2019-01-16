@@ -2,9 +2,9 @@
 ## 乌托邦 ^[作者:\@nationalpark;编辑:\@maiyude;原文链接:https://steemit.com/utopian-io/@nationalpark/get-rewards-from-utopian-io]
 - 乌托邦是什么
 
-[@utopian-io](https://steemit.com/@utopian-io)是 [https://utopian.io](https://utopian.io/) 在Steem的账号。乌托邦试图奖励开源系统的贡献者。
+[ \@utopian-io](https://steemit.com/@utopian-io)是 [https://utopian.io](https://utopian.io/) 在Steem的账号。乌托邦试图奖励开源系统的贡献者。
 
-本来开源系统都是由志愿者义务贡献没有报酬。 [@elear](https://steemit.com/@elear)认为应该想办法奖励开源系统的志愿者，于是创建了utopian.io，用Steem的奖励系统奖励开源系统的志愿者。
+本来开源系统都是由志愿者义务贡献没有报酬。 [ \@elear](https://steemit.com/@elear)认为应该想办法奖励开源系统的志愿者，于是创建了utopian.io，用Steem的奖励系统奖励开源系统的志愿者。
 
 也就是说以前开源系统的志愿者都是活雷锋，而现在乌托邦要给志愿者发钱，于是Steem就成了最大的活雷锋。这笔经济账我不会算，不知道Steem将来是否会得到收益。但是目前对于草根小鱼来讲，去开源系统做贡献可以实实在在的得到回报。
 
@@ -46,7 +46,7 @@
 
 - 总结
 
-[@utopian-io](https://steemit.com/@utopian-io)用Steem系统奖励开源系统的贡献者。这个账号获得了超过三百万代理，也是目前不多的给草根小鱼点赞的大鲸账号。希望大家玩的开心。
+[ \@utopian-io](https://steemit.com/@utopian-io)用Steem系统奖励开源系统的贡献者。这个账号获得了超过三百万代理，也是目前不多的给草根小鱼点赞的大鲸账号。希望大家玩的开心。
 
 ## busy.org ^[作者:\@wang-peilin;@kimzwarch;编辑:\@maiyude;原文链接:https://steemit.com/cn/@wang-peilin/steemit-busy-cnsteem-utopian;https://steemit.com/utopian-io/@kimzwarch/steemit-busy-org]
 刚来Steemit的新人可能经常会经常听说Busy，CNSteem，Utopian（乌托邦），这几个词，却搞不懂它们是什么，那么它们是什么呢？我们应该都知道，Steemit的内容都是使用区块链技术保存，我们可以把这个区块链当作一块光盘，而我们可以使用很多方法播放这块光盘，比如DVD,EVD,或者带有光驱的电脑。也就是说我们可以用Busy，CNSteem,Utopian以及原版Steemit,这些不同的网站去读取这个Steemit区块链。那么既然有了Steemit.com这个网址，为什么还要用其它网址呢？这就是因为每个不同的网址登陆这个区块链都有不同的优缺点，下面我们分别介绍吧。

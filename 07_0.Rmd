@@ -1,9 +1,9 @@
 # 注意事项 {#zysxp}
 ## 礼仪规则 ^[作者：\@tumutanzi； 编辑：\@dongfengman；校对： \@meixia。原文链接：https://steemit.com/cn/@tumutanzi/6gkhr-steemit]
 
-Steemit是一个[言论自由的写作发布平台](https://steemit.com/cn/@tumutanzi/5drdhx-steemit)，但这不代表这里没有规则。Steemit官方和开发者都没有提供相应的文章写作发布礼仪规则，幸运的是， [@thecryptofiend](https://steemit.com/@thecryptofiend) 写了一篇非常不错的Steemit世界礼仪规则完整版，我认为新老用户都应该熟悉，这对所有人都有好处。
+Steemit是一个[言论自由的写作发布平台](https://steemit.com/cn/@tumutanzi/5drdhx-steemit)，但这不代表这里没有规则。Steemit官方和开发者都没有提供相应的文章写作发布礼仪规则，幸运的是， [ \@thecryptofiend](https://steemit.com/@thecryptofiend) 写了一篇非常不错的Steemit世界礼仪规则完整版，我认为新老用户都应该熟悉，这对所有人都有好处。
 
-我个人觉得，这些礼仪规则不只适应Steemit，也是我们每天现实生活和线上生活的礼仪原则。礼貌是世界通行证。经 [@thecryptofiend](https://steemit.com/@thecryptofiend) 授权（英文版权和本文中所有图片都来源于原作者），我将这些礼仪规则由[英文The Complete Steemit Etiquette Guide (Revision 2.0)](https://steemit.com/steemit/@thecryptofiend/the-complete-steemit-etiquette-guide-revision-2-0)翻译成中文，希望对所有中文用户有所帮助。
+我个人觉得，这些礼仪规则不只适应Steemit，也是我们每天现实生活和线上生活的礼仪原则。礼貌是世界通行证。经 [ \@thecryptofiend](https://steemit.com/@thecryptofiend) 授权（英文版权和本文中所有图片都来源于原作者），我将这些礼仪规则由[英文The Complete Steemit Etiquette Guide (Revision 2.0)](https://steemit.com/steemit/@thecryptofiend/the-complete-steemit-etiquette-guide-revision-2-0)翻译成中文，希望对所有中文用户有所帮助。
 
 1 不要发完文章就离开
 
@@ -128,7 +128,7 @@ Steem钱包可以在转账时用来发送信息。但不幸的是，有人利用
 
 ## 个人隐私 {#grys}
 
-基于@nostalgic1212原帖[【Vickyのsteemit小感悟】关于steemit上的肖像权和隐私权问题｜月旦评](https://cnsteem.com/cn/@nostalgic1212/vicky-steemit-steemit)重新编写
+基于 \@nostalgic1212原帖[【Vickyのsteemit小感悟】关于steemit上的肖像权和隐私权问题｜月旦评](https://cnsteem.com/cn/@nostalgic1212/vicky-steemit-steemit)重新编写
 
 一月中旬的某一天，微信上收到陌生人的消息（我的微信没有开启好友验证，所以任何人都可以直接发消息过来），自称是区块链创作微信群看到我的账号，是新人，希望我给他的文章点赞，并附上了链接。
 
@@ -171,7 +171,7 @@ Steem钱包可以在转账时用来发送信息。但不幸的是，有人利用
 偶尔我在文章配图中会使用自己的照片，但基本在7天内会撤除。曾经有极力拉某位朋友加入steemit，她回复说：
 > 我不喜欢不受自己控制的平台。
 
-在编写这篇文章的时候，前辈@maiyude留言如下：
+在编写这篇文章的时候，前辈 \@maiyude留言如下：
 >
 > 在这里写文章非常的矛盾，我们既希望让大家更多的认识自己，又不希望太多的暴露个人私隐。
 >
@@ -230,7 +230,8 @@ https://steemit.com/cn/@blacktranquility/pexels
 
 https://zh.m.wikipedia.org/wiki/Wikipedia:版权信息
 
-https://zh.m.wikipedia.org/wiki/著作權
+https://zh.m.wikipedia.org/wiki/
+著作權
 
 
 ## 关于偷窃 ^[作者：\@dongfengman]
@@ -261,14 +262,14 @@ Wikipedia的英文版定义如下
 在STEEM平台，一旦发现剽窃的文章，将会受到惩罚或者警告
 
 - 1.被别的STEEM伙伴发现，踩灰你的文章。
-- 2.你可能会被@cheetah盯上，这个家伙每天都会报告STEEM平台中可能是剽窃的文章，并会在疑似剽窃的文章中留言提醒。
+- 2.你可能会被 \@cheetah盯上，这个家伙每天都会报告STEEM平台中可能是剽窃的文章，并会在疑似剽窃的文章中留言提醒。
 - 3.如果你参加一些STEEM平台的活动，你可能会发现，很多活动会有下面的一句话
 > 如有抄袭、剽窃，零容忍，一经发现，将会被列入黑名单
 
 - 避免剽窃他人的方法
 - 1.坚持原创，文字也好，图片也好，动图也罢，视频就更加，不要图省事，赚眼球点赞的快钱，误入歧途，长期来看，坚持原创才是最赚的。
 - 2.有时候可能会引用别人文章的段落来说明一个问题，那么，引用就要写明或者注明出处、来源。
-- 3.有时候要为文章配图，你可能无意间就拷贝粘贴了网络上的图片，那么请参考[图片版权]章节（抱歉，这个章节还没完稿，嘿嘿，@blacktranquility，靠你咯）的做法。
+- 3.有时候要为文章配图，你可能无意间就拷贝粘贴了网络上的图片，那么请参考[图片版权]章节（抱歉，这个章节还没完稿，嘿嘿， \@blacktranquility，靠你咯）的做法。
 - 4.真的需要转载他人的文章，请取得原作者的授权许可。
 
 - 如何应对被他人剽窃
@@ -285,7 +286,7 @@ Wikipedia的英文版定义如下
 
 写这篇文章的时候，我对着跳动的光标，发呆了很久。是的，我今天要讲steemit成瘾这个问题。
 
-加入steemit的原因有很多种：有的人因为知名博主/@tumutanzi振臂高呼下奔着“Monkey Talks·笔下生金”，涌入这里认为可以在这里可以掘人生第一桶金的；有的人才华横溢（画画、手工制作、写作、唱歌等），人的人热爱分享生活（美食、美景、萌宠等），他们在这里找到一个志同道合的平台；也有人是为了逃避现实，他们也许生活不如意，有也许不善于社交（现实和虚拟世界的社交有差异），在这里找到生活的一个支点，防止现实生活中无处堆放的说话欲。
+加入steemit的原因有很多种：有的人因为知名博主 \@tumutanzi振臂高呼下奔着“Monkey Talks·笔下生金”，涌入这里认为可以在这里可以掘人生第一桶金的；有的人才华横溢（画画、手工制作、写作、唱歌等），人的人热爱分享生活（美食、美景、萌宠等），他们在这里找到一个志同道合的平台；也有人是为了逃避现实，他们也许生活不如意，有也许不善于社交（现实和虚拟世界的社交有差异），在这里找到生活的一个支点，防止现实生活中无处堆放的说话欲。
 
 我算是第二种和第三种的结合体。了解我的朋友，大致知道我是因为什么原因在1月初加入steemit的，这里极大程度的转移了我的注意力，这是件极好的事情。然而在1月底的时候，在家人的提醒下我发现自己出现了以下**症状**：
 
