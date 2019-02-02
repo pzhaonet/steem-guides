@@ -456,6 +456,21 @@ fd=feed
 - 英国伦敦: uploadbeta.com
 - 美国西部: steakovercooked.com
 
+### 查看你和朋友的对话 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/6hu2ch-steem]
+想要在steem区块链上快速找到您和朋友之间的对话？ 此工具将检索两个steem帐户之间的对话（评论）。
+
+**工具地址**
+[https://steemyy.com/steem-conversations-viewer/](https://steemyy.com/steem-conversations-viewer/)
+
+**工具使用方法**
+输入两个STEEM帐号ID，然后点击查询即可。可选输入过滤评论关键字。
+
+**截图**
+![](images/08_justyysteem-conversation-viewer.jpg)
+
+**工具原理**
+使用 steem-js 库对 两个帐号同时进行地毯式搜索，把对话（评论）内容输出来。本来想用 steemsql 的（缓存数据库），不过它家的月费是20 SBD，有点贵，如果将来不用STEEMSQL了 那么所有的基于它的工具都不能用了， 所以还是用最原始的方法来做，并且这样的获取的数据始终是最新的。
+
 ### 查看你的帐号信息 ^[作者：\@justyy, 原文链接：https://steemit.com/cn/@justyy/2rhnkr-steem]
 基于 [Steem-JS](https://steemyy.com/steemjs-editor) 撸了一个查看STEEM帐号信息的工具。地址如下：
 https://steemyy.com/account-data/justyy
