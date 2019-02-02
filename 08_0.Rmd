@@ -460,7 +460,7 @@ fd=feed
 想要在steem区块链上快速找到您和朋友之间的对话？ 此工具将检索两个steem帐户之间的对话（评论）。
 
 **工具地址**
-https://steemyy.com/steem-conversations-viewer/
+[https://steemyy.com/steem-conversations-viewer/](https://steemyy.com/steem-conversations-viewer/)
 
 **工具使用方法**
 输入两个STEEM帐号ID，然后点击查询即可。可选输入过滤评论关键字。
